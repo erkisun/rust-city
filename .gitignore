@@ -1,0 +1,24 @@
+# 1. Alles ignorieren, was eine Endung hat (Dateien)
+*.*
+
+# 2. Alle Standard-Ordner ignorieren, die wir kennen
+/node_modules/
+/.next/
+/out/
+/build/
+/.vercel/
+/coverage/
+/git_ssh*
+/vm_ssh*
+
+# 3. Spezifische Dateien im Root wieder erlauben
+!.gitignore
+!package.json
+!tsconfig.json
+
+# 4. Den kompletten App-Ordner ignorieren...
+/app/**/*
+# ...aber den Content-Pfad als absolute Ausnahme erzwingen
+!/app/blog/content/**
+!/app/blog/components/**
+!/app/blog/images/**
