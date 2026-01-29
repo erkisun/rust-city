@@ -9,8 +9,8 @@ Begleite Detective Ownership, Officer Borrowing und andere Charaktere in der sic
 
 | Kapitel | Titel | Charakter | Konzept | Lesen |
 |---------|-------|-----------|---------|-------|
-| 1 | [Willkommen in Rust City](content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Grundstruktur | ✅ |
-| 2 | [Detective Ownership und der verschwundene String](content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
+| 1 | [Willkommen in Rust City](main/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Grundstruktur | ✅ |
+| 2 | [Detective Ownership und der verschwundene String](main/content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
 | 3 | *Coming Soon* | Officer Borrowing | References, Borrowing | ⏳ |
 
 ## 👥 Die Charaktere von Rust City
