@@ -8,31 +8,31 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 
 | Kapitel | Titel | Charakter | Konzept | Lesen |
 |---------|-------|-----------|---------|-------|
-| 1 | [Willkommen in Rust City](/app/blog/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Grundstruktur | ✅ |
-| 2 | [Der Mord an Pointer Pete](/app/blog//content/chapters/02-detective-ownership.md) | Pointer Pete | Pointer, Move | 🚧 |
-| 3 | [Detective Ownership betritt den Raum](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
-| 4 | [Officer Borrowing kommt zur Hilfe](/app/blog//content/chapters/02-detective-ownership.md) | Officer Borrowing | Borrowing, Move | 🚧 |
-| 5 | [Alias, der Aliasing-Agent](/app/blog//content/chapters/02-detective-ownership.md) | Agent Alias | Aliasing, Move | 🚧 |
-| 6 | [Mutation Max - der Mutant](/app/blog//content/chapters/02-detective-ownership.md) | Mutation Max | Mutation, Move | 🚧 |
-| 7 | [Detective Ownership und der verschwundene String](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
-| 8 | [Detective Ownership und der verschwundene String](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
-| 9 | *Coming Soon* | Struct Manager | References, Struct | ⏳ |
+| 1 | [Willkommen in Rust City](/app/blog/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Cargo, Grundstruktur | ✅ |
+| 2 | [Detective Ownership und Officer Borrowing](/app/blog//content/chapters/02-detective-ownership-and-officer-borrowing.md) | Detective Ownership, Officer Borrowing | Ownership, Borrowing, Move | 🚧 |
+| 3 | [Agent Alias' Angriff](/app/blog//content/chapters/03-agent-alias.md) | Agent Alias | References, Aliasing, Move | 🚧 |
+| 4 | [Anarchist Max Mutation](/app/blog//content/chapters/04-max-mutation.md) | Anarchist Max | Mutation, Move | 🚧 |
+| 5 | [Madame Enum und ihre Typen](/app/blog//content/chapters/05-madame-enum.md) | Madame Enum | Enum, Struct, Move | 🚧 |
+| 6 | [Das Match-Labyrinth](/app/blog//content/chapters/06-match-labyrinth.md) | Match | Match, Patterns, Move | 🚧 |
+| 7 | *Coming Soon* | Crates, Modules | Crates, Modules, Move | ⏳ |
+| 8 | *Coming Soon* | Collections | Collections | ⏳ |
+| 9 | *Coming Soon* | Error Handling | Error Handling | ⏳ |
 
 ## 👥 Die Charaktere von Rust City
 
 - [Bürgermeister `fn main()`](characters/buergermeister-main.md) 🎩
 - [Detective Ownership](characters/detective-ownership.md) 👮
-- [Pointer Pete](characters/officer-borrowing.md) 🚔  
 - [Officer Borrowing](characters/officer-borrowing.md) 🚔  
-- [Mutation Max](characters/mutation-max.md) ✍️
-- [Shadow Sam](characters/shadow-sam.md) 🎭
+- [Agent Alias](characters/agent-alias.md) ✍️
+- [Max Mutation](characters/max-mutation.md) ✍️
+- [Madame Enum](characters/madame-enum.md) 🎭
 
 ## 🚀 Wie man mitliest
 
 1. Beginne mit [Kapitel 1](/app/blog/content/chapters/01-welcome-to-rust-city.md)
 2. Folge den Charakteren durch ihre Abenteuer
 3. Probiere die Code-Beispiele auf [play.rust-lang.org](https://play.rust-lang.org)
-4. Diskutiere im [GitHub Discussions](https://github.com/DEINUSERNAME/rust-city-chronicles/discussions)
+4. Diskutiere im [GitHub Discussions](https://github.com/erkisun/rust-city/discussions)
 
 ## 🤝 Mitmachen
 
