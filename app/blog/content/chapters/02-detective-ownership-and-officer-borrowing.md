@@ -3,7 +3,6 @@
 ## 🕵️‍♂️👮 Die Begegnung
 
 Detective Ownership & Officer Borrowing
-🕵️‍♂️👮 Die Begegnung
 
 Own bückte sich, die Gaze seiner eigenen Reflexion im stillgelegten Display des Trash-Collector-Bots. Er zog ein Debug-Kabel aus der Innentasche seines ledernen Overcoats – ein Erbstück seiner Eltern, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags. Seine Finger tasteten nach dem Diagnose-Port unter dem Roboter-Arm, als ein Schatten über ihn fiel.
 
