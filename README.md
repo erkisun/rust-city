@@ -9,11 +9,11 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 | Kapitel | Titel | Charakter | Konzept | Lesen |
 |---------|-------|-----------|---------|-------|
 | 1 | [Willkommen in Rust City](/app/blog/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Grundstruktur | ✅ |
-| 2 | [Rust City - Das Geheimnis der gestohlenen Daten](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
-| 3 | [Der Mord an Pointer Pete](/app/blog//content/chapters/02-detective-ownership.md) | Pointer Pete | Pointer, Move | 🚧 |
+| 2 | [Der Mord an Pointer Pete](/app/blog//content/chapters/02-detective-ownership.md) | Pointer Pete | Pointer, Move | 🚧 |
+| 3 | [Detective Ownership betritt den Raum](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
 | 4 | [Officer Borrowing kommt zur Hilfe](/app/blog//content/chapters/02-detective-ownership.md) | Officer Borrowing | Borrowing, Move | 🚧 |
-| 5 | [Der Aliasing-Agent](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Aliasing, Move | 🚧 |
-| 6 | [Mutation Max - der Mutant](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Mutation, Move | 🚧 |
+| 5 | [Alias, der Aliasing-Agent](/app/blog//content/chapters/02-detective-ownership.md) | Agent Alias | Aliasing, Move | 🚧 |
+| 6 | [Mutation Max - der Mutant](/app/blog//content/chapters/02-detective-ownership.md) | Mutation Max | Mutation, Move | 🚧 |
 | 7 | [Detective Ownership und der verschwundene String](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
 | 8 | [Detective Ownership und der verschwundene String](/app/blog//content/chapters/02-detective-ownership.md) | Detective Ownership | Ownership, Move | 🚧 |
 | 9 | *Coming Soon* | Struct Manager | References, Struct | ⏳ |
