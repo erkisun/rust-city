@@ -46,6 +46,7 @@ fn main() {
     // - Zwei Leser änderten gleichzeitig ein Buch (data races)
     // - Bücher wurden doppelt gelöscht (double free)
 }
+```
 
 Was hier schief ging:
 
@@ -58,7 +59,7 @@ Was hier schief ging:
     Resultat: Ein dangling pointer – eine Referenz auf nicht-existierenden Speicher
 
 Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo jedes Buch ist." Bis er auf ein nicht-existierendes Buch zeigte.
-```
+
 </details>
 
 Nach dem Großen Compiler-Update wurden solche Morde viel seltener. Rust City wurde gegründet auf drei Grundpfeilern:
