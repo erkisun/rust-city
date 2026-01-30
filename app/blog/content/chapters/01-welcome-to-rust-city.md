@@ -1,27 +1,28 @@
+# Willkommen in Rust City
+
+## 🪐 Der Planet `main`
+
+Der Planet `main` riecht nach überhitztem Silizium und frischem Bitstrom. Seine Atmosphäre: eine dichte Schicht aus **Traits** und **Lifetimes**, die alles zusammenhält. Städte gliedern sich in **Modules**, Bezirke heißen **Crates**. Die Luft flimmert vor unsichtbaren Datenpaketen, die nach strengen **Protokollen** (`Protocols`) ausgetauscht werden.
+
+Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
+
+## 👤 Der Protagonist: Der Detective
+
+Sein Name ist **Own** – aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist. Seine Eltern waren **Kernel-Entwickler**, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen **Bug-Bounties** – er repariert, was andere kaputt kompilieren.
+
+Own hat eine Gabe: Er **riecht Memory-Leaks und Dangling References**. Heute roch es nach… **`None`**. Nach leerer Promise, nach Wert ohne Besitzer.
+
+## 🚨 Der Vorfall
+
+Auf dem Weg zum **Memory-Market** sieht Own den ersten Roboter. Einen **Trash-Collector-Bot**, der normalerweise die Heap-Fragmente einsammelt. Er steht still, zittert, sein Display zeigt:
+
+ERROR: expected value, found null
+thread 'main' panicked at 'called Option::unwrap() on a None value`
+
+Dahinter: Dutzende weitere Roboter, alle in derselben Starre. Eine **Null-Pointer-Epidemie**? Owns Nase kribbelt. Das ist kein Zufall. Das riecht nach Absicht.
+
 ---
-title: "Willkommen in Rust City"
-date: "2024-01-15"
-chapter: 1
-character: "Bürgermeister fn main()"
-concept: "Programmstart, println!, Grundstruktur"
-tags: ["rust", "anfänger", "einführung", "main"]
-excerpt: "Ein nebliger Morgen in einer Stadt, wo jede Variable ihren Platz kennt..."
----
 
-# Die Geschichte beginnt...
+*Rust City – Eine Geschichte über Besitz, Regeln und perfekten Code.*
 
-Es war ein nebliger Montagmorgen, als ich zum ersten Mal die rostigen (aber sicheren!) Tore von Rust City sah. Über dem Eingang prangte in großen Buchstaben:
 
-**"WILLKOMMEN - WO SICHERHEIT COMPILER-GEPRÜFT IST"**
-
-Bürgermeister `fn main()` persönlich begrüßte mich...
-
-## Das Rust-Konzept
-
-Jedes Rust-Programm beginnt mit einer `main()`-Funktion - dem Bürgermeister unserer Stadt:
-
-```rust
-fn main() {
-    // Alles beginnt hier
-    println!("Willkommen in Rust City!");
-}
