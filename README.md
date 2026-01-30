@@ -1,4 +1,4 @@
-# 🏙️ Rust City Chronicles
+# 🏙️ Rust City
 
 ![Rust City Banner](images/banner.png)
 

@@ -19,12 +19,12 @@ DEPT: BORROW CHECKER
 
 „Detective Ownership, nehme ich an“, sagte der Officer, ohne die Hand auszustrecken. Seine Augen – die Farbe von kühlem Stack-Speicher – scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. „Ihr Ruf eilt Ihnen voraus. Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen.“
 
-Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor er passiert.“
+Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
 Officer Borrowing kniete sich neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display. „called \Option::unwrap()` on a `None` value`. Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
 
 <details> <summary>🔍 <strong>Code-Analyse: Der Roboter-Fehler (Klicken zum Anzeigen)</strong></summary>
-rust
+```rust
 
 // ============================================
 // GEFUNDEN IM SPEICHERDUMP DES BOTS:
@@ -44,6 +44,7 @@ fn deliver_greeting() {
         // 💥 DAS PASSIERT HIER - DER ROBOTER PANICKT
     }
 }
+```
 
 Was passiert hier?
 
