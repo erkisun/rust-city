@@ -29,7 +29,7 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 
 ## 🚀 Wie man mitliest
 
-1. Beginne mit [Kapitel 1](/app/blog/content/chapters/chapters/01-welcome-to-rust-city.md)
+1. Beginne mit [Kapitel 1](/app/blog/content/chapters/01-welcome-to-rust-city.md)
 2. Folge den Charakteren durch ihre Abenteuer
 3. Probiere die Code-Beispiele auf [play.rust-lang.org](https://play.rust-lang.org)
 4. Diskutiere im [GitHub Discussions](https://github.com/DEINUSERNAME/rust-city-chronicles/discussions)
