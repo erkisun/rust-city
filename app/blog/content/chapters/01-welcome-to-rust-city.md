@@ -62,13 +62,7 @@ Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo
 
 </details>
 
-Nach dem Großen Compiler-Update wurden solche Morde viel seltener. Rust City wurde gegründet auf drei Grundpfeilern:
-
-    Ownership: Jedes Buch hat einen klar definierten Besitzer
-
-    Borrowing: Ausleihen nur mit strengen Regeln
-
-    Lifetimes: Garantiert, dass Bücher existieren, solange sie referenziert werden
+Nach dem Großen Compiler-Update wurden solche Morde viel seltener. 
 
 Die Morde hörten nie ganz auf – aber sie wurden vorhersehbar. Wenn heute ein Buch verschwindet, weiß der Borrow Checker sofort, wer es zuletzt hatte.
 
