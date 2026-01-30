@@ -184,11 +184,12 @@ In diesem Moment piepte das Tablet. Ein neuer Alert. Officer Borrowing las die N
 
 Die Luft zwischen ihnen wurde plötzlich kalt. Own spürte, wie seine eigenen Lifetime-Annotationen sich zu straffen schienen. „Was wollen Sie damit andeuten ?“
 
-„Hmm ..“, sagte der Officer ruhig. „Ich stelle Fakten fest. Ihre Eltern hatten Zugang. Sie sind tot. Jemand nutzt möglicherweise ihre Credentials. Und jetzt werden Sie beobachtet.“ Er machte eine Pause, ließ die Worte wirken. „Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder…“
+„Passen Sie auf ..“, sagte der Officer ruhig. „.. ich stelle mal die Fakten fest : Ihre Eltern hatten Zugang. Sie sind tot. Jemand nutzt möglicherweise ihre Credentials. 
+Und jetzt werden Sie beobachtet.“ Er machte eine Pause, ließ die Worte wirken. **„Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder ..“**
 
 „Oder?“
 
-Officer Borrowing nahm eine zweite Uniform-Jacke von der Rückbank seines Borrow-Checker-Vehicles. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. „Oder Sie kommen mit mir. Lernen die Regeln dieser Stadt wirklich zu verstehen. Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von Panics nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
+Officer Borrowing nahm eine zweite Uniform-Jacke von der Rückbank seines Borrow-Checker-Vehicles. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. **„Oder Sie kommen mit mir.** Lernen die Regeln dieser Stadt wirklich zu verstehen. Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von **Panics** nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
 
 Own betrachtete die Jacke. Dann die Reihe erstarrter Roboter. Dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
 
