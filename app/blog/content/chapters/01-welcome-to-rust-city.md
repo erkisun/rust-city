@@ -4,13 +4,11 @@
 
 ## 🪐 Der Planet `main`
 
-Der Planet `main` riecht nach überhitztem Silizium und frischem Bitstrom. Eine dichte Schicht aus **Traits** und **Lifetimes** hält alles zusammen. Städte gliedern sich in **Modules**, Bezirke heißen **Crates**.
-
-Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
+Der Planet `main` riecht nach überhitztem Silizium und frischem Bitstrom. Eine dichte Schicht aus **Traits** und **Lifetimes** hält alles zusammen. Städte gliedern sich in **Modules**, Bezirke heißen **Crates**. Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
 
 ## 👤 Der Protagonist: Der Detective
 
-Sein Name ist **Own** – aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District". Seine Eltern waren **Kernel-Entwickler**, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen **Bug-Bounties** – er repariert, was andere kaputt kompilieren.
+Sein Name ist **Own** – aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren **Kernel-Entwickler**, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen **Bug-Bounties** – er repariert, was andere kaputt kompilieren.
 
 Own hat eine Gabe: Er **riecht Memory-Leaks und Dangling References**. Heute roch es nach… **`None`**. Nach leerer Promise, nach Wert ohne Besitzer.
 
@@ -25,3 +23,5 @@ Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, fü
 
 
 
+---
+[Nächstes Kapitel →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
