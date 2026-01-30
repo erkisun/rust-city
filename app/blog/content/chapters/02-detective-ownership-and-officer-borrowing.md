@@ -2,8 +2,6 @@
 
 ## 🕵️‍♂️👮 Die Begegnung
 
-[Der vollständige Text wie oben...]
-
 Detective Ownership & Officer Borrowing
 🕵️‍♂️👮 Die Begegnung
 
