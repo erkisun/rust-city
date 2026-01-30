@@ -116,4 +116,4 @@ Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er: In Rust City gib
 *Rust City – Wo jeder Wert einen Besitzer hat, und jedes Ausleihen seinen Preis.*
 
 ---
-[← Vorheriges Kapitel](/app/blog/content/chapter/01-welcome-to-rust-city.md) | [Nächstes Kapitel →](/app/blog/content/chapters/03-attack-of-agent-alias.md)  
+[← Vorheriges Kapitel](/app/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel →](/app/blog/content/chapters/03-attack-of-agent-alias.md)  
