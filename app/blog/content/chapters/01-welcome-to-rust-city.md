@@ -21,9 +21,7 @@ Auf dem Weg zum **Memory-Market** sieht Own den ersten Roboter. Einen **Trash-Co
 ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
 
 Dahinter: Dutzende weitere Roboter, alle in derselben Starre. 
-Eine **Null-Pointer-Epidemie** ? 
-Owns Nase kribbelt. 
-Das ist kein Zufall .. das riecht nach Absicht.
+Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht  Absicht ?
 
 
 
