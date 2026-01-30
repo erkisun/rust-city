@@ -150,9 +150,9 @@ Own nickte langsam. „Und der Roboter…?“
 
 „…hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand ihm den Inhalt gestohlen hätte, bevor er darauf zugreifen konnte.“
 
-jetzt  zog er ein Holo-Tablet aus seinem Gürtel. Mit einer Geste projizierte er eine dreidimensionale Karte von Rust City in die Luft zwischen ihnen. Rote Punkte markierten jede Roboter-Panik. „Sehen Sie das Muster?“
+jetzt  zog er ein Holo-Tablet aus seinem Gürtel. Mit einer Geste projizierte er eine dreidimensionale Karte von Rust City in die Luft zwischen ihnen. Rote Punkte markierten jede **Panic**-Attacke. „Sehen Sie das Muster?“
 
-Own trat näher. Die Punkte formten keine zufällige Verteilung. Sie bildeten eine Spirale, die vom **Stack District** ausging und sich zum **Heap District** hin wand.
+Own trat näher. Die Punkte formten keine zufällige Verteilung. Sie bildeten eine Spirale, die vom **Stack District** ausging und sich zum **Heap District** hin überlief.
 
 „Es beginnt in meiner Nachbarschaft“, murmelte Own.
 
@@ -182,9 +182,9 @@ In diesem Moment piepte das Tablet. Ein neuer Alert. Officer Borrowing las die N
 
 „.. können die primären Sicherheitsprotokolle umgehen“, vollendete Officer Borrowing. Er sah Own direkt in die Augen. „Wie Ihre Eltern, Detective.“
 
-Die Luft zwischen ihnen wurde plötzlich kalt. Own spürte, wie seine eigenen Lifetime-Annotationen sich zu straffen schienen. „Was implizieren Sie?“
+Die Luft zwischen ihnen wurde plötzlich kalt. Own spürte, wie seine eigenen Lifetime-Annotationen sich zu straffen schienen. „Was wollen Sie damit andeuten ?“
 
-„Ich impliziere nichts“, sagte der Officer ruhig. „Ich stelle Fakten fest. Ihre Eltern hatten Zugang. Sie sind tot. Jemand nutzt möglicherweise ihre Credentials. Und jetzt werden Sie beobachtet.“ Er machte eine Pause, ließ die Worte wirken. „Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder…“
+„Hmm ..“, sagte der Officer ruhig. „Ich stelle Fakten fest. Ihre Eltern hatten Zugang. Sie sind tot. Jemand nutzt möglicherweise ihre Credentials. Und jetzt werden Sie beobachtet.“ Er machte eine Pause, ließ die Worte wirken. „Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder…“
 
 „Oder?“
 
