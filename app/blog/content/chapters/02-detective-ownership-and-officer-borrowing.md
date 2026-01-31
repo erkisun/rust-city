@@ -66,7 +66,7 @@ Die Zentrale war ein Labyrinth aus Monitoren, die alle aktiven Borrows und Lifet
 **„Jede Variable in Rust City hat einen Besitzer, jede“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
 <details> <summary>📊 <strong>Live-Demo: Borrowing-Regeln (Klicken zum Anzeigen)</strong></summary>
-rust
+```rust
 
 // ============================================
 // UNTERSUCHUNGSPROTOKOLL #001
@@ -143,6 +143,7 @@ text
 📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen?'
 ✅ Alles regelkonform!
 
+```rust
 </details>
 
 „Verstehen Sie?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“

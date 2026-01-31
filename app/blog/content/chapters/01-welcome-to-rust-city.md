@@ -62,13 +62,12 @@ Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo
 
 </details>
 
-Nach dem Großen Compiler-Update wurden solche Morde viel seltener. 
-
-Die Morde hörten nie ganz auf – aber sie wurden vorhersehbar. Wenn heute ein Buch verschwindet, weiß der Borrow Checker sofort, wer es zuletzt hatte.
+Auch nach dem Großen Compiler-Update hörten die Morde nie ganz auf – aber sie wurden vorhersehbar. 
+Wenn heute ein Buch verschwindet, weiß der Borrow Checker sofort, wer es zuletzt hatte.
 
 ## 👤 Der Protagonist: Detective Ownership
 
-Er hiess Own, aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen Bug-Bounties – er repariert, was andere kaputt kompilieren.
+Er heisst Own, aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen Bug-Bounties – er repariert, was andere kaputt kompilieren.
 
 Own hat eine Gabe: Er riecht **Memory-Leaks und Dangling References**. Heute roch es nach… **`None`**. Nach leerer Promise, nach Wert ohne Besitzer.
 
@@ -79,8 +78,7 @@ Auf dem Weg zum **Memory-Market** sieht Own den ersten Roboter. Einen **Trash-Co
 ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
 
 Dahinter: Dutzende weitere Roboter, alle in derselben Starre. 
-Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht  Absicht ?
-
+Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht Absicht ?
 
 
 ---
