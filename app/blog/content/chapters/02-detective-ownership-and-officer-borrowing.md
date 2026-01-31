@@ -209,23 +209,17 @@ Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut.
 
 **„.. Regel 3 : References müssen immer gültig bleiben“**, vollendete Own. „Ich kenne die Theorie, Officer. Meine Eltern haben sie mir eingebläut, bevor ich laufen konnte.“
 
-„Theorie ist eine Sache“, sagte der Officer und öffnete die Fahrertür seines Vehicles. „Praxis ist etwas anderes. Heute lernen Sie die Praxis. Denn was immer in Ihrem Elternlabor wartet .. es wird nicht freundlich sein.“
+„Theorie ist eine Sache“, sagte der Officer. „Praxis ist etwas anderes. Heute lernen Sie die Praxis. Denn was immer in Ihrem Elternlabor wartet .. es wird nicht freundlich sein.“
 
-Das Vehicle startete mit einem leisen Surren, die Borrow-Checker-Lichter begannen in einem komplexen Muster zu pulsieren – grün für sichere Pfade, gelb für Warnungen, rot für verbotene Zugriffe.
+Own spürte das Gewicht der neuen Jacke, das Pulsieren der Sicherheitssysteme, die Präsenz des merkwürdigen, strengen Officers neben sich.
 
-„Wohin genau fahren wir?“, fragte Own, als sie vom Bordstein wegzogen.
-
-„Zuerst zur Borrow-Checker-Zentrale“, antwortete Officer Borrowing. „Wir müssen Ihren Access-Level erhöhen. Und dann…“ Er warf Own einen Seitenblick zu. „.. dann brechen wir in ein gesperrtes Kernel-Labor ein. Wenn wir erwischt werden, verlieren wir beide unsere Compilation-Privileges. Für immer.“
-
-Die Straßen von Rust City zogen vorbei, eine blendende Lichterflut aus Code-Snippets und laufenden Prozessen. Own lehnte sich zurück und spürte das Gewicht der neuen Jacke, das Pulsieren der Sicherheitssysteme, die Präsenz des merkwürdigen, strengen Officers neben sich.
-
-Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust City zu bestehen muss er die Herausforderungen angehen !
+Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust City zu bestehen muss er die Herausforderungen schrittweise und **logisch** angehen !
 
 🧩 Detective Challenge
 
 „Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden?“
 <details> <summary>🕵️ <strong>Detective Challenge: Finde den Bug! (Klicken für den Code)</strong></summary>
-rust
+```rust
 
 // ============================================
 // MYSTERY CODE #001
@@ -252,7 +246,7 @@ fn process_security_data() {
 // 1. Warum wird dieser Code einen Compiler-Fehler verursachen?
 // 2. Welche Borrowing-Regel wird verletzt?
 // 3. Wie würdest du den Code reparieren?
-
+```
 </details>
 
 Deine Aufgabe, Detective-in-Ausbildung:
@@ -264,9 +258,6 @@ Deine Aufgabe, Detective-in-Ausbildung:
     Wie würdest du den Code sicher machen?
 
 Denk daran: In Rust City gelten strenge Regeln!
-
- 
-
 
 ## 🔍 Was wir gelernt haben
 
