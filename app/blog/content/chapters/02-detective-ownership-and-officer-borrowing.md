@@ -24,8 +24,8 @@ Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borro
 Officer Borrowing kniete sich neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display. „called \Option::unwrap()` on a `None` value`. Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
 
 <details> <summary>🔍 <strong>Code-Analyse: Der Roboter-Fehler (Klicken zum Anzeigen)</strong></summary>
-```rust
 
+```rust
 // ============================================
 // GEFUNDEN IM SPEICHERDUMP DES BOTS:
 // ============================================
@@ -44,7 +44,6 @@ fn deliver_greeting() {
         // 💥 DAS PASSIERT HIER - DER ROBOTER PANICKT
     }
 }
-```
 
 Was passiert hier?
 
@@ -54,6 +53,7 @@ Was passiert hier?
 
     Bei None gibt es nichts zu holen → Panic!
 
+```
 </details>
 
 
@@ -143,7 +143,7 @@ text
 📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen?'
 ✅ Alles regelkonform!
 
-```rust
+```
 </details>
 
 „Verstehen Sie?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“
