@@ -19,7 +19,11 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
-Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display. „called \Option::unwrap()` on a `None` value`. Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
+Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display :
+
+called \Option::unwrap()` on a `None` value`.
+
+„Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
 
 <details> <summary>🔍 <strong>Code-Analyse: Der Roboter-Fehler (Klicken zum Anzeigen)</strong></summary>
 
