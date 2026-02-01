@@ -69,7 +69,7 @@ Wenn heute ein Buch verschwindet, weiß der Borrow Checker sofort, wer es zuletz
 
 Er heisst Own, aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen Bug-Bounties – er repariert, was andere kaputt kompilieren.
 
-Own hat eine Gabe: Er riecht **Memory-Leaks und Dangling References**. Heute roch es nach .. **`None`** .. nach leerer Promise, nach Wert ohne Besitzer.
+Own hat eine Gabe: Er riecht **Memory-Leaks und Dangling References**. Heute roch es nach .. **`None`** .. nach leerer Promise, nach **Wert ohne Besitzer.**
 
 ## 🚨 Der Vorfall
 
