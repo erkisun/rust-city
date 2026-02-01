@@ -49,7 +49,7 @@ Was passiert hier?
 
     None bedeutet "kein Wert vorhanden"
 
-    unwrap() versucht, den Wert aus Some() zu holen
+    unwrap() versucht, den Wert zu holen
 
     Bei None gibt es nichts zu holen → Panic!
 
@@ -57,7 +57,7 @@ Was passiert hier?
 </details>
 
 
-„Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum? Wer würde so etwas tun?“
+„Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum? Wer würde so etwas tun ?“
 
 „Das ist die Frage“, sagte Officer Borrowing und stand auf. Ein kaum merkliches Lächeln spielte um Officer Borrowings Lippen. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft.“ Er deutete auf die Reihe erstarrter Roboter. 
 
@@ -153,7 +153,7 @@ Own nickte langsam. „Und der Roboter…?“
 
 „…hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand ihm den Inhalt gestohlen hätte, bevor er darauf zugreifen konnte.“
 
-jetzt  zog er ein Holo-Tablet aus seinem Gürtel. Mit einer Geste projizierte er eine dreidimensionale Karte von Rust City in die Luft zwischen ihnen. Rote Punkte markierten jede **Panic**-Attacke. „Sehen Sie das Muster?“
+jetzt zog er ein Holo-Tablet aus seinem Gürtel. Mit einer Geste projizierte er eine dreidimensionale Karte von Rust City in die Luft zwischen ihnen. Rote Punkte markierten jede **Panic**-Attacke. „Sehen Sie das Muster?“
 
 Own trat näher. Die Punkte formten keine zufällige Verteilung. Sie bildeten eine Spirale, die vom **Stack District** ausging und sich zum **Heap District** hin überlief.
 
@@ -188,11 +188,14 @@ In diesem Moment piepte das Tablet. Ein neuer Alert. Officer Borrowing las die N
 Die Luft zwischen ihnen wurde plötzlich kalt. Own spürte, wie seine eigenen Lifetime-Annotationen sich zu straffen schienen. „Was wollen Sie damit andeuten ?“
 
 „Passen Sie auf ..“, sagte der Officer ruhig. „.. ich stelle mal die Fakten fest : Ihre Eltern hatten Zugang. Sie sind tot. Jemand nutzt möglicherweise ihre Credentials. 
-Und jetzt werden Sie beobachtet.“ Er machte eine Pause, ließ die Worte wirken. **„Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder ..“**
+Und jetzt werden Sie beobachtet.“ 
+
+Er machte eine Pause, ließ die Worte wirken. **„Sie haben zwei Optionen, Detective. Sie können nach Hause gehen, Ihre Tür verriegeln und hoffen, dass dies vorübergeht. Oder ..“**
 
 „Oder?“
 
-Officer Borrowing nahm eine zweite Uniform-Jacke von der Rückbank seines Borrow-Checker-Vehicles. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. **„Oder Sie kommen mit mir.** Lernen die Regeln dieser Stadt wirklich zu verstehen. Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von **Panics** nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
+Officer Borrowing nahm eine zweite Uniform-Jacke aus dem Schrank der Borrow-Checker-Zentrale. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. **„Oder Sie kommen mit mir.** Lernen die Regeln dieser Stadt wirklich zu verstehen. 
+Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von **Panics** nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
 
 Own betrachtete die Jacke. Dann die Reihe erstarrter Roboter. Dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
 
@@ -202,19 +205,21 @@ Officer Borrowings Augen blitzten auf. „Wo ist dieses Labor?“
 
 „Im Kernel District. Gesperrt seit fünf Jahren.“ Own holte tief Luft. „Aber ich weiß, wie man hineinkommt.“
 
-Der Officer reichte ihm die Jacke. „Dann schlage ich vor, wir machen uns auf den Weg. Aber zuerst eine Lektion, Detective. In dieser Stadt überlebt man nur, wenn man die Regeln des Borrowing versteht. Und die erste Regel lautet…“
+Der Officer reichte ihm die Jacke. „Dann schlage ich vor, wir machen uns sofort auf den Weg .. aber zuerst eine Lektion, Detective :
 
-**„..du kannst etwas ausleihen, aber du musst es zurückgeben“**, sagte Own und zog die Jacke an. Sie passte perfekt.
+ In dieser Stadt überlebt man nur, wenn man die Regeln des Borrowing versteht. Und die erste Regel lautet…“
 
-Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut. Regel zwei: **Nur eine mutable reference zur gleichen Zeit. Regel drei ..“**
+**„Regel 1 .. du kannst etwas ausleihen, aber du musst es zurückgeben.“**, vervollständigte Own und zog die Jacke an. Sie passte perfekt.
 
-**„.. Regel 3 : References müssen immer gültig bleiben“**, vollendete Own. „Ich kenne die Theorie, Officer. Meine Eltern haben sie mir eingebläut, bevor ich laufen konnte.“
+Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut : **Regel 2 .. nur eine mutable reference zur gleichen Zeit.“**
+
+**„Regel 3 .. references müssen immer gültig bleiben.“**, vollendete Own. „Ich kenne die Theorie, Officer. Meine Eltern haben sie mir eingebläut, bevor ich laufen konnte.“
 
 „Theorie ist eine Sache“, sagte der Officer. „Praxis ist etwas anderes. Heute lernen Sie die Praxis. Denn was immer in Ihrem Elternlabor wartet .. es wird nicht freundlich sein.“
 
 Own spürte das Gewicht der neuen Jacke, das Pulsieren der Sicherheitssysteme, die Präsenz des merkwürdigen, strengen Officers neben sich.
 
-Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust City zu bestehen muss er die Herausforderungen schrittweise und **logisch** angehen !
+Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust City zu bestehen muss er die Herausforderungen mit Officer Borrowing zusammen angehen !
 
 🧩 Detective Challenge
 
