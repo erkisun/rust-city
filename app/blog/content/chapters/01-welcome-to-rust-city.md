@@ -27,19 +27,19 @@ fn main() {
     let buch = String::from("Geheimakte X"); 
     
     { // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
-        let leser = buch; // ⚠️ LESER "LEIHT" DAS BUCH AUS
+        let leser = buch; // ⚠️  BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
         
-        // Hier passiert etwas Merkwürdiges...
+        // Hier passiert etwas Merkwürdiges ..
         // In der C-Ära gab es keine Borrowing-Regeln!
-        // Der Leser nimmt das Buch einfach MIT.
+        // Der Leser nimmt das Buch einfach mit ..
         
     } // ❌ LESER VERLÄSST DIE BIBLIOTHEK
       // UND DAS BUCH WIRD AUTOMATISCH GELÖSCHT!
     
-    // Später versucht jemand, das Buch zu finden...
+    // Später versucht jemand, das Buch zu finden und begeht dabei einen Mord
     println!("Suche nach: {}", buch); 
     // 💥 ERROR! BUCH EXISTIERT NICHT MEHR
-    // MORD GESCHEHEN
+    // PROGRAM ERROR : MORD GESCHEHEN
     
     // In der C-Ära passierte das STÄNDIG:
     // - Bücher verschwanden (use-after-free)
@@ -58,7 +58,7 @@ Was hier schief ging:
 
     Resultat: Ein dangling pointer – eine Referenz auf nicht-existierenden Speicher
 
-Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo jedes Buch ist." Bis er auf ein nicht-existierendes Buch zeigte.
+Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo jedes Buch ist." Bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
 </details>
 
@@ -79,7 +79,6 @@ ERROR: expected value, found null .. thread 'main' **panicked** at 'called Optio
 
 Dahinter: Dutzende weitere Roboter, alle in derselben Starre. 
 Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht Absicht ?
-
 
 ---
 [Nächstes Kapitel →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  

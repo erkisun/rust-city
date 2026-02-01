@@ -13,6 +13,8 @@ next-env.d.ts
 next.config.ts
 package-lock.json
 postcss.config.mjs
+package.json
+tsconfig.json
 
 # 3. SSH-Dateien ignorieren
 git_ssh*

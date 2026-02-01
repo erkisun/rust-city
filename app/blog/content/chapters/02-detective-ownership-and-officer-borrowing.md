@@ -2,8 +2,6 @@
 
 ## 🕵️‍♂️👮 Die Begegnung
 
-Detective Ownership & Officer Borrowing
-
 Own bückte sich, die Gaze seiner eigenen Reflexion im stillgelegten Display des Trash-Collector-Bots. Er zog ein **Debug-Kabel** aus der Innentasche seines ledernen Overcoats – ein Erbstück seiner Eltern, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags. Seine Finger tasteten nach dem Diagnose-Port unter dem Roboter-Arm, als ein Schatten über ihn fiel.
 
 „Ich würde die Finger vom Beweismaterial lassen, wenn ich du wäre.“
@@ -21,7 +19,7 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
-Officer Borrowing kniete sich neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display. „called \Option::unwrap()` on a `None` value`. Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
+Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display. „called \Option::unwrap()` on a `None` value`. Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
 
 <details> <summary>🔍 <strong>Code-Analyse: Der Roboter-Fehler (Klicken zum Anzeigen)</strong></summary>
 
@@ -36,13 +34,11 @@ fn deliver_greeting() {
     // aber hier steht "None" (nichts)
     
     // ✅ SO HÄTTE ES AUSSEHEN SOLLEN:
-    // let recipient = Some("Citizen");
-    
-    match recipient {
-        Some(name) => println!("Guten Morgen, {}!", name),
-        None => panic!("Kein Empfänger angegeben!"),  
-        // 💥 DAS PASSIERT HIER - DER ROBOTER PANICKT
-    }
+    // let name = recipient.unwrap();
+ 
+    // Der Roboter versucht den Wert zu "entpacken"
+    println!("Guten Morgen, {}!", name),
+    // 💥 DAS PASSIERT HIER - DER ROBOTER PANICKT
 }
 
 Was passiert hier?
@@ -59,9 +55,10 @@ Was passiert hier?
 
 „Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum? Wer würde so etwas tun?“
 
-„Das ist die Frage“, sagte Officer Borrowing und stand auf. Ein kaum merkliches Lächeln spielte um Officer Borrowings Lippen. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft.“ Er deutete auf die Reihe erstarrter Roboter. „Kommen Sie mit zur Borrow-Checker-Zentrale. Ich zeige Ihnen, wie wir solche Fälle systematisch untersuchen.“
+„Das ist die Frage“, sagte Officer Borrowing und stand auf. Ein kaum merkliches Lächeln spielte um Officer Borrowings Lippen. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft.“ Er deutete auf die Reihe erstarrter Roboter. 
 
-Die Zentrale war ein Labyrinth aus Monitoren, die alle aktiven Borrows und Lifetimes in Echtzeit anzeigten. Grüne Linien für immutable Borrows, rote für mutable, gelbe für potenziell gefährliche.
+„Kommen Sie mit zur Borrow-Checker-Zentrale. Ich zeige Ihnen, wie wir solche Fälle systematisch untersuchen.“
+In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die alle aktiven Borrows und Lifetimes in Echtzeit anzeigten. Grüne Linien für immutable Borrows, rote für mutable, gelbe für potenziell gefährliche.
 
 **„Jede Variable in Rust City hat einen Besitzer, jede“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
