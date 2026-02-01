@@ -50,9 +50,9 @@ fn main() {
 
 Was hier schief ging:
 
-    buch wurde an leser übergeben (move), nicht ausgeliehen (borrow)
+    Buch wurde an Leser übergeben (move), nicht ausgeliehen (borrow)
 
-    Als leser den Scope verließ, wurde buch gelöscht
+    Als Leser den Scope verließ, wurde Buch gelöscht
 
     Aber die Bibliothek wusste nichts davon und versuchte später, darauf zuzugreifen
 
