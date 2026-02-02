@@ -67,8 +67,8 @@ In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die
 **„Jede Variable in Rust City hat einen Besitzer, jede“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
 <details> <summary>📊 <strong>Live-Demo: Borrowing-Regeln (Klicken zum Anzeigen)</strong></summary>
-```rust
 
+```rust
 // ============================================
 // UNTERSUCHUNGSPROTOKOLL #001
 // Live-Demonstration in der Borrow-Checker-Zentrale
@@ -122,6 +122,7 @@ fn analyze_robot_error() {
 fn main() {
     analyze_robot_error();
 }
+```
 
 Ausgabe des Programms:
 text
@@ -144,7 +145,6 @@ text
 📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen?'
 ✅ Alles regelkonform!
 
-```
 </details>
 
 „Verstehen Sie?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“
