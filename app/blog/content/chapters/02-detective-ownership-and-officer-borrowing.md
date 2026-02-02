@@ -294,20 +294,7 @@ Deine Aufgabe, Detective-in-Ausbildung:
 
 Denk daran: In Rust City gelten strenge Regeln !
 
-## 🔍 Was wir gelernt haben
-
-1. **Charakter-Dynamik** : Detective Ownership und Officer Borrowing sind kein klassisches Team – sie sind zwei Seiten derselben Medaille: Besitz und Ausleihe.
-2. **Plot-Vertiefung** : Der Angriff ist persönlich (gegen Own gerichtet) und systematisch (gegen die Stadt).
-3. **Mystery-Elemente** : 
-   - Wer nutzt die alten Credentials von Owns Eltern ?
-   - Was befindet sich im gesperrten Labor ?
-   - Warum wird Own beobachtet ?
-4. **Rust-Konzepte eingeführt** :
-   - `&` und `&mut` als Grundprinzipien der Stadt
-   - Lifetime-Annotationen (`'static`)
-   - Memory-Safety als zentrales Thema
-
----
+## 🔍 Detective Ownership und Officer Borrowing
 
 **Fortsetzung folgt in Kapitel 3: Agent Alias' Angriff**, wo Own und Officer Borrowing das erste Mal auf aktiven Widerstand stoßen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
