@@ -66,7 +66,7 @@ Was passiert hier?
 „Kommen Sie mit zur Borrow-Checker-Zentrale. Ich zeige Ihnen, wie wir solche Fälle systematisch untersuchen.“
 In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die alle aktiven Borrows und Lifetimes in Echtzeit anzeigten. Grüne Linien für immutable Borrows, rote für mutable, gelbe für potenziell gefährliche.
 
-**„Jede Variable in Rust City hat einen Besitzer, jede ! .. merken Sie sich das gut !!!“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
+**„Jede Variable in Rust City hat einen Besitzer, jede .. merken Sie sich das gut !!!“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
 <details> <summary>📊 <strong>Live-Demo: Borrowing-Regeln (Klicken zum Anzeigen)</strong></summary>
 
