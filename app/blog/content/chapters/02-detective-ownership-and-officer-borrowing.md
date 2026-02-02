@@ -75,7 +75,7 @@ In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die
 // ============================================
 fn analyze_robot_error() {
     // Der Bot hat eine Nachricht (String)
-    let message = String::from("Guten Morgen!");
+    let message = String::from("Guten Morgen !");
     
     println!("📋 Originalnachricht: '{}'", message);
     println!("");
@@ -87,12 +87,12 @@ fn analyze_robot_error() {
     
     println!("   Leser 1 sieht: '{}'", reader1);
     println!("   Leser 2 sieht: '{}'", reader2);
-    println!("   ✅ Beide können gleichzeitig lesen!");
+    println!("   ✅ Beide können gleichzeitig lesen !");
     println!("");
     
-    // 📚 REGEL 2: MUTABLE BORROW (nur einer!)
+    // 📚 REGEL 2: MUTABLE BORROW (nur einer erlaubt)
     println!("📚 REGEL 2: Nur ein Schreiber gleichzeitig");
-    println!("   Versuche, während des Lesens zu schreiben...");
+    println!("   Versuche, während des Lesens zu schreiben ..");
     
     // Folgende Zeile wäre ILLEGAL:
     // let writer = &mut message;  // ❌ WÜRDE SCHEITERN!
@@ -106,14 +106,14 @@ fn analyze_robot_error() {
     println!("✅ LÖSUNG: Scope verwenden");
     {
         let writer = &mut message;  // ✅ Jetzt OK - reader1/2 sind weg
-        writer.push_str(" Haben Sie gut geschlafen?");
-        println!("   Schreiber modifiziert Nachricht...");
+        writer.push_str(" Haben Sie gut geschlafen ?");
+        println!("   Schreiber modifiziert Nachricht ..");
     } // 👉 writer geht hier aus dem Scope
     
     // Jetzt können wir wieder lesen
     println!("");
     println!("📋 Finale Nachricht: '{}'", message);
-    println!("✅ Alles regelkonform!");
+    println!("✅ Alles regelkonform, so ist es erlaubt !");
 }
 
 // ============================================
@@ -130,9 +130,9 @@ Ausgabe des Programms :
 
 📚 REGEL 1: Viele Leser gleichzeitig
 
-   Leser 1 sieht: 'Guten Morgen!'
+   Leser 1 sieht: 'Guten Morgen !'
 
-   Leser 2 sieht: 'Guten Morgen!'
+   Leser 2 sieht: 'Guten Morgen !'
 
    ✅ Beide können gleichzeitig lesen !
 
@@ -146,7 +146,7 @@ Ausgabe des Programms :
 
    Schreiber modifiziert Nachricht ..
 
-📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen ?'
+📋 Finale Nachricht: 'Guten Morgen ! Haben Sie gut geschlafen ?'
 
 ✅ Alles regelkonform!
 
