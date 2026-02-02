@@ -164,23 +164,25 @@ Own trat näher. Die Punkte formten keine zufällige Verteilung. Sie bildeten ei
 
 „Es beginnt in meiner Nachbarschaft“, murmelte Own.
 
-„Es beginnt bei Ihnen“, präzisierte der Officer. Seine Stimme wurde noch leiser. „Die ersten drei Ausfälle waren direkt vor Ihrem Apartment. Der vierte an der Bäckerei, wo Sie jeden Morgen Ihr Binary-Brot kaufen. Der fünfte…“
+„Es beginnt bei Ihnen“, präzisierte der Officer. Seine Stimme wurde noch leiser. „Die ersten drei Ausfälle waren direkt vor Ihrem Apartment. Der vierte an der Bäckerei, wo Sie jeden Morgen Ihr Binary-Brot kaufen. Der fünfte ..“
 
 „.. am Memory-Market, wo ich heute hin wollte“, vollendete Own. Ein kalter Schauer lief ihm den Rücken hinunter. „Jemand beobachtet mich.“
 
 Officer Borrowing nickte und schaltete das Hologramm aus. „Jemand testet Sie. Und gleichzeitig provoziert er mich und mein Department. Dies hier ..“ Er tippte auf das Tablet, und ein Code-Snippet erschien:
 rust
 
+```rust
 fn main() {
     let target = "Detective Ownership";
     let message = "We see you";
     // TODO: Deliver warning
     println!("{}: {}", target, message);
 }
+```
 
 „Das haben wir aus dem Speicherdump des ersten Bots extrahiert“, erklärte der Officer. „Unvollständig. Absichtlich. Als ob sie uns sagen wollten: ‚Wir haben mehr. Kommt und holt es euch.‘“
 
-Own studierte den Code. „Die Variable target ist immutable. message auch. Aber der Kommentar… ‚TODO: Deliver warning‘. Das klingt nicht nach fertig geplantem Angriff. Das klingt nach .. Improvisation.“
+Own studierte den Code. „Die Variable target ist immutable. message auch. Aber der Kommentar .. TODO: Deliver warning .. das klingt nicht nach fertig geplantem Angriff. Das klingt nach .. Improvisation.“
 
 „Oder Ablenkung“, warf Officer Borrowing ein. Seine Augen verengten sich. „Was, wenn die Roboter nur der Rauch sind, und das eigentliche Feuer woanders brennt?“
 
