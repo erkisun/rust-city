@@ -61,12 +61,12 @@ Was passiert hier?
 
 „Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum ? Wer würde so etwas tun ?“
 
-„Das ist die Frage“, sagte Officer Borrowing und stand auf. Ein kaum merkliches Lächeln spielte um Officer Borrowings Lippen. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft.“ Er deutete auf die Reihe erstarrter Roboter. 
+„Das ist die Frage ..“ sagte Officer Borrowing und stand auf. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft !“ Er deutete auf die Reihe erstarrter Roboter. 
 
 „Kommen Sie mit zur Borrow-Checker-Zentrale. Ich zeige Ihnen, wie wir solche Fälle systematisch untersuchen.“
 In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die alle aktiven Borrows und Lifetimes in Echtzeit anzeigten. Grüne Linien für immutable Borrows, rote für mutable, gelbe für potenziell gefährliche.
 
-**„Jede Variable in Rust City hat einen Besitzer, jede“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
+**„Jede Variable in Rust City hat einen Besitzer, jede ! .. merken Sie sich das gut !!!“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
 <details> <summary>📊 <strong>Live-Demo: Borrowing-Regeln (Klicken zum Anzeigen)</strong></summary>
 
