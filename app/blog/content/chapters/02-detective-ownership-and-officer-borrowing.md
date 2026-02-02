@@ -124,34 +124,33 @@ fn main() {
 }
 ```
 
-Ausgabe des Programms:
-text
+Ausgabe des Programms :
 
-📋 Originalnachricht: 'Guten Morgen!'
+📋 Originalnachricht: 'Guten Morgen !'
 
 📚 REGEL 1: Viele Leser gleichzeitig
    Leser 1 sieht: 'Guten Morgen!'
    Leser 2 sieht: 'Guten Morgen!'
-   ✅ Beide können gleichzeitig lesen!
+   ✅ Beide können gleichzeitig lesen !
 
 📚 REGEL 2: Nur ein Schreiber gleichzeitig
-   Versuche, während des Lesens zu schreiben...
+   Versuche, während des Lesens zu schreiben ..
    ❌ Compiler sagt: 'cannot borrow `message` as
       mutable because it is also borrowed as immutable'
 
 ✅ LÖSUNG: Scope verwenden
-   Schreiber modifiziert Nachricht...
+   Schreiber modifiziert Nachricht ..
 
-📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen?'
+📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen ?'
 ✅ Alles regelkonform!
 
 </details>
 
-„Verstehen Sie?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“
+„Verstehen Sie ?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“
 
-Own nickte langsam. „Und der Roboter…?“
+Own nickte langsam. „Und der Roboter .. ?“
 
-„…hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand ihm den Inhalt gestohlen hätte, bevor er darauf zugreifen konnte.“
+„.. hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand ihm den Inhalt gestohlen hätte, bevor er darauf zugreifen konnte.“
 
 jetzt zog er ein Holo-Tablet aus seinem Gürtel. Mit einer Geste projizierte er eine dreidimensionale Karte von Rust City in die Luft zwischen ihnen. Rote Punkte markierten jede **Panic**-Attacke. „Sehen Sie das Muster?“
 
