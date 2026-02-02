@@ -57,7 +57,7 @@ Was passiert hier?
 </details>
 
 
-„Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum? Wer würde so etwas tun ?“
+„Der Roboter versucht, unwrap() auf einem None-Wert aufzurufen“, murmelte Own. „Aber warum ? Wer würde so etwas tun ?“
 
 „Das ist die Frage“, sagte Officer Borrowing und stand auf. Ein kaum merkliches Lächeln spielte um Officer Borrowings Lippen. „Das hier ist kein gewöhnlicher Systemabsturz, Detective. Das ist eine Botschaft.“ Er deutete auf die Reihe erstarrter Roboter. 
 
