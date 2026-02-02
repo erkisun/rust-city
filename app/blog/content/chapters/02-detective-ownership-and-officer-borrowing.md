@@ -66,7 +66,7 @@ Was passiert hier?
 „Kommen Sie mit zur Borrow-Checker-Zentrale. Ich zeige Ihnen, wie wir solche Fälle systematisch untersuchen.“
 In der Zentrale angekommen sah es aus wie in einem Labyrinth, aus Monitoren, die alle aktiven Borrows und Lifetimes in Echtzeit anzeigten. Grüne Linien für immutable Borrows, rote für mutable, gelbe für potenziell gefährliche.
 
-**„Jede Variable in Rust City hat einen Besitzer .. merken Sie sich das gut !!!“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
+**„Jede Variable in Rust City hat einen Besitzer .. merken Sie sich das gut !“**, erklärte Officer Borrowing. **„Und wenn jemand diese Variable verwenden möchte, muss er sie borrowen. Aber es gibt Regeln.“**
 
 <details> <summary>📊 <strong>Live-Demo: Borrowing-Regeln (Klicken zum Anzeigen)</strong></summary>
 
@@ -206,7 +206,7 @@ Er machte eine Pause, ließ die Worte wirken. **„Sie haben zwei Optionen, Dete
 Officer Borrowing nahm eine zweite Uniform-Jacke aus dem Schrank der Borrow-Checker-Zentrale. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. **„Oder Sie kommen mit mir.** Lernen die Regeln dieser Stadt wirklich zu verstehen. 
 Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von **Panics** nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
 
-Der Officer reichte Own die Jacke. Own betrachtete die Jacke, dann die Reihe erstarrter Roboter, dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
+Der Officer reichte Own die Jacke. Own betrachtete es kurz, dann die Reihe erstarrter Roboter, dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
 
 „Die Credentials meiner Eltern wurden nach ihrem Tod deaktiviert“, sagte er schließlich. „Aber .. es gab Backups. Physische Security Tokens. In einem Safe in ihrem alten Labor.“
 
