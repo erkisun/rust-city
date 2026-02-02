@@ -234,8 +234,8 @@ Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust Cit
 
 „Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
 <details> <summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
-```rust
 
+```rust
 // ============================================
 // MYSTERY CODE #001
 // Gefunden im Speicher eines ausgefallenen Security-Bots
@@ -262,6 +262,7 @@ fn process_security_data() {
 // 2. Welche Borrowing-Regel wird verletzt ?
 // 3. Wie würdest du den Code reparieren ?
 ```
+
 </details>
 
 Deine Aufgabe, Detective-in-Ausbildung:
