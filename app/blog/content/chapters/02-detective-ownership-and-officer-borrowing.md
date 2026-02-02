@@ -129,19 +129,25 @@ Ausgabe des Programms :
 📋 Originalnachricht: 'Guten Morgen !'
 
 📚 REGEL 1: Viele Leser gleichzeitig
+
    Leser 1 sieht: 'Guten Morgen!'
+
    Leser 2 sieht: 'Guten Morgen!'
+
    ✅ Beide können gleichzeitig lesen !
 
 📚 REGEL 2: Nur ein Schreiber gleichzeitig
+
    Versuche, während des Lesens zu schreiben ..
-   ❌ Compiler sagt: 'cannot borrow `message` as
-      mutable because it is also borrowed as immutable'
+
+   ❌ Compiler sagt: 'cannot borrow `message` as mutable because it is also borrowed as immutable'
 
 ✅ LÖSUNG: Scope verwenden
+
    Schreiber modifiziert Nachricht ..
 
 📋 Finale Nachricht: 'Guten Morgen! Haben Sie gut geschlafen ?'
+
 ✅ Alles regelkonform!
 
 </details>
