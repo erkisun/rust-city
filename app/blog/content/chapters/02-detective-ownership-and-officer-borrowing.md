@@ -21,7 +21,9 @@ Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borro
 
 Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display :
 
+```rust
 called \Option::unwrap()` on a `None` value`.
+```
 
 „Das ist kein Zufall. Jemand hat bewusst einen leeren Wert dort platziert, wo der Roboter etwas erwartete.“
 
@@ -204,7 +206,7 @@ Er machte eine Pause, ließ die Worte wirken. **„Sie haben zwei Optionen, Dete
 Officer Borrowing nahm eine zweite Uniform-Jacke aus dem Schrank der Borrow-Checker-Zentrale. Sie war kleiner, aber mit denselben pulsierenden Visualisierungen. **„Oder Sie kommen mit mir.** Lernen die Regeln dieser Stadt wirklich zu verstehen. 
 Und wir finden heraus, wer hinter diesem Angriff steckt – bevor die nächste Welle von **Panics** nicht nur Roboter, sondern die gesamte Memory-Safety der Stadt trifft.“
 
-Own betrachtete die Jacke. Dann die Reihe erstarrter Roboter. Dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
+Der Officer reichte Own die Jacke. Own betrachtete die Jacke, dann die Reihe erstarrter Roboter, dann das ernste Gesicht des Officers, in dem sich die Reflexion der eigenen Unsicherheit spiegelte.
 
 „Die Credentials meiner Eltern wurden nach ihrem Tod deaktiviert“, sagte er schließlich. „Aber .. es gab Backups. Physische Security Tokens. In einem Safe in ihrem alten Labor.“
 
@@ -212,15 +214,15 @@ Officer Borrowings Augen blitzten auf. „Wo ist dieses Labor?“
 
 „Im Kernel District. Gesperrt seit fünf Jahren.“ Own holte tief Luft. „Aber ich weiß, wie man hineinkommt.“
 
-Der Officer reichte ihm die Jacke. „Dann schlage ich vor, wir machen uns sofort auf den Weg .. aber zuerst eine Lektion, Detective :
+„Dann schlage ich vor, wir machen uns sofort auf den Weg .. aber zuerst eine Lektion, Detective :
 
- In dieser Stadt überlebt man nur, wenn man die Regeln des Borrowing versteht. Und die erste Regel lautet…“
+ In dieser Stadt überlebt man nur, wenn man die Regeln des Borrowing wirklich versteht. Und die erste Regel lautet…“
 
-**„Regel 1 .. du kannst etwas ausleihen, aber du musst es zurückgeben.“**, vervollständigte Own und zog die Jacke an. Sie passte perfekt.
+**„Regel 1 .. du kannst etwas ausleihen, aber du musst es zurückgeben !“**, vervollständigte Own und zog die Jacke an. Sie passte perfekt.
 
-Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut : **Regel 2 .. nur eine mutable reference zur gleichen Zeit.“**
+Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut : **Regel 2 .. nur eine mutable reference zur gleichen Zeit !“**
 
-**„Regel 3 .. references müssen immer gültig bleiben.“**, vollendete Own. „Ich kenne die Theorie, Officer. Meine Eltern haben sie mir eingebläut, bevor ich laufen konnte.“
+**„Regel 3 .. references müssen immer gültig bleiben !“**, vollendete Own. „Ich kenne die Theorie, Officer. Meine Eltern haben sie mir eingebläut, bevor ich laufen konnte.“
 
 „Theorie ist eine Sache“, sagte der Officer. „Praxis ist etwas anderes. Heute lernen Sie die Praxis. Denn was immer in Ihrem Elternlabor wartet .. es wird nicht freundlich sein.“
 
@@ -230,8 +232,8 @@ Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust Cit
 
 🧩 Detective Challenge
 
-„Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden?“
-<details> <summary>🕵️ <strong>Detective Challenge: Finde den Bug! (Klicken für den Code)</strong></summary>
+„Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
+<details> <summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
 ```rust
 
 // ============================================
@@ -256,31 +258,31 @@ fn process_security_data() {
 // ============================================
 // FRAGEN AN DICH, DETECTIVE:
 // ============================================
-// 1. Warum wird dieser Code einen Compiler-Fehler verursachen?
-// 2. Welche Borrowing-Regel wird verletzt?
-// 3. Wie würdest du den Code reparieren?
+// 1. Warum wird dieser Code einen Compiler-Fehler verursachen ?
+// 2. Welche Borrowing-Regel wird verletzt ?
+// 3. Wie würdest du den Code reparieren ?
 ```
 </details>
 
 Deine Aufgabe, Detective-in-Ausbildung:
 
-    Überlege: Warum könnte data.push(6) problematisch sein?
+    Überlege: Warum könnte data.push(6) problematisch sein ?
 
-    Welche Borrowing-Regel wird hier verletzt?
+    Welche Borrowing-Regel wird hier verletzt ?
 
-    Wie würdest du den Code sicher machen?
+    Wie würdest du den Code sicher machen ?
 
-Denk daran: In Rust City gelten strenge Regeln!
+Denk daran: In Rust City gelten strenge Regeln !
 
 ## 🔍 Was wir gelernt haben
 
-1. **Charakter-Dynamik**: Detective Ownership und Officer Borrowing sind kein klassisches Team – sie sind zwei Seiten derselben Medaille: Besitz und Ausleihe.
-2. **Plot-Vertiefung**: Der Angriff ist persönlich (gegen Own gerichtet) und systematisch (gegen die Stadt).
-3. **Mystery-Elemente**: 
-   - Wer nutzt die alten Credentials von Owns Eltern?
-   - Was befindet sich im gesperrten Labor?
-   - Warum wird Own beobachtet?
-4. **Rust-Konzepte eingeführt**:
+1. **Charakter-Dynamik** : Detective Ownership und Officer Borrowing sind kein klassisches Team – sie sind zwei Seiten derselben Medaille: Besitz und Ausleihe.
+2. **Plot-Vertiefung** : Der Angriff ist persönlich (gegen Own gerichtet) und systematisch (gegen die Stadt).
+3. **Mystery-Elemente** : 
+   - Wer nutzt die alten Credentials von Owns Eltern ?
+   - Was befindet sich im gesperrten Labor ?
+   - Warum wird Own beobachtet ?
+4. **Rust-Konzepte eingeführt** :
    - `&` und `&mut` als Grundprinzipien der Stadt
    - Lifetime-Annotationen (`'static`)
    - Memory-Safety als zentrales Thema
