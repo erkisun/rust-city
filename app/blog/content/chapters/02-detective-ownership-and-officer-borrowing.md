@@ -228,6 +228,25 @@ Officer Borrowing lächelte zum ersten Mal richtig. „Sie haben zugehört. Gut 
 
 Own spürte das Gewicht der neuen Jacke, das Pulsieren der Sicherheitssysteme, die Präsenz des merkwürdigen, strengen Officers neben sich.
 
+Nun machten Sie sich auf den Weg und überquerten die Grenze zum Heap District. Own spürte den Unterschied sofort – die Luft roch nach ungebundenem Speicher und kompiliertem Risiko.
+
+„Hier“, sagte Officer Borrowing, „hier leben die, die unsere Regeln für .. begrenzt halten. Sie nennen es 'zu sicher', 'zu restriktiv'.“
+
+„Und Agent Alias ?“
+
+„Er ist ihr bester Denker. Und ihr gefährlichster.“ Der Officer hielt kurz an. „Er ist kein  Bösewicht, Detective. Agent Alias glaubt an .. alternative Lösungen. Lösungen, die unsere Regeln nicht erlauben.“
+
+Own musste nachdenken, sah immer noch  Überall blinkte Warnlichter – gelb, nicht rot. Warnungen, nicht Verbote. „Und wenn Agent Alias recht hat ?“
+
+Officer Borrowing sah ihn lange an. „Dann haben wir ein größeres Problem als ein paar ausgefallene Roboter. Dann haben wir eine Stadt, die zwischen Sicherheit und Freiheit wählen muss. 
+Und ich weiß nicht, welche Seite gewinnen wird.“
+
+Own antwortete nicht. Stattdessen blickte er auf seine Hände - dieselben Hände, die heute Morgen noch in Sicherheit im Stack District waren - und spürte das Unbehagen wie einen Knoten im Magen. 
+Was, wenn Sicherheit nicht das höchste Gut war ? Was, wenn Freiheit mehr wert war ?
+
+Officer Borrowing setzte seine Ultra-Deep-Scan-Brille auf. Ein leichter Regen aus defragmentierten Daten begann zu fallen. 
+„Im Heap District“, sagte er leise, „da lernen Sie die härteste Lektion: Manchmal ist die richtige Antwort nicht 'sicher' oder 'unsicher'. Manchmal ist sie einfach nur 'anders'.“
+
 Der Fall hatte gerade erst begonnen. Und schon jetzt wusste er : Um in  Rust City zu bestehen muss er die Herausforderungen mit Officer Borrowing zusammen angehen !
 
 🧩 Detective Challenge
