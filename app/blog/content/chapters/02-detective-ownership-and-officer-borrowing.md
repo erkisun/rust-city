@@ -263,8 +263,6 @@ fn process_security_data() {
 // 3. Wie würdest du den Code reparieren ?
 ```
 
-</details>
-
 Deine Aufgabe, Detective-in-Ausbildung:
 
     Überlege: Warum könnte data.push(6) problematisch sein ?
@@ -272,6 +270,8 @@ Deine Aufgabe, Detective-in-Ausbildung:
     Welche Borrowing-Regel wird hier verletzt ?
 
     Wie würdest du den Code sicher machen ?
+
+</details>
 
 Denk daran: In Rust City gelten strenge Regeln !
 
