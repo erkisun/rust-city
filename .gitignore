@@ -8,6 +8,8 @@
 /coverage/
 
 # 2. Nextjs-Dateien ignorieren
+package.json
+tsconfig.json
 eslint.config.mjs
 next-env.d.ts
 next.config.ts
