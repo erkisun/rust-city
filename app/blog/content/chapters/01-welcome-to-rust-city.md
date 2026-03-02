@@ -83,4 +83,4 @@ ERROR: expected value, found null .. thread 'main' **panicked** at 'called Optio
 ```
 
 
-[Nächstes Kapitel →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
+[Nächstes Kapitel : Detective Ownership und Officer Borrowing →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
