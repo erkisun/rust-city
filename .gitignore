@@ -14,7 +14,7 @@ next.config.ts
 package-lock.json
 postcss.config.mjs
 package2.json
-tsconfig2.json
+tsconfig.json
 
 # 3. SSH-Dateien ignorieren
 git_ssh*
