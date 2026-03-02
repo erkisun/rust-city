@@ -41,14 +41,14 @@ println("{}", analyze);
 // ==============================================
 ```
 
-„Verstehen Sie ?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf während dessen gleichzeitig lesen.“
+„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann während dessen gleichzeitig lesen.“
 
 Own nickte langsam. „Und der Roboter .. ?“
 
 „.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None) und hat Panik bekommen.“
 
 ...
-text
+weiterer text .. geschichte .. 
 ...
 
 
