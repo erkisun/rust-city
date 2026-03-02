@@ -43,9 +43,9 @@ fn main() {
         let leser = buch; 
         
         // Hier passiert etwas merkwürdiges ..
-        // In der C-Ära gab es keine Borrowing-Regeln!
+        // In der C-Ära gab es keine Borrowing-Regeln ..
         // Der Leser nimmt das Buch einfach mit ..
-        // Damals gab es noch keinen Borrow-Checker, welcher vorhersah und sofort wusste wer das Buch zuletzt hatte
+        // Damals gab es noch keinen Borrow-Checker, welcher vorhersah und sofort wusste, wer das Buch zuletzt hatte ..
 
         
     } // ❌ LESER VERLÄSST DIE BIBLIOTHEK (SCOPE)
