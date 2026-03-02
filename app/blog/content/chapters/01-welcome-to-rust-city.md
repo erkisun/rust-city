@@ -79,7 +79,8 @@ Wie jeden Morgen nahm er seinen üblichen Spaziergang durch das alte Industriege
 Sein Display zeigte: 
 
 ```rust
-ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
+ERROR: cannot assign to 'protokoll' because it is borrowed
+thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
 
