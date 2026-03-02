@@ -8,12 +8,12 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 
 | Kapitel | Titel | Charakter | Konzept | Lesen |
 |---------|-------|-----------|---------|-------|
-| 1 | [Willkommen in Rust City](/content/chapters/01-welcome-to-rust-city.md) | Planet `fn main()` | Cargo, Grundstruktur | ✅ |
-| 2 | [Detective Ownership und Officer Borrowing](/content/chapters/02-detective-ownership-and-officer-borrowing.md) | Detective Ownership, Officer Borrowing | Ownership, Borrowing, Move | 🚧 |
-| 3 | [Agent Alias' Angriff](/content/chapters/03-agent-alias.md) | Agent Alias | References, Aliasing, Move | 🚧 |
-| 4 | [Anarchist Max Mutation](/content/chapters/04-max-mutation.md) | Anarchist Max | Mutation, Move | 🚧 |
-| 5 | [Madame Enum und ihre Typen](/content/chapters/05-madame-enum.md) | Madame Enum | Enum, Struct, Move | 🚧 |
-| 6 | [Das Match-Labyrinth](/content/chapters/06-match-labyrinth.md) | Match | Match, Patterns, Move | 🚧 |
+| 1 | [Willkommen in Rust City](/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Entrypoint | ✅ |
+| 2 | [Detective Ownership und Officer Borrowing](/content/chapters/02-detective-ownership-and-officer-borrowing.md) | Detective Ownership, Officer Borrowing | Ownership, Borrowing | 🚧 |
+| 3 | [Agent Alias' Angriff](/content/chapters/03-agent-alias.md) | Agent Alias | References, Aliasing, Type Aliases | 🚧 |
+| 4 | [Anarchist Max Mutation](/content/chapters/04-max-mutation.md) | Anarchist Max | Mutation, Mutability | 🚧 |
+| 5 | [Madame Enum und ihre Typen](/content/chapters/05-madame-enum.md) | Madame Enum | Enum, Struct, Pattern Matching | 🚧 |
+| 6 | [Das Match-Labyrinth](/content/chapters/06-match-labyrinth.md) | Match | Match, Patterns | 🚧 |
 | 7 | *Coming Soon* | Crates, Modules | Crates, Modules, Move | ⏳ |
 | 8 | *Coming Soon* | Collections | Collections | ⏳ |
 | 9 | *Coming Soon* | Error Handling | Error Handling | ⏳ |
