@@ -26,7 +26,7 @@ Die Akte ist noch heute in den Archiven einsehbar:
 
 ```rust
 // ============================================
-// AKTENNOTIZ: FALL #001 - MORD AN POINTER Erki
+// AKTENNOTIZ: FALL #001 - MORD AN POINTER ERKI
 // ORT: Speicher-Bibliothek, Memory City (vor Rust City)
 // ZEIT: Während der C-Ära
 // ============================================
@@ -58,24 +58,27 @@ fn main() {
 }
 ```
 
-Das Opfer: Pointer Erki ein Bibliothekar, der immer sagte: "Ich weiß genau, wo jedes Buch ist." Bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
+Das Opfer, der Bibliothekar Pointer Erki, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
 </details>
 
-Im Herzen der Stadt, im Main-Crate, residiert der alte Bürgermeister **fn main()**. Jeden Morgne tritt er auf den Balkon seines Rathauses und spricht die magischen Wort, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und weise, und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig und den Gängen der Bezirke flüstert. So kennt man den Detective Ownership und Officer Borrowing auch in den Gassen von Rust City, von der Besitzbehörde und der Borrow-Checker-Polizei.
+## 👤 Der Bürgermeister : fn main()
 
-## 👤 Der Protagonist: Detective Ownership
-
-Er heisst Own, aber alle nennen ihn Detective Ownership. Mit 19 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Aufgewachsen und gelebt von kleinen Bug-Bounties (er reparierte, was andere kaputt kompilierten)entwickelte sich Own sehr schnell (mit halber Lichtgeschwindigkeit) und hatte viel von anderen gelernt. Später einmal entschloss er sich sein Hobby und sein Talent mit seinem heutigen Beruf als Detective zu vereinen. Own hat eine besondere Gabe: Er riecht **Memory-Leaks**, **Dangling References** und **Wert ohne Besitzer**.
+Im Herzen der Stadt, im Main-Crate, residiert der alte **fn main()**. Jeden Morgne tritt er auf den Balkon seines Rathauses und spricht die magischen Wort, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und weise, und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig und den Gängen der Bezirke flüstert. So kennt man den Detective Ownership und Officer Borrowing auch in den Gassen von Rust City, von der Besitzbehörde und der Borrow-Checker-Polizei.
 
 ## 🚨 Der Vorfall
 
-Auf dem Weg zum **Memory-Market** sieht Own den ersten Roboter. Einen **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt. Er steht still, zittert, sein Display zeigt:
+Detective Ownership lebt ungefär seit 10 Jahren im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit** und danach ist er alleine aufgewachsen. Aufgewachsen und gelebt von kleinen Bug-Bounties (Own reparierte, was andere kaputt kompilierten), entwickelte sich sehr schnell (mit halber Lichtgeschwindigkeit) und hatte viel von anderen gelernt. Später einmal entschloss er sich sein Hobby und sein Talent mit seinem heutigen Beruf als Detective zu vereinen, besser gesagt, es war ein Übergang, welches sich mit Worten kaum beschreiben lässt. Own hat eine besondere Gabe: Er riecht **Memory-Leaks**, **Dangling References** und **Wert ohne Besitzer**.
 
+Wie jeden Morgen nahm auch er seinen Spaziergang durch das alte Industriegebiet und sah dabei etwas merkwürdiges. Auf dem Weg zum **Memory-Market** sieht Own einen auffällig erstarrten Roboter. Auffällig deshalb, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Er macht einige Schritte in Richtung des Roboters und sieht dass es sogar noch zusätzlich zittert, sein Display zeigt:
+
+```rust
 ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
+```
 
-Dahinter: Dutzende weitere Roboter, alle in derselben Starre. 
-Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht Absicht ? ?
+Gerade als Own sich fragt : eine **Null-Pointer-Epidemie** ? .. Dutzende weitere Roboter dahinter, alle in derselben Starre. 
+
+
 
 ---
 [Nächstes Kapitel →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
