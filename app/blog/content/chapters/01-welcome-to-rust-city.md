@@ -64,7 +64,7 @@ Das Opfer, der Bibliothekar Pointer Erki, hatte immer gesagt : "Ich weiß genau,
 
 ## 👤 Der Bürgermeister : fn main()
 
-Im Herzen der Stadt, im Main-Crate, residiert der alte **fn main()**. Jeden Morgne tritt er auf den Balkon seines Rathauses und spricht die magischen Wort, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und weise, und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig und den Gängen der Bezirke flüstert. So kennt man den Detective Ownership und Officer Borrowing auch in den Gassen von Rust City, von der Besitzbehörde und der Borrow-Checker-Polizei.
+Im Herzen der Stadt, im Main-Crate, residiert der alte **fn main()**. Jeden Morgen tritt er auf den Balkon seines Rathauses und spricht die magischen Wort, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und weise, und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig und den Gängen der Bezirke flüstert. So kennt man den Detective Ownership und Officer Borrowing auch in den Gassen von Rust City, von der Besitzbehörde und der Borrow-Checker-Polizei.
 
 ## 🚨 Der Vorfall
 
