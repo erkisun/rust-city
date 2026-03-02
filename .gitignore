@@ -1,4 +1,6 @@
 # 1. Alle Standard-Ordner ignorieren
+package.json
+tsconfig.json
 /node_modules/
 /.next/
 /out/
