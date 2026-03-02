@@ -8,7 +8,7 @@ Rust-K04 ist schwarz und öde, nur bei Einstrahlung von Licht sieht man seine Ob
 
 Die Stadt gliedert sich in riesige Bezirke (**Crates**), jeder ein eigenes Universum mit strengen Ein- und Ausgangsregeln (pub und priv). Die Bezirke sind unterteilt in Stadtteile (**Modules**) in denen die eigentliche Arbeit passiert.
 
-Die Cargo-Behörde, eine mächtige Institution in Rust City, ist das zentrale Dienst-Unternehmen der Stadt. Cargo übernimmt sämtliche Aufgaben welches die Logistik, Verwaltung, Lieferungen und sogar das Bauen neuer Stadtteile wenn notwendig. Ein Güterzug von std nach collection zum HashMap -Bahnhof ? Kein Problem, **Cargo ::** regelt das. Ohne Cargo würde die Stadt im Chaos versinken, Bezirke wären nicht erreichbar, Abhängigkeiten würden fehlen und niemand wüsste, wie man einen neuen Stadtteil baut.
+Die Cargo-Behörde, eine mächtige Institution in Rust City, ist das zentrale Dienst-Unternehmen der Stadt. Cargo übernimmt sämtliche Aufgaben wie Logistik, Verwaltung, Lieferungen und sogar das Bauen neuer Stadtteile wenn notwendig. Ein Güterzug von std nach collection zum HashMap -Bahnhof ? Kein Problem, **Cargo ::** regelt das. Ohne Cargo würde die Stadt im Chaos versinken, Bezirke wären nicht erreichbar, Abhängigkeiten würden fehlen und niemand wüsste, wie man einen neuen Stadtteil baut.
 
 Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
 
