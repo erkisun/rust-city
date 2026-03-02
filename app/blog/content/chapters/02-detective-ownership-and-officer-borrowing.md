@@ -22,15 +22,15 @@ Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borro
 Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display :
 
 ```rust
-// rust code beispiel
+// rust code beispi
 ```
 
 
-„Verstehen Sie ?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf gleichzeitig lesen.“
+„Verstehen Sie ?“ fragte der Officer. „Wenn jemand liest (&), können viele gleichzeitig lesen. Wenn jemand schreibt (&mut), darf nur einer schreiben, und niemand darf während dessen gleichzeitig lesen.“
 
 Own nickte langsam. „Und der Roboter .. ?“
 
-„.. hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand ihm den Inhalt gestohlen hätte, bevor er darauf zugreifen konnte.“
+„.. hat versucht, auf etwas zuzugreifen, das nicht existierte (None). Als ob jemand den Inhalt stehlen wollte, und der arme Roboter konnte dann nicht mehr darauf zugreifen.“
 
 ...
 text
