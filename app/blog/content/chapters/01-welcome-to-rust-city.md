@@ -4,7 +4,7 @@
 
 ## 🪐 Die Mond - Rust-K04
 
-Rust-K04 ist schwarz und öde, nur bei Einstrahlung von Licht sieht man seine Oberfläche bedeckt von der legendären Stadt. Rust City ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. Wer hier lebt, lebt nach den Regeln der Stadt. Ohne Ausnahme und ohne Alternative.
+Rust-K04 ist schwarz und öde, nur bei Einstrahlung von Licht sieht man seine Oberfläche bedeckt von der legendären Stadt - Rust City. Die Stadt ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. Wer hier lebt, lebt nach den Regeln der Stadt. Ohne Ausnahme und ohne Alternative.
 
 Die Stadt gliedert sich in riesige Bezirke (**Crates**), jeder ein eigenes Universum mit strengen Ein- und Ausgangsregeln (pub und priv). Die Bezirke sind unterteilt in Stadtteile (**Modules**) in denen die eigentliche Arbeit passiert.
 
