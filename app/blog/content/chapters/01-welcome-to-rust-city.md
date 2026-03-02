@@ -2,7 +2,7 @@
 
 *Rust City – Eine Geschichte über Besitz, Regeln und perfekten Code.*
 
-## 🪐 Der Mond Rust-K04
+## 🪐 Rust City
 
 Rust-K04 ist schwarz und öde, ein kleiner Mond, der einen längst vergessenen Gasriesen umkreist. Nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - Rust City.
 
