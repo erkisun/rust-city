@@ -39,10 +39,10 @@ fn main() {
     
     // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
     { 
-        // ⚠️  BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
+        // ⚠️ BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
         let leser = buch; 
         
-        // Hier passiert etwas Merkwürdiges ..
+        // Hier passiert etwas merkwürdiges ..
         // In der C-Ära gab es keine Borrowing-Regeln!
         // Der Leser nimmt das Buch einfach mit ..
         // Damals gab es noch keinen Borrow-Checker, welcher vorhersah und sofort wusste wer das Buch zuletzt hatte
@@ -68,13 +68,15 @@ Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau,
 
 ## 👤 Der Bürgermeister : fn main()
 
-Im Herzen der Stadt, im Main-Crate, residiert der alte **fn main()**. Jeden Morgen tritt er auf den Balkon seines Rathauses und spricht die magischen Worte, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig und den Gängen der Bezirke flüstert. So kennt man den Detective Ownership von der Besitzbehörde und Officer Borrowing von der Borrow-Checker-Polizei auch in den Gassen von Rust City.
+Im Herzen der Stadt, im Main-Crate, residiert der alte **fn main()**. Jeden Morgen tritt er auf den Balkon seines Rathauses und spricht die magischen Worte, die den Tag einläuten. Ohne ihn passiert nichts. Aber er ist alt und schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig in den Gängen der Bezirke flüstert. So kennt man den Detective Ownership von der Besitzbehörde und Officer Borrowing von der Borrow-Checker-Polizei auch in den Gassen von Rust City.
 
 ## 🚨 Der Vorfall
 
-Detective Ownership lebt sein einigen Jahren im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Entwickelt hat sich Own nicht alleine, er konnte viel von anderen lernen (mit halber Lichtgeschwindigkeit). Später entschloss er sich sein Hobby und sein Talent mit seinem heutigen Beruf als Detective zu vereinen, besser gesagt, es war ein Übergang, welches sich nie richtig mit Worten beschreiben lässt. Mit Worten eindeutig beschreiben lässt sich aber Own's besondere Gabe: Er riecht **Memory-Leaks**, **Dangling References**.
+Detective Ownership lebt sein einigen Jahren im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Entwickelt hat sich Own nicht alleine, er konnte viel von anderen lernen (mit halber Lichtgeschwindigkeit). Später entschloss er sich sein Hobby und sein Talent mit seinem heutigen Beruf als Detective zu vereinen, besser gesagt, es war ein Übergang, welches sich nie richtig mit Worten beschreiben lässt. Mit Worten eindeutig beschreiben lässt sich aber Own's besondere Gabe : Er kann **Memory-Leaks** und **Dangling References** riechen.
 
-Wie jeden Morgen nahm er seinen üblichen Spaziergang durch das alte Industriegebiet aber heute sah er etwas merkwürdiges. Auf dem Weg zum Memory-Market sieht Own einen auffällig erstarrten Roboter. Auffällig deshalb, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter macht keinen Wank, also macht Own einige Schritte in Richtung des Roboters, und sieht es zittern. Sein Display zeigt:
+Wie jeden Morgen nahm er seinen üblichen Spaziergang durch das alte Industriegebiet und streifte durch die Gassen, aber heute sah er etwas merkwürdiges. Auf dem Weg zum Memory-Market steht ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter macht keinen Wank, also macht Own einige Schritte in Richtung des Roboters, und sieht es zittern. 
+
+Sein Display zeigt: 
 
 ```rust
 ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
