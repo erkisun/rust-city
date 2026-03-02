@@ -37,9 +37,9 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 ## 🤝 Mitmachen
 
 Fehler gefunden? Ideen für neue Kapitel?  
-- [Issue erstellen](https://github.com/DEINUSERNAME/rust-city-chronicles/issues)
-- [Pull Request senden](https://github.com/DEINUSERNAME/rust-city-chronicles/pulls)
-- [Diskussion starten](https://github.com/DEINUSERNAME/rust-city-chronicles/discussions)
+- [Issue erstellen](https://github.com/erkisun/rust-city-chronicles/issues)
+- [Pull Request senden](https://github.com/erkisun/rust-city-chronicles/pulls)
+- [Diskussion starten](https://github.com/erkisun/rust-city-chronicles/discussions)
 
 ## 📬 Updates
 
