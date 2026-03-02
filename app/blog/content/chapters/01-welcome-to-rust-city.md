@@ -2,15 +2,15 @@
 
 *Rust City – Eine Geschichte über Besitz, Regeln und perfekten Code.*
 
-## 🪐 Der Mond (Rust-K04)
+## 🪐 Der Mond Rust-K04
 
-Rust-K04 ist schwarz und öde, nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - Rust City.
+Rust-K04 ist schwarz und öde, ein kleiner Mond, der einen längst vergessenen Gasriesen umkreist. Nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - Rust City.
 
-Rust City ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. Wer hier lebt, lebt nach den Regeln der Stadt. Ohne Ausnahme und ohne Alternative. Die Stadt gliedert sich in riesige Bezirke (**Crates**), jeder ein eigenes Universum mit strengen Ein- und Ausgangsregeln (pub und priv). Die Bezirke sind unterteilt in Stadtteile (**Modules**) in denen die eigentliche Arbeit passiert.
+Rust City ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. Wer hier lebt, lebt nach den Regeln der Stadt. Ohne Ausnahme und ohne Alternative. Die Stadt gliedert sich in riesige Bezirke (**Crates**), jeder ein eigenes Universum mit strengen Ein- und Ausgangsregeln. Die Bezirke sind unterteilt in Stadtteile (**Modules**) in denen die eigentliche Arbeit passiert.
 
-Die Cargo-Behörde, eine mächtige Institution in Rust City, ist das zentrale Dienst-Unternehmen der Stadt. Cargo übernimmt sämtliche Aufgaben wie Logistik, Verwaltung, Lieferungen und sogar das Bauen neuer Stadtteile wenn notwendig. Ein Güterzug von std nach collection zum HashMap -Bahnhof ? Kein Problem, **Cargo ::** regelt das. Ohne Cargo würde die Stadt im Chaos versinken, Bezirke wären nicht erreichbar, Abhängigkeiten würden fehlen und niemand wüsste, wie man einen neuen Stadtteil baut.
+Die Cargo-Behörde, eine mächtige Institution in Rust City, ist das zentrale Dienst-Unternehmen der Stadt. Cargo übernimmt sämtliche Aufgaben wie Logistik, Verwaltung, Lieferungen und übernimmt sogar das Bauen neuer Stadtteile wenn notwendig. Ein Güterzug von std nach collection zum HashMap -Bahnhof ? Kein Problem, **Cargo ::** regelt das. Ohne Cargo würde die Stadt im Chaos versinken, Bezirke wären nicht erreichbar, Abhängigkeiten würden fehlen und niemand wüsste, wie man einen neuen Stadtteil baut.
 
-Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
+Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
 
 
 ## 🕵️  Die Vorgeschichte: Der Mord an Pointer Pete
@@ -30,11 +30,13 @@ Die Akte ist noch heute in den Archiven einsehbar:
 // ZEIT: Während der C-Ära
 // ============================================
 fn main() {
-    // Die Bibliothek kauft ein neues Buch
+    // DIE BIBLIOTHEK KAUFT EIN NEUES BUCH
     let buch = String::from("Buch : Geheimakte X (Thriller)"); 
     
-    { // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
-        let leser = buch; // ⚠️  BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
+    // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
+    { 
+        // ⚠️  BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
+        let leser = buch; 
         
         // Hier passiert etwas Merkwürdiges ..
         // In der C-Ära gab es keine Borrowing-Regeln!
@@ -42,15 +44,13 @@ fn main() {
         // Damals gab es noch keinen Borrow-Checker, welcher vorhersah und sofort wusste wer das Buch zuletzt hatte
 
         
-    } // ❌ LESER VERLÄSST DIE BIBLIOTHEK
+    } // ❌ LESER VERLÄSST DIE BIBLIOTHEK (SCOPE)
       // UND DAS BUCH WIRD AUTOMATISCH GELÖSCHT!
     
-    // Später versucht jemand, das Buch zu finden und wird Zeuge eines Mords
-    println!("Suche nach: {}", buch); 
     // 💥 ERROR! BUCH EXISTIERT NICHT MEHR
-    // PROGRAM ERROR : MORD GESCHEHEN
+    println!("Suche nach: {}", buch); 
     
-    // In der C-Ära passierte das STÄNDIG:
+    // In der C-Ära passierte das ständig:
     // - Bücher verschwanden (use-after-free)
     // - Zwei Leser änderten gleichzeitig ein Buch (data races)
     // - Bücher wurden doppelt gelöscht (double free)
