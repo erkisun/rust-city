@@ -22,6 +22,10 @@ Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borro
 
 Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display :
 
+
+<details>
+<summary>📜 <strong>Trashbot : Fehlerhafter Code (Klicken zum Anzeigen)</strong></summary>
+
 ```rust
 // ==============================================
 // RUST CITY POLICE DEPT : BEWEISMITTEL #42-B
@@ -42,6 +46,8 @@ println("{}", analyze);
 
 
 ```
+
+</details>
 
 „Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann während dessen gleichzeitig lesen.“
 
