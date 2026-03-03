@@ -49,7 +49,7 @@ println("{}", analyze);
 
 </details>
 
-„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann während dessen gleichzeitig lesen.“
+„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann gleichzeitig lesen.“
 
 Own nickte langsam. „Und der Roboter .. ?“
 
