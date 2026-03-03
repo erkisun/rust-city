@@ -24,7 +24,7 @@ Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „S
 
 
 <details>
-<summary>📜 <strong>Trashbot : Fehlerhafter Code (Klicken zum Anzeigen)</strong></summary>
+<summary>📜 <strong>Trashbot Display : Beweismittel (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 // ==============================================
