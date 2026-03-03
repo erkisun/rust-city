@@ -39,6 +39,8 @@ protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
 // Dieser Code darf hier nicht so verwendet werden
 println("{}", analyze);
 // ==============================================
+
+
 ```
 
 „Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann während dessen gleichzeitig lesen.“
