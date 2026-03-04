@@ -2,83 +2,28 @@
 
 *Rust City – Eine Geschichte über Besitz, Regeln und perfekten Code.*
 
-## 🪐 Der Angriff auf Agent Alias 
+## 🪐 Der Angriff 
 
-Der Planet `main` riecht nach überhitztem Silizium und frischem Bitstrom. Eine dichte Schicht aus **Traits** und **Lifetimes** hält alles zusammen. Städte gliedern sich in **Modules**, Bezirke heißen **Crates**. Manche Bewohner werden von der reinen Logik benommen, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
+📖 Kapitel 3: Agent Alias' Angriff
 
-## 🕵️  Die Vorgeschichte: Regeln brechen um sie zu schützen !
+Konzept: References, Aliasing, Type Aliases
+Charakter: Agent Alias (eine zwielichtige, aber brillante Gestalt)
+Die Handlung:
 
-Bevor Rust City gegründet wurde, gab es eine dunklere Zeit. Man nannte sie die **"C-Ära"** – eine Zeit, in der Speicherzugriffe chaotisch und gefährlich waren. 
-Der berühmteste ungelöste Fall war der **Mord an Pointer Pete** in der alten Speicher-Bibliothek.
+Officer Borrowing und Detective Ownership untersuchen den ausgefallenen Trashbot. Die Spuren führen sie in den Heap District, wo sie auf Agent Alias treffen – einen Meister der Tarnung und Abkürzungen. Alias arbeitet offiziell für die Cargo-Behörde als "Typberater", aber niemand weiß so recht, wem er wirklich dient.
 
-Die Akte ist noch heute in den Archiven einsehbar:
+Alias hat die Angewohnheit, Dinge umzubenennen. Er gibt langen, komplizierten Typen kurze Spitznamen (type UserId = String). Er taucht auf und verschwindet wieder, indem er Pfade abkürzt (use std::collections::HashMap). Seine Wohnung ist ein Labyrinth aus Spiegeln – überall Aliase, überall Verweise auf Dinge, die woanders stehen.
 
-<details>
-<summary>📜 <strong>Cold Case: Mord an Pointer Pete (Klicken zum Anzeigen)</strong></summary>
+Der Konflikt: Alias hilft den Detectives zunächst bei der Suche nach der Ursache des Trashbot-Ausfalls. Aber dann stellen sie fest: Alias hat heimlich Aliase auf Beweismittel erstellt, ohne dass die Besitzbehörde davon wusste. Mehrere Namen zeigen auf dasselbe Objekt – ein gefährliches Spiel mit Referenzen.
 
-```rust
-// ============================================
-// AKTENNOTIZ: FALL #001 - MORD AN POINTER PETE
-// ORT: Speicher-Bibliothek, Memory City (vor Rust City)
-// ZEIT: Während der C-Ära
-// ============================================
-fn main() {
-    // Die Bibliothek kauft ein neues Buch
-    let buch = String::from("Geheimakte X"); 
-    
-    { // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
-        let leser = buch; // ⚠️  BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
-        
-        // Hier passiert etwas Merkwürdiges ..
-        // In der C-Ära gab es keine Borrowing-Regeln!
-        // Der Leser nimmt das Buch einfach mit ..
-        
-    } // ❌ LESER VERLÄSST DIE BIBLIOTHEK
-      // UND DAS BUCH WIRD AUTOMATISCH GELÖSCHT!
-    
-    // Später versucht jemand, das Buch zu finden und begeht dabei einen Mord
-    println!("Suche nach: {}", buch); 
-    // 💥 ERROR! BUCH EXISTIERT NICHT MEHR
-    // PROGRAM ERROR : MORD GESCHEHEN
-    
-    // In der C-Ära passierte das STÄNDIG:
-    // - Bücher verschwanden (use-after-free)
-    // - Zwei Leser änderten gleichzeitig ein Buch (data races)
-    // - Bücher wurden doppelt gelöscht (double free)
-}
-```
+Der Twist: Alias führt sie zu Max Mutation, einem bekannten Anarchisten. "Wenn ihr wissen wollt, wer wirklich hinter den Abstürzen steckt", flüstert Alias, "dann müsst ihr Max finden. Aber passt auf – er verändert alles, was er anfasst."
 
-Was hier schief ging:
+Code-Konzept:
 
-    Buch wurde an Leser übergeben (move), nicht ausgeliehen (borrow)
+    Einführung von Referenzen (&T)
 
-    Als Leser den Scope verließ, wurde Buch gelöscht
+    Type Aliases (type-Schlüsselwort)
 
-    Aber die Bibliothek wusste nichts davon und versuchte später, darauf zuzugreifen
+    Pfade und das use-Schlüsselwort
 
-    Resultat: Ein dangling pointer – eine Referenz auf nicht-existierenden Speicher
-
-Das Opfer: Pointer Pete, ein Bibliothekar, der immer sagte: "Ich weiß genau, wo jedes Buch ist." Bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
-
-</details>
-
-Auch nach dem Großen Compiler-Update hörten die Morde nie ganz auf – aber sie wurden vorhersehbar. 
-Wenn heute ein Buch verschwindet, weiß der Borrow Checker sofort, wer es zuletzt hatte.
-
-## 👤 Der Protagonist: Detective Ownership
-
-Er heisst Own, aber alle nennen ihn **Detective Ownership**. Mit 17 lebt er im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Seitdem lebt er von kleinen Bug-Bounties – er repariert, was andere kaputt kompilieren.
-
-Own hat eine Gabe: Er riecht **Memory-Leaks und Dangling References**. Heute roch es nach .. **`None`** .. nach leerer Promise, nach **Wert ohne Besitzer.**
-
-## 🚨 Der Vorfall
-
-Auf dem Weg zum **Memory-Market** sieht Own den ersten Roboter. Einen **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt. Er steht still, zittert, sein Display zeigt:
-
-ERROR: expected value, found null .. thread 'main' **panicked** at 'called Option::unwrap() on a None value`
-
-Dahinter: Dutzende weitere Roboter, alle in derselben Starre. 
-Eine **Null-Pointer-Epidemie** ? .. Owns Nase kribbelt. Das ist kein Zufall, für ihn nicht .. vielleicht Absicht ?
-
----
-[Nächstes Kapitel →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
+    Erste Ahnung: Mehrere Referenzen auf dieselbe Ressource können gefährlich sein

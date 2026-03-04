@@ -44,7 +44,6 @@ protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
 println("{}", analyze);
 // ==============================================
 
-
 ```
 
 </details>
@@ -54,6 +53,25 @@ println("{}", analyze);
 Own nickte langsam. „Und der Roboter .. ?“
 
 „.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None) und hat Panik bekommen.“
+
+„.. hat versucht, auf etwas zuzugreifen, das nicht mehr existierte. Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und fuhr herunter.“
+
+Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der in Echtzeit anzeigte, wer gerade wo zugreift. "Sehen Sie? Hier ist der Verlauf..."
+
+```rust
+// RUST CITY POLICE DEPT: BORROW-CHECKER LOG
+//
+// 10:37:12 - protokoll mut (Mutable Borrow beginnt)
+// 10:37:13 - analyze &protokoll (Immutable Borrow beginnt) ❌
+// 10:37:13 - BORROW CHECKER: VERLETZUNG!
+// Regel: Keine immutable Borrows während mutable Borrows aktiv!
+
+```
+
+Own pfiff leise durch die Zähne. "Jemand hat dem Roboter beigebracht, die Regeln zu brechen. Officer Borrowing, wer könnte das sein ?"
+
+„Nennen Sie mich Bo, ist mir lieber ..“ begann Officer Borrowing und noch bevor Bo antworten konnte, flackerte das Display des Trashbots kurz auf. Eine Nachricht erschien:
+
 
 ...
 weiterer text .. geschichte .. 
