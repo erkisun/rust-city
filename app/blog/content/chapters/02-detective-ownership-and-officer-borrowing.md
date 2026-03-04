@@ -73,24 +73,31 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
-„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Falls Ihnen der Name Agent Alias etwas sagt ..“ als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
+„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen, und falls Ihnen der Name Agent Alias etwas sagt ..“ als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
+
+<details>
+<summary>📜 <strong>Nachricht von : Agent Alias</strong></summary>
 
 ```rust
-// HEY DETECTIVE .. HEY OFFICER
-// Schaut genau hin:
-let original = String::from("Beweisstück #42");
-let kopie = &original;  // 📋 Kopiert & ausgeliehen
-
-// Rate mal, wer hier überall zugreift?
+// HEY OFFICER
+// Schau genau hin ..
+let original = String::from("Beweisstück #42 Dfç33!?-Eeee7");
+let kopie = &original; // Kopiert & ausgeliehen
+// Rate mal, wer hier überall zugreift ?
+//
+// Ich
 // Ich bin überall. Und nirgends.
 //
-// ~ ALIAS
+// ICH
+// ALIAS
 
 ```
 
+</details>
+
 Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Sie Own nennen wenn das Ihnen recht ist“.
 
-Own nickte. „Alles klar, und was kommt jetzt als nächstes ?“
+Own nickte, und diesmal fragt er leise : „Alles klar, und was kommt jetzt als nächstes ?“
 
 
 🧩 Detective Challenge
