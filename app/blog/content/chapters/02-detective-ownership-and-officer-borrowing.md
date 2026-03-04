@@ -147,4 +147,4 @@ Denk daran: In Rust City gelten strenge Regeln !
 *Rust City – Wo jeder Wert einen Besitzer hat, und jedes Ausleihen seinen Preis.*
 
 ---
-[← Vorheriges Kapitel : Willkommen in Rust City →](/app/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agent Alias →](/app/blog/content/chapters/03-attack-of-agent-alias.md)  
+[← Vorheriges Kapitel : Willkommen in Rust City →](/app/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agent Alias →](/app/blog/content/chapters/03-agent-alias.md)  
