@@ -67,12 +67,12 @@ Own nickte langsam. „Und der Roboter .. ?“
 
 Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
-„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen." und schaute zum Industrie-Crate, wo das **Heap District** liegt. 
+„Psst .. " unterbrach ihn Officer Borrowing abrupt. „.. leise .. " fuhr er fort „.. ja, hier wurde eine Regel gebrochen." und schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
 
 🧩 Detective Challenge
 
-„Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
+„Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing, nachdem er sich wieder gefangen hatte, und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
 
 <details> 
 <summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
