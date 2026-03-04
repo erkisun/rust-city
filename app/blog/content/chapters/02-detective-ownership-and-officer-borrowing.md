@@ -70,7 +70,7 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 Own pfiff leise durch die Zähne. "Jemand hat dem Roboter beigebracht, die Regeln zu brechen. Officer Borrowing, wer könnte das sein ?"
 
-„Nennen Sie mich Bo, ist mir lieber ..“ begann Officer Borrowing und noch bevor Bo antworten konnte, flackerte das Display des Trashbots kurz auf. Eine Nachricht erschien:
+„Nennen Sie mich Borro ..“ begann Officer Borrowing und noch bevor er antworten konnte, flackerte das Display des Trashbots kurz auf. Eine Nachricht erschien:
 
 
 ...
