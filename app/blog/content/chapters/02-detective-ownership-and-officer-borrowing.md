@@ -57,7 +57,7 @@ Own nickte langsam. „Und der Roboter .. ?“
 Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der in Echtzeit anzeigte, wer gerade wo zugreift. "Sehen Sie? Hier ist der Verlauf..."
 
 <details>
-<summary>📜 <strong>Borrow Checker : Echtzeit Anzeige)</strong></summary>
+<summary>📜 <strong>Borrow Checker : Echtzeit Anzeige</strong></summary>
 
 ```rust
 // RUST CITY POLICE DEPT: BORROW-CHECKER LOG
@@ -71,9 +71,9 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 </details>
 
-Own pfiff leise durch die Zähne. "Jemand hat dem Roboter beigebracht, die Regeln zu brechen. Officer Borrowing, wer könnte das sein ?"
+Own platzte direkt der Kragen. „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
-„Falls Ihnen der Name Agent Alias etwas sagt …“ begann Officer Borrowing zu antworten als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
+„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Falls Ihnen der Name Agent Alias etwas sagt ..“ als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
 
 ```rust
 // HEY DETECTIVE
@@ -84,11 +84,13 @@ let kopie = &original;  // 📋 Kopiert & ausgeliehen
 // Rate mal, wer hier überall zugreift?
 // Ich bin überall. Und nirgends.
 //
-// ~ alias
+// ~ ALIAS
 
 ```
 
-Borrowing beugte sich vor, dann flüsterte er: „Leise. Ganz leise, Detective. Ab jetzt nennen Sie mich am besten Borro ..“
+Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Soe Own nennen wenn das Ihnen recht ist“.
+
+Own nickte wieder langsam. „Und jetzt .. ?“
 
 
 🧩 Detective Challenge
