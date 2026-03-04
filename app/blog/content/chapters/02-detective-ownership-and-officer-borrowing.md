@@ -69,7 +69,7 @@ Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln z
 
 „Psst .. " unterbrach ihn Officer Borrowing abrupt. „.. leise .. " fuhr er fort „.. ja, hier wurde eine Regel gebrochen." und schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
-**Fortsetzung folgt in Kapitel 3: Agent Alias**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
 ---
 
