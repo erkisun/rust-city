@@ -77,7 +77,7 @@ Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln z
 
 ```rust
 // HEY DETECTIVE .. HEY OFFICER
-// Schau genau hin:
+// Schaut genau hin:
 let original = String::from("Beweisstück #42");
 let kopie = &original;  // 📋 Kopiert & ausgeliehen
 
@@ -88,9 +88,9 @@ let kopie = &original;  // 📋 Kopiert & ausgeliehen
 
 ```
 
-Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Soe Own nennen wenn das Ihnen recht ist“.
+Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Sie Own nennen wenn das Ihnen recht ist“.
 
-Own nickte wieder langsam. „Und jetzt .. ?“
+Own nickte. „Alles klar, und was kommt jetzt als nächstes ?“
 
 
 🧩 Detective Challenge
