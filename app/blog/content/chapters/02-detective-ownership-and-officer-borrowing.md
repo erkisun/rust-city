@@ -20,8 +20,7 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
-Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. „Sehen Sie hier, Detective?“ Er zeigte auf das Display :
-
+Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter und zog ein kleines Gerät aus seiner Uniform – ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. „Sehen Sie hier, Detective ?“ Er zeigte auf das Display :
 
 <details>
 <summary>📜 <strong>Trashbot Display : Beweismittel (Klicken zum Anzeigen)</strong></summary>
@@ -46,18 +45,7 @@ println("{}", analyze);
 
 ```
 
-</details>
-
-„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann gleichzeitig lesen.“
-
-Own nickte langsam. „Und der Roboter .. ?“
-
-„.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None). Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und blieb stehen.“
-
-Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der in Echtzeit anzeigte, wer gerade wo zugreift. "Sehen Sie? Hier ist der Verlauf..."
-
-<details>
-<summary>📜 <strong>Borrow Checker : Echtzeit Anzeige</strong></summary>
+„.. es geht weiter, hier, wir können direkt in das LOG reinschauen ..“ 
 
 ```rust
 // RUST CITY POLICE DEPT: BORROW-CHECKER LOG
@@ -71,39 +59,31 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 </details>
 
+„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann gleichzeitig lesen.“
+
+Own nickte langsam. „Und der Roboter .. ?“
+
+„.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None). Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und blieb stehen.“
+
 Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
-„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen, und falls Sie bereit sind, werden wir jetzt in die Scheinwelt im Heap District gehen .. sind Sie bereit ?
-
-Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Sie Own nennen wenn das Ihnen recht ist“.
-
-Own nickte, und diesmal fragt er leise : „Alles klar, Borro .. gehen wir !“
+„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen." und schaute zum Industrie-Crate, wo das **Heap District** liegt. 
 
 
 🧩 Detective Challenge
 
 „Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
-<details> <summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
+
+<details> 
+<summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
 
 ```rust
 // ============================================
-// MYSTERY CODE #001
-// Gefunden im Speicher eines ausgefallenen Security-Bots
+// 
+// Gefunden im Speicher eines ausgefallenen 
 // ============================================
-fn process_security_data() {
-    let data = vec![1, 2, 3, 4, 5];  // Sicherheitsprotokolle
-    
-    println!("🔒 Analysiere Sicherheitsdaten...");
-    
-    let first_protocol = &data[0];  // Erster Borrow
-    println!("   Erstes Protokoll: {}", first_protocol);
-    
-    // 💥 HIER PASSIERT ETWAS MERKWÜRDIGES:
-    data.push(6);  // Neues Protokoll hinzufügen
-    
-    println!("   Aktualisierte Protokolle: {:?}", data);
-    println!("   Erstes Protokoll ist immer noch: {}", first_protocol);
-}
+
+// Code ..
 
 // ============================================
 // FRAGEN AN DICH, DETECTIVE:
@@ -115,11 +95,9 @@ fn process_security_data() {
 
 Deine Aufgabe, Detective-in-Ausbildung:
 
-    Überlege: Warum könnte data.push(6) problematisch sein ?
-
-    Welche Borrowing-Regel wird hier verletzt ?
-
-    Wie würdest du den Code sicher machen ?
+    - Überlege: Warum könnte data.push(6) problematisch sein ?
+    - Welche Borrowing-Regel wird hier verletzt ?
+    - Wie würdest du den Code sicher machen ?
 
 </details>
 
@@ -127,11 +105,12 @@ Denk daran: In Rust City gelten strenge Regeln !
 
 ## 🔍 Detective Ownership und Officer Borrowing
 
-**Fortsetzung folgt in Kapitel 3: Agent Alias' Angriff**, wo Own und Officer Borrowing das erste Mal auf aktiven Widerstand stoßen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3: Agent Alias' Angriff**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
 ---
 
 *Rust City – Wo jeder Wert einen Besitzer hat, und jedes Ausleihen seinen Preis.*
 
 ---
+
 [← Vorheriges Kapitel : Willkommen in Rust City →](/app/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agent Alias →](/app/blog/content/chapters/03-agent-alias.md)  
