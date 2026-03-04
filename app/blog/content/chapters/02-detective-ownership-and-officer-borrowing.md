@@ -71,12 +71,12 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 </details>
 
-Own platzte direkt der Kragen. „Jemand hat dem Roboter beigebracht, die Regeln zu .."
+Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
 „Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Falls Ihnen der Name Agent Alias etwas sagt ..“ als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
 
 ```rust
-// HEY DETECTIVE
+// HEY DETECTIVE .. HEY OFFICER
 // Schau genau hin:
 let original = String::from("Beweisstück #42");
 let kopie = &original;  // 📋 Kopiert & ausgeliehen
