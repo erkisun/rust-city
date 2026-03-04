@@ -73,31 +73,11 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
 
-„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen, und falls Ihnen der Name Agent Alias etwas sagt ..“ als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
-
-<details>
-<summary>📜 <strong>Nachricht von : Agent Alias</strong></summary>
-
-```rust
-// HEY OFFICER
-// Schau genau hin ..
-let original = String::from("Beweisstück #42 Dfç33!?-Eeee7");
-let kopie = &original; // Kopiert & ausgeliehen
-// Rate mal, wer hier überall zugreift ?
-//
-// Ich
-// Ich bin überall. Und nirgends.
-//
-// ICH
-// ALIAS
-
-```
-
-</details>
+„Psst .. " unterbrach ihn Officer Borrowing abrupt. „Leise .. " fuhr er fort „Ja, hier wurde eine Regel gebrochen, und falls Sie bereit sind, werden wir jetzt in die Scheinwelt im Heap District gehen .. sind Sie bereit ?
 
 Officer Borrowing beugte sich vor, dann flüsterte er zu Own: „Detective .. ab jetzt nennen Sie mich am besten Borro .. und ich werde Sie Own nennen wenn das Ihnen recht ist“.
 
-Own nickte, und diesmal fragt er leise : „Alles klar, und was kommt jetzt als nächstes ?“
+Own nickte, und diesmal fragt er leise : „Alles klar, Borro .. gehen wir !“
 
 
 🧩 Detective Challenge
