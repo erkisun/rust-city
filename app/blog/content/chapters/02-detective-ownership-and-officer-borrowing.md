@@ -45,7 +45,7 @@ println("{}", analyze);
 
 ```
 
-„.. es geht weiter, hier, wir können direkt in das LOG reinschauen ..“ 
+„.. es geht weiter .. hier, wir können direkt ins LOG reinschauen ..“ 
 
 ```rust
 // RUST CITY POLICE DEPT: BORROW-CHECKER LOG
