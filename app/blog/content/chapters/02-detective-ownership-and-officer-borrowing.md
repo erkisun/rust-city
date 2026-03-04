@@ -52,11 +52,12 @@ println("{}", analyze);
 
 Own nickte langsam. „Und der Roboter .. ?“
 
-„.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None) und hat Panik bekommen.“
-
-„.. hat versucht, auf etwas zuzugreifen, das nicht mehr existierte. Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und fuhr herunter.“
+„.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None). Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und blieb stehen.“
 
 Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der in Echtzeit anzeigte, wer gerade wo zugreift. "Sehen Sie? Hier ist der Verlauf..."
+
+<details>
+<summary>📜 <strong>Borrow Checker : Echtzeit Anzeige)</strong></summary>
 
 ```rust
 // RUST CITY POLICE DEPT: BORROW-CHECKER LOG
@@ -68,14 +69,26 @@ Borrowing zog ein kleines Gerät aus seiner Uniform – ein Borrow-Checker, der 
 
 ```
 
+</details>
+
 Own pfiff leise durch die Zähne. "Jemand hat dem Roboter beigebracht, die Regeln zu brechen. Officer Borrowing, wer könnte das sein ?"
 
-„Nennen Sie mich Borro ..“ begann Officer Borrowing und noch bevor er antworten konnte, flackerte das Display des Trashbots kurz auf. Eine Nachricht erschien:
+„Falls Ihnen der Name Agent Alias etwas sagt …“ begann Officer Borrowing zu antworten als plötzlich das Display des Trashbots kurz flackerte mit der Nachricht:
 
+```rust
+// HEY DETECTIVE
+// Schau genau hin:
+let original = String::from("Beweisstück #42");
+let kopie = &original;  // 📋 Kopiert & ausgeliehen
 
-...
-weiterer text .. geschichte .. 
-...
+// Rate mal, wer hier überall zugreift?
+// Ich bin überall. Und nirgends.
+//
+// ~ alias
+
+```
+
+Borrowing beugte sich vor, dann flüsterte er: „Leise. Ganz leise, Detective. Ab jetzt nennen Sie mich am besten Borro ..“
 
 
 🧩 Detective Challenge
