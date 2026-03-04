@@ -69,43 +69,7 @@ Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln z
 
 „Psst .. " unterbrach ihn Officer Borrowing abrupt. „.. leise .. " fuhr er fort „.. ja, hier wurde eine Regel gebrochen." und schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
-
-🧩 Detective Challenge
-
-„Hier ist Ihr erster Fall, Detective“, sagte Officer Borrowing, nachdem er sich wieder gefangen hatte, und zeigte auf einen weiteren Monitor. „Wir haben diesen Code bei einem anderen ausgefallenen Roboter gefunden. Können Sie den Fehler finden ?“
-
-<details> 
-<summary>🕵️ <strong>Detective Challenge: Finde den Bug ! (Klicken für den Code)</strong></summary>
-
-```rust
-// ============================================
-// 
-// Gefunden im Speicher eines ausgefallenen 
-// ============================================
-
-// Code ..
-
-// ============================================
-// FRAGEN AN DICH, DETECTIVE:
-// ============================================
-// 1. Warum wird dieser Code einen Compiler-Fehler verursachen ?
-// 2. Welche Borrowing-Regel wird verletzt ?
-// 3. Wie würdest du den Code reparieren ?
-```
-
-Deine Aufgabe, Detective-in-Ausbildung:
-
-    - Überlege: Warum könnte data.push(6) problematisch sein ?
-    - Welche Borrowing-Regel wird hier verletzt ?
-    - Wie würdest du den Code sicher machen ?
-
-</details>
-
-Denk daran: In Rust City gelten strenge Regeln !
-
-## 🔍 Detective Ownership und Officer Borrowing
-
-**Fortsetzung folgt in Kapitel 3: Agent Alias' Angriff**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3: Agent Alias**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
 ---
 
