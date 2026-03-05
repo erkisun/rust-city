@@ -2,22 +2,17 @@
 
 *Rust City – Eine Geschichte über Besitz, Regeln und perfekten Code.*
 
-## 🪐 Der Angriff 
+## 🪐 Eine brillante Gestalt
 
-📖 Kapitel 3: Agent Alias' Angriff
+📖 Kapitel 3: Agent Alias
 
-Konzept: References, Aliasing, Type Aliases
-Charakter: Agent Alias (eine zwielichtige, aber brillante Gestalt)
-Die Handlung:
+Beim Untersuchen des ausgefallenen Trashbots wurden Officer Borrowing und Detective Ownership in den Heap District geführt, wo sie auf Agent Alias treffen - einen Meister der Tarnung und Abkürzungen. Alias arbeitet offiziell für die Cargo-Behörde als "Typberater", aber niemand weiß so recht, wem er wirklich dient.
 
-Officer Borrowing und Detective Ownership untersuchen den ausgefallenen Trashbot. Die Spuren führen sie in den Heap District, wo sie auf Agent Alias treffen – einen Meister der Tarnung und Abkürzungen. Alias arbeitet offiziell für die Cargo-Behörde als "Typberater", aber niemand weiß so recht, wem er wirklich dient.
-
-Own kannte den Namen. Jeder in Rust City kannte ihn – 
-aber niemand war sich sicher, ob er je wirklich *eine* 
+Own kannte den Namen. Jeder in Rust City kannte ihn - aber niemand war sich sicher, ob er je wirklich *eine* 
 Person gesehen hatte oder nur Referenzen auf sie.
 
 Agent Alias arbeitete für niemanden. Oder für alle. 
-Er bewegte sich durch Rust City wie eine Referenz durch 
+Sie bewegte sich durch Rust City wie eine Referenz durch 
 den Speicher: schnell, effizient, ohne jemals selbst 
 Besitz zu beanspruchen.
 
