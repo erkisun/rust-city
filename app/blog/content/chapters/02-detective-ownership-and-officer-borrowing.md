@@ -20,7 +20,15 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
-Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter und zog ein kleines Gerät aus seiner Uniform – ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. „Sehen Sie hier, Detective ?“ Er zeigte auf das Display :
+Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. 
+Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend 
+solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: 
+ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. 
+Die Anzeige flackerte nervös.
+
+„Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das 
+Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers – 
+aber eines, der schon Leichen gesehen hat.
 
 <details>
 <summary>📜 <strong>Trashbot Display : Beweismittel (Klicken zum Anzeigen)</strong></summary>
@@ -36,13 +44,14 @@ Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter und z
 // Status : steht still und zittert
 // Letzte Worte : .. error .. panic ..
 let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
+// Dieser Code darf hier nicht so verwendet werden (Teil 1/2)
 let analyze = &protokoll;
 protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
 protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
 protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
 protokoll.push_str("10:38 .. rote Mülltonne geleert.");
 
-// Dieser Code darf hier nicht so verwendet werden
+// Dieser Code darf hier nicht so verwendet werden (Teil 2/2)
 println("{}", analyze);
 // ==============================================
 
@@ -62,45 +71,74 @@ println("{}", analyze);
 
 </details>
 
-„Verstehen Sie ?“ fragte der Officer. „Wenn jemand das Protokoll liest (&), können viele gleichzeitig lesen. Wenn jemand ins Protokoll schreibt (&mut), darf nur einer schreiben, und niemand darf dann gleichzeitig lesen.“
+Own runzelte die Stirn. „Lesezugriff während eines Schreibvorgangs."
 
-Own nickte langsam. „Und der Roboter .. ?“
+„Bingo." Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. Die Referenz zeigte ins Leere." Er schnippte mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
+„Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
-„.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None). Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und blieb stehen.“
+Own wie immer blitzschnell : „Jemand hat aber eine Regel gebrochen .."
 
-Own wie immer blitzschnell : „Jemand hat eine Regel gebrochen .."
+Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
 
-„Das war ein Amateur.“ sagte der Officer. „Agentin Alias hätte es besser gemacht, sie hätte eine der 3 Möglichkeiten gewählt:“
-
+„Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block hoch :
 
 <details>
 <summary>📜 <strong>Korrekter Ablauf : Logikmittel (Klicken zum Anzeigen)</strong></summary>
 
-
-1. CLONE (ihre Spezialität - unsichtbar)
 ```rust
+// 1. CLONE (unsichtbar)
 let analyze = protokoll.clone();  // Eigene Kopie, kein Borrow
 protokoll.push_str(...);          // Kein Konflikt
 ```
 
-2. REIHENFOLGE (einfach, aber auffällig)
 ```rust
-protokoll.push_str(...);          // Erst mutieren
+// 2. REIHENFOLGE (einfach, aber auffällig)
+protokoll.push_str(...);           // Erst mutieren
 let analyze = &protokoll;          // Dann borgen ✅
 ```
 
-3. SCOPE (präzise, aber verdächtig)
 ```rust
+// 3. SCOPE (präzise, aber verdächtig)
 {
     let analyze = &protokoll;      // Borrow nur hier
     println!("{}", analyze);
 } // Borrow stirbt hier
-protokoll.push_str(...);          // Dann mutieren ✅
+protokoll.push_str(...);           // Dann mutieren ✅
 ```
 
 </details>
 
-Dann schauten beide schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
+Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
+
+„Amateur-Arbeit." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Ein Profi .." er machte eine kurze Pause, 
+fast theatralisch .. „könnte die Regeln brechen, weil er sie besser versteht als alle anderen."
+
+Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
+
+„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte."
+
+Own wartete.
+
+Borrowing schaute zum Industrie-Crate hinüber. 
+Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, 
+lag das **Heap District** - unaufgeräumt, lebendig, 
+gefährlich für jeden, der die Regeln nicht kannte.
+
+„Drei Wege", sagte er leise. „Drei Wege – und *sie* 
+hätte den elegantesten gewählt. Den einen, den man erst 
+versteht, wenn man schon zweimal hinsieht."
+
+„*Sie* ?" fragte Own.
+
+Borrowing wandte sich ab, die Hände hinter dem Rücken, 
+und ging langsam in Richtung Heap District.
+
+„**Agent Alias.**" Der Name fiel wie ein einzelner 
+Token in einen leeren Puffer. „Falls wir Glück haben, 
+taucht sie nie auf." Er warf Own einen Blick über 
+die Schulter zu. „Aber ich glaube nicht an Glück. 
+Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
+
 
 **Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
