@@ -33,33 +33,29 @@ Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. Kein
 // SICHERSTELLUNG : AUSGEFALLENER TRASHBOT #4711218-DCAQ3
 // ==============================================
 //
-// Modell : Trash-Collector v.3.4.2 "Müllosaurus"
+// Modell : Trash-Collector v.3.4.2 "Müllo K04"
 // Baujahr : 2034
-// Status : steht still und zittert
+// Status : steht still
 // Letzte Worte : .. error .. panic ..
-let mut protokoll = String::from("10:37 .. Start Mülltonnen Leerung.");
-// Dieser Code darf hier nicht so verwendet werden (Teil 1/2)
+
+let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
+// Detective Ownership übernimmt die mutable Variable 'protokoll'.
+
 let analyze = &protokoll;
-protokoll.push_str("10:38 .. Gelbe Mülltonne geleert.");
-protokoll.push_str("10:39 .. Blaue Mülltonne geleert.");
-protokoll.push_str("10:40 .. Grüne Mülltonne geleert.");
-protokoll.push_str("10:41 .. Rote Mülltonne geleert.");
+// Agentin Alias tarnt sich als lesende Referenz 'analyze' auf denselben Fall.
 
-// Dieser Code darf hier nicht so verwendet werden (Teil 2/2)
+protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
+// Detective Ownership will die Daten verändern. Er hat das Recht dazu.
+protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
+protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
+protokoll.push_str("10:38 .. rote Mülltonne geleert.");
+
 println("{}", analyze);
+// Officer Borrowing schreitet ein wegen Verstoßes gegen die Aliasing-Regel !
+// Zur gleichen Zeit existieren eine mutable Referenz (Ownership) UND eine immutable Referenz (Alias).
+// In Rust City ist das strengstens verboten !
+// Regel : Keine immutable Borrows während mutable Borrows aktiv !
 // ==============================================
-
-```
-
-„.. es geht weiter .. hier, wir können direkt ins LOG reinschauen ..“ 
-
-```rust
-// RUST CITY POLICE DEPT: BORROW-CHECKER LOG
-//
-// 10:37:12 - protokoll mut (Mutable Borrow beginnt)
-// 10:37:13 - analyze &protokoll (Immutable Borrow beginnt) ❌
-// 10:37:13 - BORROW CHECKER: VERLETZUNG!
-// Regel: Keine immutable Borrows während mutable Borrows aktiv!
 
 ```
 
