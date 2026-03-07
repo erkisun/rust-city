@@ -50,7 +50,7 @@ protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
 protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
 protokoll.push_str("10:38 .. rote Mülltonne geleert.");
 
-println("{}", analyze);
+println!("{}", analyze);
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Aliasing-Regel !
 // Zur gleichen Zeit existieren eine mutable Referenz (Ownership) UND eine immutable Referenz (Alias).
 // In Rust City ist das strengstens verboten !
