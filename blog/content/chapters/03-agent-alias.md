@@ -4,8 +4,6 @@
 
 ## 🪐 Eine brillante Gestalt
 
-📖 Kapitel 3: Agentin Alias
-
 Officer Borrowing und Detective Ownership untersuchen den ausgefallenen Trashbot. Die Spuren führen sie in den Heap District, wo sie auf Agentin Alias treffen - eine Meisterin der Tarnung und Abkürzungen. Alias arbeitet offiziell für die Cargo-Behörde als „Typberaterin“, aber niemand weiß so recht, wem sie wirklich dient.
 
 Own kannte den Namen. Jeder in Rust City kannte ihn - aber niemand war sich sicher, ob er je wirklich eine reale Person gesehen hatte oder nur Referenzen auf sie. Agentin Alias arbeitete für niemanden. Oder für alle. Sie bewegte sich durch Rust City wie eine Referenz durch den Speicher: schnell, effizient, ohne jemals selbst Besitz zu beanspruchen.
