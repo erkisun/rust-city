@@ -76,6 +76,7 @@ Own wie immer blitzschnell : „Jemand hat eine Regel gebrochen .."
 <details>
 <summary>📜 <strong>Korrekter Ablauf : Logikmittel (Klicken zum Anzeigen)</strong></summary>
 
+
 1. CLONE (ihre Spezialität - unsichtbar)
 ```rust
 let analyze = protokoll.clone();  // Eigene Kopie, kein Borrow
