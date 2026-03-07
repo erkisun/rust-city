@@ -65,9 +65,32 @@ Own nickte langsam. „Und der Roboter .. ?“
 
 „.. hat versucht, auf etwas zuzugreifen (analyze), das nicht existierte (None). Ein klassischer Fall von dangling reference. Das Protokoll wurde verändert, während es noch gelesen wurde. Der Roboter bekam Panik und blieb stehen.“
 
-Own wie immer blitzschnell : „Jemand hat dem Roboter beigebracht, die Regeln zu .."
+Own wie immer blitzschnell : „Jemand hat eine Regel gebrochen .."
 
-„Psst .. " unterbrach ihn Officer Borrowing abrupt. „.. leise .. " fuhr er fort „.. ja, hier wurde eine Regel gebrochen." und schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
+„Das war ein Amateur.“ sagte der Officer. „Agentin Alias hätte es besser gemacht, sie hätte eine der 3 Möglichkeiten gewählt:“
+
+1. CLONE (ihre Spezialität - unsichtbar)
+```rust
+let analyze = protokoll.clone();  // Eigene Kopie, kein Borrow
+protokoll.push_str(...);          // Kein Konflikt
+```
+
+2. REIHENFOLGE (einfach, aber auffällig)
+```rust
+protokoll.push_str(...);          // Erst mutieren
+let analyze = &protokoll;          // Dann borgen ✅
+```
+
+3. SCOPE (präzise, aber verdächtig)
+```rust
+{
+    let analyze = &protokoll;      // Borrow nur hier
+    println!("{}", analyze);
+} // Borrow stirbt hier
+protokoll.push_str(...);          // Dann mutieren ✅
+```
+
+schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
 **Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 
