@@ -37,13 +37,13 @@ Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. Kein
 // Baujahr : 2034
 // Status : steht still und zittert
 // Letzte Worte : .. error .. panic ..
-let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
+let mut protokoll = String::from("10:37 .. Start Mülltonnen Leerung.");
 // Dieser Code darf hier nicht so verwendet werden (Teil 1/2)
 let analyze = &protokoll;
-protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
-protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
-protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
-protokoll.push_str("10:38 .. rote Mülltonne geleert.");
+protokoll.push_str("10:38 .. Gelbe Mülltonne geleert.");
+protokoll.push_str("10:39 .. Blaue Mülltonne geleert.");
+protokoll.push_str("10:40 .. Grüne Mülltonne geleert.");
+protokoll.push_str("10:41 .. Rote Mülltonne geleert.");
 
 // Dieser Code darf hier nicht so verwendet werden (Teil 2/2)
 println("{}", analyze);
@@ -67,7 +67,7 @@ println("{}", analyze);
 
 Own runzelte die Stirn. „Lesezugriff während eines Schreibvorgangs."
 
-„Bingo." Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. Die Referenz zeigte ins Leere." Er schnippte mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
+„Bingo." Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
 „Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
 Own wie immer blitzschnell : „Jemand hat aber eine Regel gebrochen .."
