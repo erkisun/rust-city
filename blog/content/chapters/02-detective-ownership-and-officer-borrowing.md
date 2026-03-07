@@ -77,12 +77,12 @@ Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock herau
 „Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block hoch. „Sehen Sie hier :"
 
 <details>
-<summary>📜 <strong>Korrekte Code's : Notizblock Logik (Klicken zum Anzeigen)</strong></summary>
+<summary>📜 <strong>Die 3 Wege : Notizblock Logik (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 // 1. CLONE (unsichtbar)
-let analyze = protokoll.clone();  // Eigene Kopie, kein Borrow
-protokoll.push_str(...);          // Kein Konflikt
+let analyze = protokoll.clone();   // Eigene Kopie, kein Borrow
+protokoll.push_str(...);           // Kein Konflikt
 ```
 
 ```rust
