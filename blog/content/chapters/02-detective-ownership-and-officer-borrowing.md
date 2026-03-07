@@ -108,11 +108,9 @@ Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ga
 
 Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
 
-„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .."
+„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .." Officer Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag das **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
 
 Own wartete.
-
-Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag das **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
 
 „Agentin Alias ..", fuhr er fort. „Ich sehe drei Wege - und *sie* hätte den elegantesten Weg gewählt. Den einen, den man erst versteht bei genauer Betrachtung."
 
