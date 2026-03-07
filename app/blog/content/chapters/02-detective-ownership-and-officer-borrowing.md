@@ -20,15 +20,9 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor es passiert.“
 
-Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. 
-Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend 
-solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: 
-ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. 
-Die Anzeige flackerte nervös.
+Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
 
-„Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das 
-Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers – 
-aber eines, der schon Leichen gesehen hat.
+„Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers - aber eines, der schon Leichen gesehen hat.
 
 <details>
 <summary>📜 <strong>Trashbot Display : Beweismittel (Klicken zum Anzeigen)</strong></summary>
@@ -110,7 +104,7 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
-„Amateur-Arbeit." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Ein Profi .." er machte eine kurze Pause, 
+„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Ein Profi .." er machte eine kurze Pause, 
 fast theatralisch .. „kann die Regeln biegen, weil er sie besser versteht als alle anderen."
 
 Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
