@@ -128,4 +128,4 @@ Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänd
 
 ---
 
-[← Vorheriges Kapitel : Willkommen in Rust City →](/app/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agent Alias →](/app/blog/content/chapters/03-agent-alias.md)  
+[← Vorheriges Kapitel : Willkommen in Rust City →](/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agentin Alias →](/blog/content/chapters/03-agent-alias.md)  

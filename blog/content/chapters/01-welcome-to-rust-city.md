@@ -79,4 +79,4 @@ thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
 
-[Nächstes Kapitel : Detective Ownership und Officer Borrowing →](/app/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
+[Nächstes Kapitel : Detective Ownership und Officer Borrowing →](/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
