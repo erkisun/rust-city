@@ -100,7 +100,7 @@ protokoll.push_str(...);          // Dann mutieren ✅
 
 </details>
 
-schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
+Dann schauten beide schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
 **Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
 

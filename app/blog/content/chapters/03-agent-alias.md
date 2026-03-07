@@ -67,7 +67,7 @@ fn main() {
 niemand schreiben. Wenn ich gehe, bleibt alles 
 intakt. Das ist meine Sicherheit."
 
-Borrowing nickte widerwillig. „Shared references. 
+Officer Borrowing nickte widerwillig. „Shared references. 
 Genau nach Protokoll."
 
 Alias hat die Angewohnheit, Dinge umzubenennen. Er gibt langen, komplizierten Typen kurze Spitznamen (type UserId = String). Er taucht auf und verschwindet wieder, indem er Pfade abkürzt (use std::collections::HashMap). Seine Wohnung ist ein Labyrinth aus Spiegeln – überall Aliase, überall Verweise auf Dinge, die woanders stehen.
