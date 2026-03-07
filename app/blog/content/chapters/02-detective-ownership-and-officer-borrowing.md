@@ -35,9 +35,12 @@ Nach einigen Millisekunden kniete sich Officer Borrowing neben den Roboter und z
 // Baujahr : 2034
 // Status : steht still und zittert
 // Letzte Worte : .. error .. panic ..
-let mut protokoll = String::from("10:37 .. blaue Mülltonne geleert.");
+let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
 let analyze = &protokoll;
 protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
+protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
+protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
+protokoll.push_str("10:38 .. rote Mülltonne geleert.");
 
 // Dieser Code darf hier nicht so verwendet werden
 println("{}", analyze);
@@ -69,6 +72,10 @@ Own wie immer blitzschnell : „Jemand hat eine Regel gebrochen .."
 
 „Das war ein Amateur.“ sagte der Officer. „Agentin Alias hätte es besser gemacht, sie hätte eine der 3 Möglichkeiten gewählt:“
 
+
+<details>
+<summary>📜 <strong>Korrekter Ablauf : Logikmittel (Klicken zum Anzeigen)</strong></summary>
+
 1. CLONE (ihre Spezialität - unsichtbar)
 ```rust
 let analyze = protokoll.clone();  // Eigene Kopie, kein Borrow
@@ -89,6 +96,8 @@ let analyze = &protokoll;          // Dann borgen ✅
 } // Borrow stirbt hier
 protokoll.push_str(...);          // Dann mutieren ✅
 ```
+
+</details>
 
 schaute schweigend zum Industrie-Crate, wo das **Heap District** liegt. 
 
