@@ -104,12 +104,11 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
-„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Ein Profi .." er machte eine kurze Pause, 
-fast theatralisch .. „kann die Regeln biegen, weil er sie besser versteht als alle anderen."
+„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**, weil er sie besser versteht als alle anderen."
 
 Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
 
-„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte."
+„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .."
 
 Own wartete.
 
@@ -121,7 +120,7 @@ Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänd
 
 „Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own. Dann wandten sich beide von dem Roboter ab und liefen langsam in Richtung Heap District. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
-**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebrochen* werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebogen* werden müssen, um sie zu schützen.
 
 ---
 
