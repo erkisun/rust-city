@@ -78,9 +78,9 @@ Own runzelte die Stirn. „Lesezugriff während eines Schreibvorgangs."
 
 Own wie immer blitzschnell : „Jemand hat aber eine Regel gebrochen .."
 
-Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
+Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
 
-„Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block hoch :
+„Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block hoch. „Sehen Sie hier :"
 
 <details>
 <summary>📜 <strong>Korrekter Ablauf : Logikmittel (Klicken zum Anzeigen)</strong></summary>
@@ -111,7 +111,7 @@ protokoll.push_str(...);           // Dann mutieren ✅
 Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
 „Amateur-Arbeit." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Ein Profi .." er machte eine kurze Pause, 
-fast theatralisch .. „könnte die Regeln brechen, weil er sie besser versteht als alle anderen."
+fast theatralisch .. „kann die Regeln biegen, weil er sie besser versteht als alle anderen."
 
 Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
 
@@ -119,28 +119,15 @@ Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
 
 Own wartete.
 
-Borrowing schaute zum Industrie-Crate hinüber. 
-Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, 
-lag das **Heap District** - unaufgeräumt, lebendig, 
-gefährlich für jeden, der die Regeln nicht kannte.
+Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag das **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
 
-„Drei Wege", sagte er leise. „Drei Wege – und *sie* 
-hätte den elegantesten gewählt. Den einen, den man erst 
-versteht, wenn man schon zweimal hinsieht."
+„Agentin Alias ..", fuhr er fort. „Ich sehe drei Wege - und *sie* hätte den elegantesten Weg gewählt. Den einen, den man erst versteht bei genauer Betrachtung."
 
-„*Sie* ?" fragte Own.
+„**Agent Alias.**" Der Name fiel wie ein einzelner Token in einen leeren Puffer. „*Sie* ?" fragte Own.
 
-Borrowing wandte sich ab, die Hände hinter dem Rücken, 
-und ging langsam in Richtung Heap District.
+„Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own. Dann wandten sich beide von dem Roboter ab und liefen langsam in Richtung Heap District. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
-„**Agent Alias.**" Der Name fiel wie ein einzelner 
-Token in einen leeren Puffer. „Falls wir Glück haben, 
-taucht sie nie auf." Er warf Own einen Blick über 
-die Schulter zu. „Aber ich glaube nicht an Glück. 
-Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
-
-
-**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agent Alias stossen – und lernen, dass in Rust City manchmal sogar die Regeln gebrochen werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebrochen* werden müssen, um sie zu schützen.
 
 ---
 
