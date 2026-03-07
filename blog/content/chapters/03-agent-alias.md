@@ -85,4 +85,4 @@ Code-Konzept:
     Erste Ahnung: Mehrere Referenzen auf dieselbe Ressource können gefährlich sein
 
 
-[← Vorheriges Kapitel : Willkommen in Rust City →](/blog/content/chapters/02-detective-owndership-and-officer-borrowing.md) | [Nächstes Kapitel : Agentin Alias →](/blog/content/chapters/04-max-mutation.md)  
+[← Vorheriges Kapitel : Detective Ownership und Officer Borrowing →](/blog/content/chapters/02-detective-owndership-and-officer-borrowing.md) | [Nächstes Kapitel : Max Mutation →](/blog/content/chapters/04-max-mutation.md)  
