@@ -16,7 +16,9 @@ Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Co
 
 Physiker nennen es Energieerhaltung. Juristen nennen es Eigentumsrecht. In Rust City nennen wir es **Ownership**.
 
-Jedes Bit hier ist ein Versprechen. Jeder Wert hat genau einen Besitzer. Niemand kann gleichzeitig lesen und schreiben. Das sind **Axiome** wie 1 + 1 = 2. Man kann nicht dagegen argumentieren.
+Jedes Bit hier ist ein Versprechen. Jeder Wert hat genau einen Besitzer. Niemand kann gleichzeitig lesen und schreiben. 
+
+Das sind **Axiome** wie 1 + 1 = 2. Man kann nicht dagegen argumentieren.
 
 Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der sichersten Programmierstadt aller Zeiten. Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior).
 
