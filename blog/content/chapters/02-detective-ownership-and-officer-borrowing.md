@@ -61,9 +61,9 @@ println!("{}", analyze);
 
 </details>
 
-Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung der Daten, dass die Regeln in Rust-City eingehalten werden, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**." und schaute zum Officer Borrowing .. „Wie sehen Sie das Officer ?"
+Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
 
-„Absolut richtig was Sie sagen". Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
+„Absolut richtig was Sie sagen". Officer Borrowing stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
 „Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
 Own war mittlerweile dran einen kleinen Bericht für den Bürgermeister aufzulisten und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Ausübung seiner Pflicht zur Überwachnung und Sicherung des Ortes. Nun fragte Own ihn ganz leise „Worauf warten Sie ?"
@@ -106,7 +106,7 @@ Auch Own richtete sich wieder gerade und sah sich um. Die Gasse war leer, der Mo
 
 „**Agentin Alias.**" antwortete Officer Borrowing und sicherte den Ort, wo ab jetzt niemand mehr an den Trash-Roboter heran durfte, ganz im Sinne von Own.
 
-„Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own unf fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
+„Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own und fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
 **Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebogen* werden müssen, um sie zu schützen.
 
