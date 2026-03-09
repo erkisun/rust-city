@@ -24,7 +24,7 @@ Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior). Jedes Bit 
 - [Bürgermeister `fn main()`](/blog/content/characters/buergermeister-main.md) 🎩
 - [Detective Ownership](/blog/content/characters/detective-ownership.md) 👮
 - [Officer Borrowing](/blog/content/characters/officer-borrowing.md) 🚔  
-- [Agent Alias](/blog/content/characters/agent-alias.md) ✍️
+- [Agentin Alias](/blog/content/characters/agent-alias.md) ✍️
 - [Max Mutation](/blog/content/characters/max-mutation.md) ✍️
 - [Madame Enum](/blog/content/characters/madame-enum.md) 🎭
 
