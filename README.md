@@ -1,6 +1,6 @@
 # 🏙️ Rust City
 
-![Rust City Banner](images/banner.png)
+![Rust City Banner](blog/content/images/rustcity.png)
 
 Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der sichersten Programmierstadt aller Zeiten.
 Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior). Jedes Bit ist ein Versprechen.
