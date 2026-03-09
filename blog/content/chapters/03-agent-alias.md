@@ -38,7 +38,7 @@ sondern weil sie fand, dass Unwissen die eigentliche Gefahr war.
 
 ```rust
 // ============================================
-// AGENT ALIAS ERKLÄRT : REFERENCES
+// AGENTIN ALIAS ERKLÄRT : REFERENCES
 // ============================================
 
 fn main() {
@@ -60,13 +60,14 @@ fn main() {
   // alias_ref und alias_ref_2 waren nur Besucher.
 ```
 
-„Ich bin niemals der Besitzer", erklärte Alias. 
-„Ich bin der Beobachter. Solange ich lese, darf 
-niemand schreiben. Wenn ich gehe, bleibt alles 
-intakt. Das ist meine Sicherheit."
+„Ich bin niemals der Besitzer", erklärte Alias. „Ich bin der Beobachter. Solange ich lese, darf niemand schreiben. Wenn ich gehe, bleibt alles intakt. Das ist meine Sicherheit."
 
-Officer Borrowing nickte widerwillig. „Shared references. 
-Genau nach Protokoll."
+Officer Borrowing nickte widerwillig. „Shared references. Genau nach Protokoll."
+
+
+
+## 123 123 123
+### 123 123 123
 
 Alias hat die Angewohnheit, Dinge umzubenennen. Er gibt langen, komplizierten Typen kurze Spitznamen (type UserId = String). Er taucht auf und verschwindet wieder, indem er Pfade abkürzt (use std::collections::HashMap). Seine Wohnung ist ein Labyrinth aus Spiegeln – überall Aliase, überall Verweise auf Dinge, die woanders stehen.
 
