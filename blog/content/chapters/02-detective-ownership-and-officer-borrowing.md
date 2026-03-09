@@ -42,7 +42,7 @@ let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
 // Detective Ownership übernimmt die mutable Variable 'protokoll'.
 
 let analyze = &protokoll;
-// Agentin Alias tarnt sich als lesende Referenz 'analyze' auf denselben Fall.
+// Jemand tarnt sich als lesende Referenz 'analyze' auf denselben Fall.
 
 protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
 // Detective Ownership will die Daten verändern. Er hat das Recht dazu.
@@ -51,10 +51,10 @@ protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
 protokoll.push_str("10:38 .. rote Mülltonne geleert.");
 
 println!("{}", analyze);
-// Officer Borrowing schreitet ein wegen Verstoßes gegen die Aliasing-Regel !
-// Zur gleichen Zeit existieren eine mutable Referenz (Ownership) UND eine immutable Referenz (Alias).
+// Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !
+// Keine immutable Borrows während mutable Borrows aktiv !
+// Zur gleichen Zeit existieren eine mutable Referenz (Ownership) UND eine immutable Referenz (Alias) !
 // In Rust City ist das strengstens verboten !
-// Regel : Keine immutable Borrows während mutable Borrows aktiv !
 // ==============================================
 
 ```
@@ -98,21 +98,15 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 </details>
 
-Own stand auf und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
+Own richtete sich wieder gerade und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
-„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**, weil er sie besser versteht als alle anderen."
+„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**, weil Sie diese besser versteht als alle anderen."
 
-Own drehte sich zu ihm. „Sie meinen jemanden Bestimmtes."
+„*Sie* ?" fragte Own.
 
-„Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .." Officer Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag das **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
+„**Agentin Alias.**" antwortete Officer Borrowing und zog seinen .rs-Pulse-Riffle. Er sicherte den Ort, und nun durfte niemand an den Roboter heran. Der Name fiel wie ein einzelner Token in einen leeren Puffer. 
 
-Own wartete.
-
-„Agentin Alias ..", fuhr er fort. „Ich sehe drei Wege - und *sie* hätte den elegantesten Weg gewählt. Den einen, den man erst versteht bei genauer Betrachtung."
-
-„**Agent Alias.**" Der Name fiel wie ein einzelner Token in einen leeren Puffer. „*Sie* ?" fragte Own.
-
-„Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own. Dann wandten sich beide von dem Roboter ab und liefen langsam in Richtung Heap District. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
+„Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own unf fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
 **Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebogen* werden müssen, um sie zu schützen.
 
