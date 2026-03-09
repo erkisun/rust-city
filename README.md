@@ -10,13 +10,13 @@ Dann bauten sie Rust City.
 
 Nicht um schön zu sein. Nicht um beliebt zu sein. Sondern weil die Welt vorher brannte.
 
-Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Computer selbst. Es steht in Stein gemeißelt über dem Eingang der Besitzbehörde:
+Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Computer selbst. Es steht in Stein gemeisselt über dem Eingang der Besitzbehörde:
 
-> **„Besitz kann nicht erschaffen oder vernichtet werden. Er kann nur wandern.“**
+**„Besitz kann nicht erschaffen oder vernichtet werden. Er kann nur wandern.“**
 
 Physiker nennen es Energieerhaltung. Juristen nennen es Eigentumsrecht. In Rust City nennen wir es **Ownership**.
 
-Jedes Bit hier ist ein Versprechen. Jeder Wert hat genau einen Besitzer. Niemand kann gleichzeitig lesen und schreiben. Das sind **Axiome**. Wie 1 + 1 = 2. Man kann nicht dagegen argumentieren.
+Jedes Bit hier ist ein Versprechen. Jeder Wert hat genau einen Besitzer. Niemand kann gleichzeitig lesen und schreiben. Das sind **Axiome** wie 1 + 1 = 2. Man kann nicht dagegen argumentieren.
 
 Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der sichersten Programmierstadt aller Zeiten. Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior).
 
