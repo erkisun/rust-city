@@ -61,12 +61,12 @@ println!("{}", analyze);
 
 </details>
 
-Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Regeln in Rust-City eingehalten werden, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**." und schaute zum Officer Borrowing .. „Wie sehen Sie das Officer"
+Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Regeln in Rust-City eingehalten werden, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**." und schaute zum Officer Borrowing .. „Wie sehen Sie das Officer ?"
 
 „Absolut richtig was Sie sagen". Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
 „Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
-Own war mittlerweile dran einen kleinen Bericht für den Bürgermeister aufzulisten und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Ausübung seiner Pflicht und Sicherung des Ortes. „Worauf warten Sie ?"
+Own war mittlerweile dran einen kleinen Bericht für den Bürgermeister aufzulisten und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Ausübung seiner Pflicht und Sicherung des Ortes. Nun fragte Own ihn ganz leise „Worauf warten Sie ?"
 
 Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
 
