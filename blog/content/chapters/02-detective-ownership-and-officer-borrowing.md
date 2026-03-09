@@ -61,12 +61,12 @@ println!("{}", analyze);
 
 </details>
 
-Own runzelte die Stirn. „Lesezugriff während eines Schreibvorgangs."
+Own runzelte die Stirn, aber stilsicher informierte er den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Regeln in Rust-City eingehalten werden, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**. 
 
 „Bingo." Officer Borrowing stand auf und streckte die Wirbelsäule durch, fast gelangweilt. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
 „Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
-Own wie immer blitzschnell : „Jemand hat aber eine Regel gebrochen .."
+Own hatte mittlerweile schon einen kleinen Bericht für den Bürgermeister zusammengestellt und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Sicherung des Ortes, welcher aber nochmal den Trash-Roboter am inspiziern war. Own fragte ungeduldig und scharf wie ein Oberbefehleshaber „Worauf warten Sie ?"
 
 Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
 

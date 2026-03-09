@@ -31,6 +31,6 @@ app/page.module copy.css
 app/page.module.css
 app/page.tsx
 # ...aber bestimmte Unterordner erlauben
-!/app/blog/*
+!/blog/*
 
 # 5. Wichtig: Nicht alles mit *.* ignorieren - das entfernen wir komplett!

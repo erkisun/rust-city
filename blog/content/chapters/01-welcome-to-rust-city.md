@@ -10,7 +10,7 @@ Rust City ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. 
 
 Die Cargo-Behörde, eine mächtige Institution in Rust City, ist das zentrale Dienst-Unternehmen der Stadt. Cargo übernimmt sämtliche Aufgaben wie Logistik, Verwaltung, Lieferungen und sogar das Bauen neuer Stadtteile wenn notwendig.
 
-Ein Güterzug von std nach collection zum HashMap -Bahnhof ? .. kein Problem, **Cargo ::** regelt das.
+Ein Güterzug von *std* nach *collection* zum *HashMap* -Bahnhof ? .. kein Problem, **Cargo ::** regelt das.
 
 Ohne Cargo würde die Stadt im Chaos versinken, Bezirke wären nicht erreichbar, Abhängigkeiten würden fehlen und niemand wüsste, wie man einen neuen Stadtteil baut.
 
@@ -78,5 +78,6 @@ ERROR: cannot assign to 'protokoll' because it is borrowed
 thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
+In Rust City, der Stadt der absoluten Verantwortung, gibt es kein *vielleicht* oder *manchmal*. Niemand kann sich von der Verantwortung drücken.
 
 [Nächstes Kapitel : Detective Ownership und Officer Borrowing →](/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
