@@ -3,7 +3,7 @@
 ![Rust City Banner](images/banner.png)
 
 Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der sichersten Programmierstadt aller Zeiten.
-In Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior). Jedes Bit ist ein Versprechen.
+Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior). Jedes Bit ist ein Versprechen.
 
 ## 📚 Kapitel
 
