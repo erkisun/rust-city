@@ -78,6 +78,6 @@ ERROR: cannot assign to 'protokoll' because it is borrowed
 thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
-In Rust City, der Stadt der absoluten Verantwortung, gibt es kein *vielleicht* oder *manchmal*. Niemand kann sich von der Verantwortung drücken.
+In Rust City, der Stadt der absoluten Verantwortung, gibt es kein *vielleicht* oder *manchmal*. Obwohl Own die Privatsphäre anderer immer respektiert, kann sich in Rust City niemand von der Verantwortung drücken. Die Besitzbhörde und die Borrow-Checker-Polizei sind sehr konsequent und verlieren nie die Übersicht.
 
 [Nächstes Kapitel : Detective Ownership und Officer Borrowing →](/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md)  
