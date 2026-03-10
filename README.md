@@ -22,7 +22,7 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 
 | Kapitel | Titel | Charakter | Konzept | Lesen |
 |---------|-------|-----------|---------|-------|
-| 1 | [Willkommen in Rust City](/blog/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Entrypoint | ✅ |
+| 1 | [Willkommen in Rust City](./blog/content/chapters/01-welcome-to-rust-city.md) | Bürgermeister `fn main()` | Entrypoint | ✅ |
 | 2 | [Detective Ownership und Officer Borrowing](/blog/content/chapters/02-detective-ownership-and-officer-borrowing.md) | Detective Ownership, Officer Borrowing | Ownership, Borrowing | ✅ |
 | 3 | [Agentin Alias - Meisterin der Tarnung](/blog/content/chapters/03-agent-alias.md) | Agentin Alias | References, Aliasing, Type Aliases | 🚧 |
 | 4 | [Anarchist Max Mutation](/blog/content/chapters/04-max-mutation.md) | Anarchist Max | Mutation, Mutability | 🚧 |
