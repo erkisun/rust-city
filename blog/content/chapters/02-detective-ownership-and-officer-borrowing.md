@@ -16,11 +16,11 @@ ID: &'static mut self
 DEPT: BORROW CHECKER
 ```
 
-„Detective Ownership, nehme ich an“, sagte der Officer, ohne die Hand auszustrecken. Seine Augen – die Farbe von kühlem Stack-Speicher – scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. „Ihr Ruf eilt Ihnen voraus. Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen.“
+„Detective ?“, sagte der Officer, ohne die Hand auszustrecken. Seine Augen – die Farbe von kühlem Stack-Speicher – scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. Officer Borrowing liess wieder den Finger vom Abzug. „Ihr Ruf eilt Ihnen voraus. Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen.“
 
 Own nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor es passiert.“
 
-Nach einigen Millisekunden liess Officer Borrowing wieder den Finger vom Abzug und kniete neben dem Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
+Beide lachten einige Millisekunden, danach kniete sich auch der Officer neben dem Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
 
 „Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers - aber eines, der schon Leichen gesehen hat.
 
@@ -61,9 +61,9 @@ println!("{}", analyze);
 
 </details>
 
-Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird, und das tue ich mit voller Überzeugung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
+Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
 
-„Absolut richtig was Sie sagen". Officer Borrowing stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
+„Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
 „Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
 
 Own war mittlerweile dran einen kleinen Bericht für den Bürgermeister aufzulisten und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Ausübung seiner Pflicht zur Überwachnung und Sicherung des Ortes. Nun fragte Own ihn ganz leise „Worauf warten Sie ?"
@@ -98,7 +98,7 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 </details>
 
-Auch Own richtete sich wieder gerade und sah sich um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
+Auch Own richtete sich wieder gerade und sah sich kurz um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
 „Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**, weil Sie diese besser versteht als alle anderen."
 

@@ -67,11 +67,13 @@ Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau,
 
 Im Herzen der Stadt, im Main-Crate, residiert der Alte, **fn main()**. Jeden Morgen tritt er auf den Balkon seines Rathauses und spricht die magischen Worte, die den Tag einläuten. Ohne ihn passiert nichts. Er ist zwar alt, aber schlau genug um zu wissen, dass er nicht überall sein kann. Für die wirklich harten Fälle hat er zwei Spezialisten, deren Namen man ehrfürchtig in den Gängen der Bezirke flüstert. So kennt man **Detective Ownership** von der Besitzbehörde und **Officer Borrowing** von der Borrow-Checker-Polizei auch in den dunkelsten Gassen von Rust City.
 
-## 🚨 Der Vorfall
+## 🚨 Detective Ownership und Officer Borrowing 
 
 Detective Ownership, alle nennen ihn Own, lebt seit einigen Jahren im **Stack District**, wo alles ordentlich und vorhersehbar ist, viel angenehmer als im **Heap District**. Seine Eltern waren Kernel-Entwickler, starben bei einem mysteriösen **`unsafe`-Block-Exploit**. Entwickelt hat sich Own nicht alleine, er konnte viel von anderen lernen (mit halber Lichtgeschwindigkeit). Er erkannte schnell, dass er besitzen muss um verantwortlich zu sein. Eine seiner Energie-Lehrerinnen sagte immer : „*Energie kann weder erschaffen noch vernichtet werden - nur übertragen.*" Später entschloss er sich sein Hobby und sein Talent mit seinem heutigen Beruf als Detective zu vereinen. Besser ausgedrückt, es war ein Übergang, welches sich nie richtig mit Worten beschreiben liess. Mit Worten eindeutig beschreiben lässt sich aber Own's besondere Gabe : Er kann **Memory-Leaks** und **Dangling References** riechen.
 
-Wie jeden Morgen nahm er seinen üblichen Spaziergang durch das alte Industriegebiet und streifte durch die Gassen, aber heute sah er etwas merkwürdiges. Auf dem Weg zum Memory-Market stand ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter machte keinen Wank, also tat Own einige Schritte in Richtung des Roboters .. und sah auf seinem Display :
+## 🚨 Der Vorfall
+
+Wie jeden Morgen nahm Own seinen üblichen Spaziergang durch das alte Industriegebiet und streifte durch die Gassen, aber heute sah er etwas merkwürdiges. Auf dem Weg zum Memory-Market stand ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter machte keinen Wank, also tat Own einige Schritte in Richtung des Roboters .. und sah auf seinem Display :
 
 ```rust
 ERROR: cannot assign to 'protokoll' because it is borrowed
