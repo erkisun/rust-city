@@ -14,7 +14,7 @@ Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Co
 
 **„.. Was du besitzt, das pflege .. Was du leihst, das schütze .. Was du nicht mehr brauchst, gib es der Welt zurück ..“**
 
-Physiker nennen es .. Biologen nennen es .. Ethiker nennen es .. das ist Rust City ..
+Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens - alles hat seine Zeit, alles seinen Platz. Ethiker nennen es Verantwortung - für das, was du nimmst, und das, was du weitergibst. Das ist Rust City.
 
 Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der sichersten Programmierstadt aller Zeiten. Rust City ist frei von Müll (Leaks) und Lügen (Undefined Behavior).
 
