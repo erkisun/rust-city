@@ -20,7 +20,7 @@ DEPT: BORROW CHECKER
 
 Own nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor es passiert.“
 
-Beide lachten einige Millisekunden, danach kniete sich auch der Officer neben dem Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
+Beide lachten einige Millisekunden, danach kniete auch der Officer neben dem Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
 
 „Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers - aber eines, der schon Leichen gesehen hat.
 
@@ -63,14 +63,7 @@ println!("{}", analyze);
 
 Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
 
-„Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon .. langweilig." 
-„Regel Nummer Eins in Rust-City : Entweder lesen alle - oder einer schreibt. Nicht beides. **Niemals beides.**" Er tippte auf sein Namensschild. „Das steht nicht zufällig auf meiner Uniform."
-
-Own war mittlerweile dran einen kleinen Bericht für den Bürgermeister aufzulisten und erwartete den nächsten logischen Schritt vom Officer Borrowing, der Ausübung seiner Pflicht zur Überwachnung und Sicherung des Ortes. Nun fragte Own ihn ganz leise „Worauf warten Sie ?"
-
-Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf.
-
-„Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block hoch. „Sehen Sie hier :"
+Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf. „Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig .. hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block zu Own. „Sehen Sie hier :"
 
 <details>
 <summary>📜 <strong>Die 3 Wege : Notizblock Logik (Klicken zum Anzeigen)</strong></summary>
@@ -104,7 +97,7 @@ Auch Own richtete sich wieder gerade und sah sich kurz um. Die Gasse war leer, d
 
 „*Sie* ?" fragte Own.
 
-„**Agentin Alias.**" antwortete Officer Borrowing und sicherte den Ort, wo ab jetzt niemand mehr an den Trash-Roboter heran durfte, ganz im Sinne von Own.
+„**Agentin Alias.**" antwortete Officer Borrowing und sicherte den Ort mit einem pusierendem, gelben Borrow-Checker-Polizei-Streifen, wo ab jetzt niemand mehr an den Trash-Roboter heran durfte, ganz im Sinne von Own.
 
 „Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own und fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
