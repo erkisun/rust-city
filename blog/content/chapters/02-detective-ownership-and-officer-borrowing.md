@@ -1,6 +1,6 @@
 # Detective Ownership & Officer Borrowing
 
-## 🕵️‍♂️👮 Die Begegnung
+## 🕵️‍♂️👮 In den Gassen von Rust City
 
 Own bückte sich, die Gaze seiner eigenen Reflexion im stillgelegten Display des Trash-Collector-Bots. Er zog ein **Debug-Kabel** aus der Innentasche seines ledernen Overcoats – ein Erbstück seiner Eltern, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags. Seine Finger tasteten nach dem Diagnose-Port unter dem Roboter-Arm, als ein Schatten über ihn fiel.
 
@@ -63,7 +63,7 @@ println!("{}", analyze);
 
 Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
 
-Officer Borrowing antwortete nicht sofort. Er zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf. „Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig .. hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block zu Own. „Sehen Sie hier :"
+Officer Borrowing zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf. „Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig .. hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block zu Own. „Sehen Sie hier :"
 
 <details>
 <summary>📜 <strong>Die 3 Wege : Notizblock Logik (Klicken zum Anzeigen)</strong></summary>
@@ -93,11 +93,9 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 Auch Own richtete sich wieder gerade und sah sich kurz um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
 
-„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**, weil Sie diese besser versteht als alle anderen."
+„Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**.
 
-„*Sie* ?" fragte Own.
-
-„**Agentin Alias.**" antwortete Officer Borrowing und sicherte den Ort mit einem pusierendem, gelben Borrow-Checker-Polizei-Streifen, wo ab jetzt niemand mehr an den Trash-Roboter heran durfte, ganz im Sinne von Own.
+„**Agentin Alias.**" antwortete Own.
 
 „Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own und fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
 
