@@ -25,3 +25,5 @@ Sie ist die Ärmste der Stadt. Und die Mächtigste.
 Aber das weiß niemand.
 
 Alias wartet.
+
+Das ist Rust City.
