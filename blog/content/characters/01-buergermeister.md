@@ -8,6 +8,6 @@ Im Herzen der Stadt, im Main-Crate, residiert der Alte, **fn main()**. Jeden Mor
 
 Niemand kennt seinen richtigen Namen. Die einen nennen ihn den Uhrmacher, weil er die Zeit im Blick behält. Die anderen flüstern **Tick-Tick-Mann**, aber nur hinter seinem Rücken. Er ist ein Freund des Bürgermeisters. Der Einzige, der ihn duzt. Die beiden sitzen oft abends zusammen auf dem Balkon, trinken Tee und schweigen. Sie verstehen sich ohne Worte. Der Uhrmacher hat kein Büro. Keine Uniform. Aber wenn Referenzen zu altern beginnen, wenn Daten sterben wollen aber nicht dürfen - dann taucht er auf. Lautlos. Pünktlich. Er sagt Sätze wie : **Alles hat seine Zeit** oder **Jetzt ist es genug.** Dann ist er wieder weg.
 
-Der eine beginnt. Der andere beendet.
+> Der eine beginnt. Der andere beendet.
 
 Das ist Rust City.

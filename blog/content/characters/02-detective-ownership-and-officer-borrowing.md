@@ -6,6 +6,6 @@ Detective Ownership, alle nennen ihn Own, lebt seit einigen Jahren im **Stack Di
 
 Officer Borrowing kommt aus einer reichen Familie. Während Detective Ownership als Kind mühsam sein einziges Spielzeugauto hüten musste, hatte Borrowing alles im Überfluss - aber gerade das führte zu Streit. Wenn er sein Fahrrad oder die Schaufel im Sandkasten verlieh, gab es immer Ärger: 'Du hast sie fallen lassen!', 'Du hast sie mir nicht zurückgegeben!'. Diese ewigen Konflikte haben ihn geprägt. Sein kindlicher Entschluss war simpel und radikal: 'Ich will keinen Streit mehr wegen geliehenen Dingen!' Heute ist er ein knallharter Officer, der in Rust City genau dafür sorgt, dass Ausleihen reibungslos und konfliktfrei abläuft.
 
-Own besitzt, weil er verloren hat. Borrowing leiht, weil er zuviel hatte. Beide fanden ihre Berufung im Schmerz.
+> Own besitzt, weil er verloren hat. Borrowing leiht, weil er zuviel hatte. Beide fanden ihre Berufung im Schmerz.
 
 Das ist Rust City.
