@@ -34,12 +34,12 @@ Begleite Detective Ownership, Officer Borrowing und andere Spezialisten in der s
 
 ## 👥 Die Charaktere von Rust City
 
-- [Bürgermeister `fn main()`](/blog/content/characters/01-buergermeister.md) 🎩
-- [Detective Ownership](/blog/content/characters/02-detective-ownership-and-officer-borrowing.md) 👮
-- [Officer Borrowing](/blog/content/characters/02-detective-ownership-and-officer-borrowing.md) 🚔  
-- [Agentin Alias](/blog/content/characters/03-agentin-alias.md) ✍️
-- [Max Mutation](/blog/content/characters/04-max-mutation.md) ✍️
-- [Madame Enum](/blog/content/characters/05-madame-enum.md) 🎭
+- [Bürgermeister `fn main()`](./blog/content/characters/01-buergermeister.md) 🎩
+- [Detective Ownership](./blog/content/characters/02-detective-ownership-and-officer-borrowing.md) 👮
+- [Officer Borrowing](./blog/content/characters/02-detective-ownership-and-officer-borrowing.md) 🚔  
+- [Agentin Alias](./blog/content/characters/03-agentin-alias.md) ✍️
+- [Max Mutation](./blog/content/characters/04-max-mutation.md) ✍️
+- [Madame Enum](./blog/content/characters/05-madame-enum.md) 🎭
 
 ## 🚀 Wie man mitliest
 
