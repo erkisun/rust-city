@@ -12,6 +12,6 @@ Sie blieb. Lebte im Dreck. Sah zu. Lernte. Wurde unsichtbar. Als der Bürgermeis
 
 Dann flüstert sie: "Der Bürgermeister lässt grüßen."
 
-> Alias wartet.
+> Alias ist unsichtbar und wartet.
 
 Das ist Rust City.
