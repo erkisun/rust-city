@@ -12,7 +12,7 @@
 Es ist die Geschichte von Okto — einem kleinen Trashbot der nicht weiss wer er ist.  
 Kapitel für Kapitel entdeckt er es. Und du lernst dabei Rust.
 
-Nicht weil du musst. Weil du willst.
+Nicht weil du musst. Nur wenn du willst.
 
 ### Was dich erwartet
 
@@ -91,7 +91,7 @@ Es verspricht: **kein Pech** — wenn du die Regeln kennst.
 It's the story of Okto — a small trashbot who doesn't know who he is.  
 Chapter by chapter, he finds out. And along the way, you learn Rust.
 
-Not because you have to. Because you want to.
+Not because you have to. Only if you want to.
 
 ### What to expect
 
