@@ -1,8 +1,7 @@
 # 🏙️ Rust City
 
-> *A city built on rules. Protected by structure. Home to those who were never found — until now.*
->
-> *Eine Stadt gebaut auf Regeln. Geschützt durch Struktur. Heimat für alle die nie gefunden wurden — bis jetzt.*
+
+![Rust City Banner](blog/content/images/rustcity.png)
 
 ---
 
