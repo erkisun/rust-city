@@ -54,10 +54,10 @@ Okto hat acht mögliche Arme. Er weiss es nicht — noch nicht. Aber Madame Enum
 
 ### Sein stärkster Moment
 
-Kapitel 10. Alias schaut seine sieben aktiven Arme an und sagt:  
-*„Du warst die ganze Zeit mehr als ein Trashbot."*
+Kapitel 4. Detective Ownership nickte wortlos zu Okto, respektvoll:  
+*„Gut gemacht .."*
 
-Okto antwortet ruhig, ohne Zögern:
+Okto nickte zurück, ohne zu antworten, respektvoll, und dachte:
 
 > **„Das weiss ich."**
 
@@ -129,10 +129,10 @@ Okto has eight possible arms. He doesn't know it — not yet. But Madame Enum do
 
 ### His strongest moment
 
-Chapter 10. Alias looks at his seven active arms and says:  
-*"You were always more than a trashbot."*
+Chapter 4. Detective Ownership nodded silently to Okto, respectfully:  
+*"Well done .."*
 
-Okto answers calmly, without hesitation:
+Okto nodded back, without answering, respectfully, and thought:
 
 > **"I know."**
 
