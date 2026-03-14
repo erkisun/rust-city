@@ -21,14 +21,15 @@ Drei Bücher. Elf Kapitel. Eine Frage:
 > **Findet Okto seinen Platz — und versteht er, was am Eingangstor steht?**
 
 Am Eingangstor von Rust City stehen drei Sätze.  
-Okto liest sie. Aber er versteht sie noch nicht.  
-Noch nicht.
 
 ```
 Was du besitzt, das pflege.
 Was du leihst, das schütze.
 Was du nicht mehr brauchst, gib es der Welt zurück.
 ```
+
+Okto liest sie. Aber er versteht sie noch nicht.  
+Noch nicht.
 
 ### 📗 Buch 1 — Wer bin ich? *(Kapitel 1–5)*
 
@@ -99,14 +100,15 @@ Three books. Eleven chapters. One question:
 > **Will Okto find his place — and will he understand what's written above the city gate?**
 
 Above the gate of Rust City, three sentences are carved in stone.  
-Okto reads them. But he doesn't understand them yet.  
-Not yet.
 
 ```
 What you own, tend to it.
 What you borrow, protect it.
 What you no longer need, give it back to the world.
 ```
+
+Okto reads them. But he doesn't understand them yet.  
+Not yet.
 
 ### 📗 Book 1 — Who am I? *(Chapters 1–5)*
 
