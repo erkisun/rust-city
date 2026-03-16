@@ -71,9 +71,12 @@ println!("{}", r3); // ✅
 
 ### Sein wichtigster Moment mit Okto
 
-Chapter 6. Okto navigates alone through a labyrinth of decisions.
-At the exit, Borrowing is waiting. He briefly scans Okto — precise and stern, but friendly and fair.
-Those who know Borrowing understand why he works this way, and why he always keeps a serious face.
+Kapitel 6. Okto navigiert alleine durch ein Labyrinth aus Entscheidungen.
+Am Ausgang wartet Borrowing. Er scant kurz Okto, präzise und streng, aber freundlich und fair.
+
+Kein Nicken.
+
+Wer Borrowing kennt, weiss wieso er so arbeitet, und warum er immer ein ernstes Gesicht macht.
 
 ---
 
