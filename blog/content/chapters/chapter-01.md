@@ -1,18 +1,14 @@
-# 🏙️ Kapitel 1 — Willkommen in Rust City
-# 🏙️ Chapter 1 — Welcome to Rust City
 
----
-
-> 🇩🇪 [Deutsch](#de) · 🇬🇧 [English](#en)
+ 🇩🇪 [Deutsch](#de) · 🇬🇧 [English](#en)
 
 ---
 
 <a name="de"></a>
-## 🇩🇪 Deutsch
+### 🇩🇪 Deutsch
 
 ---
 
-### Rust City
+## 🏙️ Kapitel 1 - Rust City
 
 Tief im All, um einen längst vergessenen Gasriesen, kreist der kleine Mond Rust-K04. Nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - **Rust City**.
 
