@@ -117,45 +117,6 @@ Aber er schaut. Kurz. Dann schiebt er weiter.
 
 ---
 
-### Die C-Ära und Pointer Pete
-
-In Gasse 12 — da wo der Heap District in die älteren Bezirke übergeht — steht noch ein Mahnmal.
-
-Eine verwitterte Informationstafel, angebracht von der Stadt vor langer Zeit. Okto hat sie hundertmal passiert. Heute bleibt er davor stehen.
-
-```
-⚠️  HISTORISCHES MAHNMAL — AKTE NR. 001
-    Standort: Gasse 12 / Ecke Alt-C-Bezirk
-
-    POINTER PETE
-    Zeiger-Mechaniker der ersten Generation.
-    Aktiv während der C-Ära.
-
-    Fähigkeiten: Beispiellos.
-    Problem: Niemand wusste je wirklich wem ein Speicherblock gehörte.
-    
-    Pete zeigte auf Speicher der ihm nicht gehörte.
-    Speicher der schon freigegeben war.
-    Speicher der niemandem gehörte.
-    
-    Die Stadt hat sich erholt.
-    Pete nicht.
-
-    LEKTION:
-    Macht ohne Regeln schützt niemanden.
-    Auch nicht den der die Macht hat.
-```
-
-Okto liest die Tafel. Zum ersten Mal wirklich.
-
-Er versteht nicht alles. Aber er versteht den letzten Satz.
-
-*Macht ohne Regeln schützt niemanden.*
-
-Er schiebt weiter. Aber das Summen in ihm ist einen Ton tiefer geworden.
-
----
-
 ### Ein ausgefallener Trashbot
 
 In Gasse 19 findet er ihn.
