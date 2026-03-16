@@ -22,9 +22,9 @@ Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Co
 
 **„.. Was du besitzt, das pflege .. Was du leihst, das schütze .. Was du nicht mehr brauchst, gib es der Welt zurück ..“**
 
-Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens - alles hat seine Zeit, alles seinen Platz. Ethiker nennen es Verantwortung - für das, was du nimmst, und das, was du weitergibst. 
+Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens. Ethiker nennen es Verantwortung. 
 
-Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** – wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
+Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
 
 Das ist Rust City.
 
