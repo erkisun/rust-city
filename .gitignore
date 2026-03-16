@@ -3,6 +3,7 @@
 /.next/
 /out/
 /build/
+/blog2/
 /public/
 /.vercel/
 /coverage/
