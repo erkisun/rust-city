@@ -1,5 +1,3 @@
-wie findest du diesen chapter ? 
-
 # 🏙️ Kapitel 1 — Willkommen in Rust City
 # 🏙️ Chapter 1 — Welcome to Rust City
 
