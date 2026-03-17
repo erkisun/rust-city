@@ -68,7 +68,7 @@ fn main() {
 
 Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
-## 🏙️ Trashbot
+## 🏙️ Die Gegenwart
 
 Wie jeden Morgen nahm Okto seinen üblichen Spaziergang im alten Industriegebiet und streifte durch die Gasse 19.
 
