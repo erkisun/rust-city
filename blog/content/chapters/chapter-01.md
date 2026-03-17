@@ -8,7 +8,7 @@
 
 ---
 
-## 🏙️ Kapitel 1 - Rust City
+## 📗 Kapitel 1 - Rust City
 
 Tief im All, um einen längst vergessenen Gasriesen, kreist der kleine Mond Rust-K04. Nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - **Rust City**.
 
@@ -70,7 +70,7 @@ Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau,
 
 </details>
 
-### Der Morgen
+### 🏙️ Der Morgen
 
 Bevor das erste Licht die Türme des Heap District streift, bevor die Gassen sich mit Schritten füllen, bevor irgendjemand irgendetwas von irgendjemand anderem verlangt — kommt der Nebel. Er kriecht durch die Ritzen der Stapel-Bezirke, hängt schwer über den Kanälen des Stack District, legt sich wie eine Decke über alles was die Nacht übrig gelassen hat.
 
@@ -102,16 +102,19 @@ Er schiebt weiter.
 
 ### Ein ausgefallener Trashbot
 
-In Gasse 19 findet er ihn.
+In Gasse 19 findet Okto ihn.
 
 Modell TC-0003. Älter als Okto. Reglos auf dem Boden, rotes Display, ein rhythmisches Blinken das keinen guten Code bedeutet.
 
+Wie jeden Morgen nahm Okto seinen üblichen Spaziergang durch das alte Industriegebiet und streifte durch die Gassen, aber heute sah es etwas merkwürdig aus. Auf dem Weg zum Memory-Market stand ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise die Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter machte keinen Wank, also tat Okto einige Schritte in Richtung des Roboters .. und sah auf seinem Display :
+
+```rust
+ERROR: cannot assign to 'protokoll' because it is borrowed
+thread 'main' **panicked** at 'dangling pointer detected`
 ```
-[FEHLER] — SPEICHER-KONFLIKT
-Ursache: Zwei Prozesse beanspruchen denselben Wert.
-Status:  EINGEFROREN
-Lösung:  UNBEKANNT
-```
+
+
+
 
 Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job — er ist ein Trashbot, kein Mechaniker. Aber er schaut trotzdem.
 

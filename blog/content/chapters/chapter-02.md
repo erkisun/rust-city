@@ -2,13 +2,13 @@
 
 ## 🕵️‍♂️👮 In den Gassen von Rust City
 
-Own bückte sich, die Gaze seiner eigenen Reflexion im stillgelegten Display des Trash-Collector-Bots. Er zog ein **Debug-Kabel** aus der Innentasche seines ledernen Overcoats – ein Erbstück seiner Eltern, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags. Seine Finger tasteten nach dem Diagnose-Port unter dem Roboter-Arm, als ein Schatten über ihn fiel.
+Detective Ownership bückte sich, die Gaze seiner eigenen Reflexion im stillgelegten Display des Trash-Collector-Bots. Er zog ein **Debug-Kabel** aus der Innentasche seines ledernen Overcoats - ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags. Seine Finger tasteten nach dem Diagnose-Port unter dem Roboter-Arm, als ein Schatten über ihn fiel.
 
 „Ich würde die Finger vom Beweismaterial lassen, wenn ich du wäre.“
 
 Die Stimme war tief, ruhig, mit dem unverkennbaren Unterton jemandes, der mehr Lifetime-Annotationen gelesen hat, als er Stunden Schlaf hatte. Own drehte sich langsam um.
 
-Der Mann, der vor ihm stand, war mindestens einen Kopf größer. Seine Uniform war kein gewöhnliches Polizei-Gewand – sie bestand aus überlagerten Schichten Compiler-Warnungen in sanftem Gelb und Lifetime-Visualisierungen in pulsierendem Blau. Sein Finger am Abzug seiner .rs-Pulse-Riffle. Sein Namensschild, direkt über dem Herzen, leuchtete in strengen Monospace-Buchstaben:
+Der Mann, der neben ihm stand, war mindestens einen Kopf größer. Seine Uniform war kein gewöhnliches Polizei-Gewand – sie bestand aus überlagerten Schichten Compiler-Warnungen in sanftem Gelb und Lifetime-Visualisierungen in pulsierendem Blau. Sein Finger am Abzug seiner .rs-Pulse-Riffle. Sein Namensschild, direkt über dem Herzen, leuchtete in strengen Monospace-Buchstaben:
 
 ```rust
 **OFFICER BORROWING**
@@ -16,13 +16,7 @@ ID: &'static mut self
 DEPT: BORROW CHECKER
 ```
 
-„Detective ?“, sagte der Officer, ohne die Hand auszustrecken. Seine Augen – die Farbe von kühlem Stack-Speicher – scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. Officer Borrowing liess wieder den Finger vom Abzug. „Ihr Ruf eilt Ihnen voraus. Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen.“
-
-Own nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor es passiert.“
-
-Beide lachten einige Millisekunden, danach kniete auch der Officer neben dem Roboter. Kein Zögern, keine Eile – die Bewegung eines Mannes, der schon tausend solcher Szenen gesehen hat. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
-
-„Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers - aber eines, der schon Leichen gesehen hat.
+„Sehen Sie das, Detective ?" Er hielt das Gerät so, dass beide das Display sehen konnten. Seine Stimme hatte den Ton eines Lehrers - aber eines, der schon Schlimmes gesehen hat.
 
 <details>
 <summary>📜 <strong>Trashbot Display : Beweismittel (Klicken zum Anzeigen)</strong></summary>
@@ -61,7 +55,7 @@ println!("{}", analyze);
 
 </details>
 
-Own informierte gleich sofort den Trash-Roboter über den Sachverhalt : „Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren. Ich trage die Verantwortung, dass die Ordnung in Rust-City eingehalten wird. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**".
+„Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren." fuhr Detective Ownership fort „Ich trage die Verantwortung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
 Officer Borrowing zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf. „Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig .. hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block zu Own. „Sehen Sie hier :"
 
@@ -91,20 +85,16 @@ protokoll.push_str(...);           // Dann mutieren ✅
 
 </details>
 
-Auch Own richtete sich wieder gerade und sah sich kurz um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. „Also ein Fehler. Amateur-Arbeit."
+Auch Okto richtete sich wieder gerade und sah sich kurz um. Die Gasse war leer, der Morgennebel noch nicht ganz verflogen. Er dachte für sich leise : „Es muss ein Fehler sein, da stimmt etwas nicht."
 
 „Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**.
 
-„**Agentin Alias.**" antwortete Own.
+„**Regeln biegen** .." fragte sich nun Okto „.. was wohl damit gemeint ist ?"
 
-„Sie hätte den elegantesten Weg gewählt. Falls wir Glück haben, taucht sie nie auf." sagte Officer Borrowing zu Own und fuhr fort. „Aber ich glaube nicht an Glück. Ich glaube an **Lifetimes**. Und ihre ist noch lange nicht vorbei."
-
-**Fortsetzung folgt in Kapitel 3**, wo Own und Officer Borrowing das erste Mal auf Agentin Alias stossen - und lernen, dass in Rust City manchmal sogar die Regeln *gebogen* werden müssen, um sie zu schützen.
+**Fortsetzung folgt in Kapitel 3**, wo Okto das erste Mal auf Agentin Alias stösst.
 
 ---
 
 *Rust City – Wo jeder Wert einen Besitzer hat, und jedes Ausleihen seinen Preis.*
 
 ---
-
-[← Vorheriges Kapitel : Willkommen in Rust City →](/blog/content/chapters/01-welcome-to-rust-city.md) | [Nächstes Kapitel : Agentin Alias →](/blog/content/chapters/03-agent-alias.md)  
