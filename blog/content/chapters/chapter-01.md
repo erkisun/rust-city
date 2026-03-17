@@ -80,7 +80,7 @@ Er schiebt weiter.
 
 Auf dem Weg zum Memory-Market steht ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise auch Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter macht keinen Wank. Okto ist nun neugierig und geht einige Schritte in Richtung des Roboters.
 
-Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Trashbot, kein Mechaniker. Aber er ist neugierig und schaut trotzdem auf das Display :
+Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Trashbot, kein Mechaniker, aber er schaut trotzdem auf das Display :
 
 ```rust
 ERROR: cannot assign to 'protokoll' because it is borrowed
