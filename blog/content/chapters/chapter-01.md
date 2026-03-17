@@ -87,7 +87,7 @@ ERROR: cannot assign to 'protokoll' because it is borrowed
 thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
-*Wem gehört etwas — und wer darf es gerade benutzen?*
+*Scheint etwas nicht mehr vorhanden zu sein, weil bereits ausgeliehen ?*
 
 Die Frage lässt ihn nicht los, es kribbelt in ihm.
 
