@@ -72,36 +72,6 @@ Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau,
 
 ## 🏙️ Eines Morgens
 
-Bevor das erste Licht die Türme des Heap District streift, bevor die Gassen sich mit Schritten füllen, bevor irgendjemand irgendetwas von irgendjemand anderem verlangt — kommt der Nebel. Er kriecht durch die Ritzen der Stapel-Bezirke, hängt schwer über den Kanälen des Stack District, legt sich wie eine Decke über alles was die Nacht übrig gelassen hat.
-
-Okto kennt den Nebel gut.
-
-Er schiebt seinen Behälter durch Gasse 7-C, wie jeden Morgen. Links: ein umgekippter Crate-Container, Inhalt verstreut, niemand hat ihn gemeldet. Rechts: die Ruine eines alten C-Speichers, seit Jahren verlassen, Warnschilder verblasst. Geradeaus: Rust City.
-
-Okto sammelt. Das ist was er tut.
-
-Sein linker Arm — der einzige den er hat — greift, hebt, sortiert. Fragment nach Fragment. Er denkt nicht viel dabei. Oder vielleicht denkt er doch — er weiss nur nicht genau wie man das nennt, was in ihm vorgeht wenn er arbeitet. Ein Summen. Ein leises Verarbeiten. Als würden kleine Stimmen in ihm rechnen ohne dass er sie darum gebeten hätte.
-
-Er schiebt weiter.
-
-An der Ecke zur Hauptgasse hält er kurz an. Nicht weil er müde ist — Trashbots werden nicht müde, soweit er weiss. Er hält an weil er es immer tut. Weil an dieser Ecke das Eingangstor sichtbar wird.
-
-Das grosse Eingangstor von Rust City.
-
-Drei Sätze. Eingraviert in Stein. Er kennt sie auswendig, auch wenn er nie wirklich hingeschaut hat.
-
-*Was du besitzt, das pflege.*  
-*Was du leihst, das schütze.*  
-*Was du nicht mehr brauchst, gib es der Welt zurück.*
-
-Er schaut heute auch nicht wirklich hin.
-
-Er schiebt weiter.
-
----
-
-### Ein ausgefallener Trashbot
-
 Wie jeden Morgen nahm Okto seinen üblichen Spaziergang im alten Industriegebiet und streifte durch die Gasse 19.
 
 Okto sammelt. Das ist was er tut.
