@@ -20,9 +20,7 @@ Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Co
 
 Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens. Ethiker nennen es Verantwortung. 
 
-Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**.
-
-Das ist Rust City.
+Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**. Das ist Rust City.
 
 ## 🕵️  Die Vorgeschichte: Der Mord an Pointer Pete
 
@@ -66,9 +64,9 @@ fn main() {
 }
 ```
 
-Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
-
 </details>
+
+Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
 ## 🏙️ Eines Morgens
 
