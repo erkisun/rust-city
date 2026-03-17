@@ -22,7 +22,7 @@ Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts
 
 Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**. Das ist Rust City.
 
-## 🕵️  Die Vorgeschichte: Der Mord an Pointer Pete
+## 🕵️  Die Vorgeschichte
 
 Bevor Rust City gegründet wurde, gab es eine dunklere Zeit. Man nannte sie die **"C-Ära"** – eine Zeit, in der Speicherzugriffe chaotisch und gefährlich waren. 
 Der berühmteste ungelöste Fall war der **Mord an Pointer Pete** in der alten Speicher-Bibliothek auf dem Mond Rust-K73.
@@ -68,7 +68,7 @@ fn main() {
 
 Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
-## 🏙️ Eines Morgens
+## 🏙️ Trashbot
 
 Wie jeden Morgen nahm Okto seinen üblichen Spaziergang im alten Industriegebiet und streifte durch die Gasse 19.
 

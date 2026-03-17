@@ -25,6 +25,7 @@ DEPT: BORROW CHECKER
 // ==============================================
 // RUST CITY POLICE DEPT : BEWEISMITTEL #42-B
 // SICHERSTELLUNG : AUSGEFALLENER TRASHBOT #4711218-DCAQ3
+// ORT : INDUSTRIEGEBIET / GASSE 19
 // ==============================================
 //
 // Modell : Trash-Collector v.3.4.2 "Müllo K04"
@@ -55,7 +56,7 @@ println!("{}", analyze);
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren." fuhr Detective Ownership fort „Ich trage die Verantwortung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
+„Der Bürgermeister schätzt Ehrlichkeit am meisten, alle müssen das akzeptieren." begann Detective Ownership und fuhr fort : „Ich trage die Verantwortung. Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
 Officer Borrowing zog einen kleinen Notizblock heraus - echter Papier, keine Datei, kein Chip - und tippte nachdenklich darauf. „Absolut richtig was Sie sagen" ergänzte Officer Borrowing, stand auf und streckte die Wirbelsäule durch. „Die Referenz zeigt ins Leere." fuhr er fort und schnippte diesmal mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig .. hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt." Er hielt den Block zu Own. „Sehen Sie hier :"
 
