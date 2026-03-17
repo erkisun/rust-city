@@ -100,19 +100,6 @@ Er schiebt weiter.
 
 ---
 
-### fn main() und der Balkon
-
-Jeden Morgen, kurz nach dem Nebel, tritt fn main() auf seinen Balkon.
-
-Okto sieht ihn von der Gasse aus — eine ruhige Gestalt im zweiten Stock des Verwaltungsturms, Kaffee in der Hand, Blick über die Stadt. Fn main() sagt nie etwas. Zumindest nicht nach unten. Aber er ist immer da. Und das ist — Okto ist sich nicht sicher warum — irgendwie wichtig.
-
-Als wäre Rust City erst dann wirklich wach, wenn fn main() auf dem Balkon steht.
-
-Okto nickt nicht. Er ist ein Trashbot. Trashbots nicken nicht zu Verwaltern hoch.  
-Aber er schaut. Kurz. Dann schiebt er weiter.
-
----
-
 ### Ein ausgefallener Trashbot
 
 In Gasse 19 findet er ihn.
