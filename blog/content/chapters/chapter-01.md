@@ -78,16 +78,16 @@ Sein linker Arm - der einzige den er hat - greift, hebt, sortiert. Fragment nach
 
 Er schiebt weiter.
 
-Auf dem Weg zum Memory-Market steht ein erstarrter Roboter. Auffällig, weil so ein **Trash-Collector-Bot**, der normalerweise auch Fragmente aus dem Heap District einsammelt, nie still steht. Der Roboter macht keinen Wank. Okto ist nun neugierig und geht einige Schritte in Richtung des Roboters.
+Auf dem Weg zum Memory-Market steht ein erstarrter **Trash-Collector-Bot**, auch ein Roboter wie er. Auffällig, weil so einer normalerweise nie still steht. Der Roboter macht keinen Wank. „Was ist da los ?“ fragt sich Okto und geht zu ihm hinüber.
 
-Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Trashbot, kein Mechaniker, aber er schaut trotzdem auf das Display :
+Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Roboter, kein Mechaniker, aber er schaut trotzdem auf das Display :
 
 ```rust
 ERROR: cannot assign to 'protokoll' because it is borrowed
 thread 'main' **panicked** at 'dangling pointer detected`
 ```
 
-*Scheint etwas nicht mehr vorhanden zu sein, weil bereits ausgeliehen ?*
+*Scheint etwas nicht mehr vorhanden zu sein, weil bereits ausgeliehen .. Panik .. ?*
 
 Die Frage lässt ihn nicht los, es kribbelt in ihm.
 
