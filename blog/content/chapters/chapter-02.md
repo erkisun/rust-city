@@ -63,7 +63,7 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // ORT : INDUSTRIEGEBIET / GASSE 19
 // ==============================================
 //
-// Modell : Trash-Collector v.3.4.2 "Müllo K04"
+// Modell : Trash-Collector v.3.4.2 "TC-0003"
 // Baujahr : 2034
 // Status : steht still
 // Letzte Worte : .. error .. panic ..
