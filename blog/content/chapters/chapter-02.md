@@ -150,15 +150,15 @@ Own drehte sich zu ihm. „Sie meinen jemanden Bestimmten."
 
 Own wartete.
 
-„**Agentin Alias** .." fuhr er fort leise. „Ich sehe drei Wege — und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
+Auch Okto wartete, ruhig und geduldig.
+
+„**Agentin Alias** .." fuhr Officer Borrowing fort leise. „Ich sehe drei Wege - und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
 
 Der Name fiel wie ein einzelner Token in einen leeren Puffer.
 
-Own und Officer Borrowing wandten sich vom Roboter ab und liefen langsam in Richtung Heap District.
+Detective Ownership und Officer Borrowing wandten sich vom Roboter ab und liefen langsam in Richtung Heap District. Okto durfte diesmal mitkommen.
 
-Okto blieb zurück.
-
-Er schaute noch einmal auf den TC-0003. Auf das flackernde Display. Auf die Fehlermeldung, die er jetzt — zum ersten Mal — ein kleines bisschen verstand.
+Er schaute noch einmal auf den TC-0003. Auf das flackernde Display. Auf die Fehlermeldung, die er jetzt - zum ersten Mal - ein kleines bisschen verstand.
 
 Dann hob er seinen Behälter auf und schob weiter.
 
