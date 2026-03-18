@@ -99,7 +99,7 @@ Andere Schritte als seine.
 
 ### 📌 Lebensregel #1
 
-> **Rust schützt dich.**
+> **Rust schützt dich. Es wird aufgepasst.**
 
 ---
 
