@@ -116,7 +116,7 @@ Officer Borrowing nickte langsam. „Shared references. Protokollkonform."
 
 ---
 
-### Oktos zweiter Moment
+### Okto's zweiter Moment
 
 Okto stand am Rand der Halle und schaute.
 
