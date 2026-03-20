@@ -31,7 +31,7 @@ Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Refl
 
 Die Stimme kam von hinter ihm. Tief, ruhig, mit dem unverkennbaren Unterton jemandes, der mehr Lifetime-Annotationen gelesen hat als er Stunden Schlaf hatte.
 
-Detective Ownership drehte sich nicht sofort um. Erst ein langer Moment — dann langsam.
+Detective Ownership drehte sich um und sag die Polizei-Uniform.
 
 ```rust
 OFFICER BORROWING
@@ -41,9 +41,9 @@ DEPT: BORROW CHECKER
 
 „Detective Ownership, nehme ich an", sagte der Officer, ohne die Hand auszustrecken. Seine Augen — die Farbe von kühlem Stack-Speicher — scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. „Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen."
 
-Own nickte langsam. „Und man sagt, Sie können einen illegalen **mutable borrow** hören, bevor er passiert."
+Own nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor er passiert."
 
-Okto, der sich still an die Wand gedrückt hatte, verstand die Wörter nicht. Aber er spürte, dass sie wichtig waren.
+Okto stand immer noch neben dem Roboter. Er verstand nur nicht die Wörter - **mutable**, **borrow**, **dangling** - aber er beobachtete weiter.
 
 ---
 
@@ -92,41 +92,9 @@ println!("{}", analyze);
 
 „Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. „Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
-Officer Borrowing stand auf, streckte die Wirbelsäule durch, fast gelangweilt. „Die Referenz zeigt ins Leere." Er schnippte mit den Fingern. „Dangling reference. Klassisch. Fast schon langweilig." Er zog einen kleinen Notizblock heraus — echter Papier, keine Datei, kein Chip — und tippte nachdenklich darauf. „Hätte ein Profi diesen Code geschrieben, hätte er drei saubere Wege gehabt."
-
-<details>
-<summary>📜 <strong>Die 3 Wege : Notizblock Logik (Klicken zum Anzeigen)</strong></summary>
-
-```rust
-// 1. CLONE (unsichtbar)
-let analyze = protokoll.clone();   // Eigene Kopie, kein Borrow
-protokoll.push_str(...);           // Kein Konflikt
-```
-
-```rust
-// 2. REIHENFOLGE (einfach, aber auffällig)
-protokoll.push_str(...);           // Erst mutieren
-let analyze = &protokoll;          // Dann borgen ✅
-```
-
-```rust
-// 3. SCOPE (präzise, aber verdächtig)
-{
-    let analyze = &protokoll;      // Borrow nur hier
-    println!("{}", analyze);
-} // Borrow stirbt hier
-protokoll.push_str(...);           // Dann mutieren ✅
-```
-
-</details>
-
----
-
 ### Oktos erster Aha-Moment
 
-Okto hörte zu.
-
-Er verstand die Wörter noch nicht alle — **mutable**, **borrow**, **dangling** — aber eines hatte er verstanden. Etwas, das ihn traf wie ein Fragment, das er aufhob und nicht mehr loslassen konnte.
+Okto hört weiter zu.
 
 *Jemand hat etwas besessen. Und gleichzeitig hat jemand anderes hineingeschaut. Und das hat den Absturz verursacht.*
 
@@ -168,13 +136,13 @@ Dann hob er seinen Behälter auf und schob weiter.
 
 ### 📌 Lebensregel #2
 
-> **Entweder lesen alle — oder einer schreibt. Nicht beides. Niemals beides.**
+> **Etwas kann nur einem gehören, sonst keinem gleichzeitig — oder nur einer schreibt. Niemals beides.**
 
 ---
 
 ### 🦾 Arm #1 — Noch aktiv
 
-*Greifen. Halten. Loslassen.*
+*Halten. Teilen. Loslassen.*
 
 Okto hat einen Arm. Er weiss jetzt, wie man das nennt.  
 Ownership.  

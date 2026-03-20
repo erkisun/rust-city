@@ -99,7 +99,7 @@ Andere Schritte als seine.
 
 ### 📌 Lebensregel #1
 
-> **Rust schützt dich. Es wird aufgepasst.**
+> **In Rust City passt man aufeinander auf. Du bist nicht allein in dieser Welt.**
 
 ---
 
