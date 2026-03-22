@@ -23,7 +23,7 @@ Er beobachtete.
 
 ---
 
-### Die Untersuchung
+### 🕵️ Die Untersuchung
 
 Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Overcoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
 
@@ -47,7 +47,7 @@ Okto stand immer noch neben dem Roboter. Er verstand nur nicht die Wörter - **m
 
 ---
 
-### Das Beweismittel
+### 🏙️ Das Beweismittel
 
 Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zog ein kleines Gerät aus seiner Uniform: ein **Borrow-Checker**, der in Echtzeit anzeigte, wer gerade wo zugreift. Die Anzeige flackerte nervös.
 
@@ -90,7 +90,7 @@ println!("{}", analyze);
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership.
+„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
 ### Oktos erster Aha-Moment
 
@@ -98,22 +98,14 @@ Okto immer noch still und ruhig, dachte kurz nach : Jeden Morgen griff er. Hob. 
 
 ### Oktos zweiter Aha-Moment
 
-Officer Borrowing fuhr fort. „Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**. Stellen sie sich vor, ich würde bei einer Polizeikontrolle einen Roboter kontrollieren und gleichzeitig ihm eine mögliche Schuld zuweisen und ihn verhaften. Entweder kontrolliere ich ihn und danach verhaften, oder ich habe ihn kontrolliert und verhafte ihn jetzt. ihn gehen lassen während der Kontrolle darf ich nicht, so sind die Regeln. Die Kontrolle muss abgeschlossen werden, nur dann erlaube ich alles andere, Anscheinend Ist wohl jemand auf die Idee gekommen und wollte auch mal eine Polizikontrolle durchführen. Wie beim Zoll, da ist der Unterschied ob man nur den Pass zeigt, oder einen Stempel braucht um der Durchgang erlaubt wird noch einen Stempel erhält und erst dann den Zutritt erhält." 
+Okto erkennt, dass Officer Borrowing kein strenger Wächter ist, sondern ein Sicherheitsgarant. Wenn Okto den Trashbot nur beobachtet (&T), dürfen beliebig viele andere Bürger von Rust-City gleichzeitig hinschauen. Officer Borrowing stellt sicher: Solange auch nur einer guckt, darf niemand gleichzeitig den Trashbot umlackieren oder wegschmeissen. Geteiltes Wissen ist sicher.
+Will Okto aber den Trashbot reparieren (&mut T), wird der Officer rigoros. Er sperrt den Bereich ab. Okto ist jetzt der Einzige. Warum ? Würde jemand anderes während der Reparatur am Bot herumschrauben, gäbe es Chaos. Officer Borrowings goldene Regel: Exklusivität bedeutet Sicherheit. Entweder viele dürfen lesen, oder genau einer darf verändern - aber niemals beides gleichzeitig.
 
-Okto musste nochmal darüber nachdenken. Wenn er jedesmal, bevor er den Müll in den Behälter legt, könnte er doch auch überprüfen ob der Müll einen Stempel braucht, dafür müsste er nur einen zweiten Arm haben der die Kontrolle durchführt und bei Erlaubnis ins behälter zu tun es vorher signiert .. ist die Idee gekommen, dass er auch kontrollieren könnte, wie beim abgestürzten Trashbot TC-0003. Signieren. Stempel. Ob das wohl gehen würde ? 
-Niemand sonst konnte es gleichzeitig verändern. Und wenn er es in den Behälter legte - dann war es weg. Sauber. Korrekt. Zurückgegeben. 
-
-
-Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen. Niemand sonst konnte es gleichzeitig verändern. Das ist **Ownership**, Und wenn er es in den Behälter legte - dann war es weg. Sauber. Korrekt. Zurückgegeben. 
-
-*Jemand hat etwas besessen. Und gleichzeitig hat jemand anderes hineingeschaut. Und ? .. wo ist das Problem ?*
-
-Er schaute auf seinen einzigen Arm.
-
+Okto schaute auf seinen einzigen Arm.
 
 Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer, nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
-Er hatte nicht gewusst, dass das einen Namen hatte.
+Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, dass er einen weiteren Arm gebrauchen könnte.
 
 ---
 
@@ -127,10 +119,9 @@ Own drehte sich zu ihm. „Sie meinen jemanden Bestimmten."
 
 Own wartete.
 
-Auch Okto wartete, ruhig und geduldig.
+Auch Okto wartete, wie immer ruhig und geduldig.
 
 „**Agentin Alias** .." fuhr Officer Borrowing fort leise. „Ich sehe drei Wege - und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
-
 
 *Regeln biegen*, dachte er. *Was wohl damit gemeint ist ?*
 
@@ -138,7 +129,7 @@ Auch Okto wartete, ruhig und geduldig.
 
 ### 📌 Lebensregel #2
 
-> **Etwas kann nur einem gehören, sonst keinem gleichzeitig — oder nur einer schreibt. Niemals beides.**
+> **Etwas kann nur einem gehören, sonst keinem gleichzeitig — und wenn jemand schaut, dürfen alle anderen auch schauen. Nur beim Schreiben, das darf nur einer. Niemals beides zusammen.**
 
 ---
 
@@ -178,7 +169,7 @@ fn main() {
 ```
 
 *Notiz am Rand, handgeschrieben:*  
-`// Ownership ist keine Strafe. Es ist Klarheit.`
+`// Ownership und Borrowing sind keine Strafen. Es ist Sicherheit und Klarheit.`
 
 ---
 
