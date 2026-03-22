@@ -92,14 +92,12 @@ println!("{}", analyze);
 
 „Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
-### Oktos erster Aha-Moment
+#### Oktos Aha-Momente
 
 Okto immer noch still und ruhig, dachte kurz nach : Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen.  Das ist **Ownership**,
 
-### Oktos zweiter Aha-Moment
-
-Okto erkennt, dass Officer Borrowing kein strenger Wächter ist, sondern ein Sicherheitsgarant. Wenn Okto den Trashbot nur beobachtet (&T), dürfen beliebig viele andere Bürger von Rust-City gleichzeitig hinschauen. Officer Borrowing stellt sicher: Solange auch nur einer guckt, darf niemand gleichzeitig den Trashbot umlackieren oder wegschmeissen. Geteiltes Wissen ist sicher.
-Will Okto aber den Trashbot reparieren (&mut T), wird der Officer rigoros. Er sperrt den Bereich ab. Okto ist jetzt der Einzige. Warum ? Würde jemand anderes während der Reparatur am Bot herumschrauben, gäbe es Chaos. Officer Borrowings goldene Regel: Exklusivität bedeutet Sicherheit. Entweder viele dürfen lesen, oder genau einer darf verändern - aber niemals beides gleichzeitig.
+Okto erkennt auch, dass Officer Borrowing kein strenger Wächter ist, sondern ein Sicherheitsgarant. Wenn Okto den Trashbot nur beobachtet (&T), dürfen beliebig viele andere Bürger von Rust-City gleichzeitig hinschauen. Officer Borrowing stellt sicher: Solange auch nur einer guckt, darf niemand gleichzeitig den Trashbot umlackieren oder wegschmeissen. Beschiss Unmöglich. Geteiltes Wissen ist sicher.
+Will Okto aber den Trashbot reparieren (&mut T), wird der Officer rigoros. Er sperrt den Bereich sofort ab. Okto ist jetzt der Einzige. Warum ? Würde jemand anderes während der Reparatur am Bot herumschrauben, gäbe es Chaos. Officer Borrowings goldene Regel: Exklusivität bedeutet Sicherheit. Entweder viele dürfen lesen, oder genau einer darf verändern - aber niemals beides gleichzeitig.
 
 Okto schaute auf seinen einzigen Arm.
 
@@ -109,7 +107,7 @@ Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, 
 
 ---
 
-### Die Spur
+### 🏙️ Die Spur
 
 „Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**."
 
