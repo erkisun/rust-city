@@ -92,18 +92,27 @@ println!("{}", analyze);
 
 „Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
-#### Oktos Aha-Momente
+### Oktos Aha-Momente
 
-Okto immer noch still und ruhig, dachte kurz nach : Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen.  Das ist **Ownership**,
+Okto hörte zu.
 
-Okto erkennt auch, dass Officer Borrowing kein strenger Wächter ist, sondern ein Sicherheitsgarant. Wenn Okto den Trashbot nur beobachtet (&T), dürfen beliebig viele andere Bürger von Rust-City gleichzeitig hinschauen. Officer Borrowing stellt sicher: Solange auch nur einer guckt, darf niemand gleichzeitig den Trashbot umlackieren oder wegschmeissen. Beschiss Unmöglich. Geteiltes Wissen ist sicher.
-Will Okto aber den Trashbot reparieren (&mut T), wird der Officer rigoros. Er sperrt den Bereich sofort ab. Okto ist jetzt der Einzige. Warum ? Würde jemand anderes während der Reparatur am Bot herumschrauben, gäbe es Chaos. Officer Borrowings goldene Regel: Exklusivität bedeutet Sicherheit. Entweder viele dürfen lesen, oder genau einer darf verändern - aber niemals beides gleichzeitig.
+Er verstand noch nicht alle Wörter - **mutable**, **borrow**, **dangling** - und schaute auf seinen einzigen Arm.
 
-Okto schaute auf seinen einzigen Arm.
+Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen, niemand sonst konnte es gleichzeitig verändern. Und wenn er es in den Container legte - war es weg. Sauber. Korrekt. Zurückgegeben.
 
-Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer, nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
+*Das .. ist Ownership.*
 
-Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, dass er einen weiteren Arm gebrauchen könnte.
+Dann schaute er zu Officer Borrowing. Zum Borrow-Checker in seiner Hand. Zum flackernden Display.
+
+Wenn er den ausgefallenen TC-0003 nur betrachtete - einfach hinschaute, ohne zu berühren - dann durften auch die anderen hinschauen. Alle gleichzeitig. Niemand störte den anderen. Solange keiner schraubte, war das Beobachten sicher. Das war `&T`.
+
+Wollte er aber reparieren - wirklich eingreifen, etwas verändern - dann würde Officer Borrowing sofort den Bereich absperren. Nur er. Kein zweites Paar Hände, kein zweiter Blick, der im falschen Moment reinschaute und während der Reparatur. Weil zwei, die gleichzeitig schrauben nur Chaos ergeben würden. Das war `&mut T`.
+
+*Entweder alle schauen - oder einer verändert. Niemals beides gleichzeitig. Das .. ist Borrowing.*
+
+Das Kribbeln in ihm — das leise Verarbeiten, das er nie benennen konnte — wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
+
+Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, dass er einen weiteren Arm haben könnte.
 
 ---
 
