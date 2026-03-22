@@ -90,17 +90,26 @@ println!("{}", analyze);
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. „Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
+„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership.
 
 ### Oktos erster Aha-Moment
 
-Okto hört weiter zu.
+Okto immer noch still und ruhig, dachte kurz nach : Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen.  Das ist **Ownership**,
 
-*Jemand hat etwas besessen. Und gleichzeitig hat jemand anderes hineingeschaut. Und das hat den Absturz verursacht.*
+### Oktos zweiter Aha-Moment
+
+Officer Borrowing fuhr fort. „Man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**. Stellen sie sich vor, ich würde bei einer Polizeikontrolle einen Roboter kontrollieren und gleichzeitig ihm eine mögliche Schuld zuweisen und ihn verhaften. Entweder kontrolliere ich ihn und danach verhaften, oder ich habe ihn kontrolliert und verhafte ihn jetzt. ihn gehen lassen während der Kontrolle darf ich nicht, so sind die Regeln. Die Kontrolle muss abgeschlossen werden, nur dann erlaube ich alles andere, Anscheinend Ist wohl jemand auf die Idee gekommen und wollte auch mal eine Polizikontrolle durchführen. Wie beim Zoll, da ist der Unterschied ob man nur den Pass zeigt, oder einen Stempel braucht um der Durchgang erlaubt wird noch einen Stempel erhält und erst dann den Zutritt erhält." 
+
+Okto musste nochmal darüber nachdenken. Wenn er jedesmal, bevor er den Müll in den Behälter legt, könnte er doch auch überprüfen ob der Müll einen Stempel braucht, dafür müsste er nur einen zweiten Arm haben der die Kontrolle durchführt und bei Erlaubnis ins behälter zu tun es vorher signiert .. ist die Idee gekommen, dass er auch kontrollieren könnte, wie beim abgestürzten Trashbot TC-0003. Signieren. Stempel. Ob das wohl gehen würde ? 
+Niemand sonst konnte es gleichzeitig verändern. Und wenn er es in den Behälter legte - dann war es weg. Sauber. Korrekt. Zurückgegeben. 
+
+
+Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen. Niemand sonst konnte es gleichzeitig verändern. Das ist **Ownership**, Und wenn er es in den Behälter legte - dann war es weg. Sauber. Korrekt. Zurückgegeben. 
+
+*Jemand hat etwas besessen. Und gleichzeitig hat jemand anderes hineingeschaut. Und ? .. wo ist das Problem ?*
 
 Er schaute auf seinen einzigen Arm.
 
-Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen. Niemand sonst konnte es gleichzeitig verändern. Das ist **Ownership**, Und wenn er es in den Behälter legte - dann war es weg. Sauber. Korrekt. Zurückgegeben. 
 
 Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer, nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
@@ -122,13 +131,6 @@ Auch Okto wartete, ruhig und geduldig.
 
 „**Agentin Alias** .." fuhr Officer Borrowing fort leise. „Ich sehe drei Wege - und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
 
-Der Name fiel wie ein einzelner Token in einen leeren Puffer.
-
-Detective Ownership und Officer Borrowing wandten sich vom Roboter ab und liefen langsam in Richtung Heap District. Okto durfte diesmal mitkommen.
-
-Er schaute noch einmal auf den TC-0003. Auf das flackernde Display. Auf die Fehlermeldung, die er jetzt - zum ersten Mal - ein kleines bisschen verstand.
-
-Dann hob er seinen Behälter auf und schob weiter.
 
 *Regeln biegen*, dachte er. *Was wohl damit gemeint ist ?*
 

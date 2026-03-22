@@ -9,6 +9,14 @@
 
 ## 📗 Kapitel 3 — Agentin Alias
 
+Der Name fiel wie ein einzelner Token in einen leeren Puffer.
+
+Detective Ownership und Officer Borrowing wandten sich vom Roboter ab und liefen langsam in Richtung Heap District. Okto durfte diesmal mitkommen.
+
+Er schaute noch einmal auf den TC-0003. Auf das flackernde Display. Auf die Fehlermeldung, die er jetzt - zum ersten Mal - ein kleines bisschen verstand.
+
+Dann hob er seinen Behälter auf und schob weiter.
+
 Okto hätte umkehren können. Der **Heap District** war nicht sein Bezirk - er gehörte zu Gasse 19, zum Industriegebiet, zum geordneten Rhythmus von Greifen und Loslassen im **Stack District**. Aber die beiden Männer waren hier hineingegangen. Und das Kribbeln - das neue, benennbare Kribbeln - liess ihn nicht umkehren.
 
 Er folgte. Nicht ihnen. Eher dem Gefühl.
