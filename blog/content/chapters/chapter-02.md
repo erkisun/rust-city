@@ -100,7 +100,7 @@ Er verstand noch nicht alle Wörter - **mutable**, **borrow**, **dangling** - un
 
 Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen, niemand sonst konnte es gleichzeitig verändern. Und wenn er es in den Container legte - war es weg. Sauber. Korrekt. Zurückgegeben.
 
-*Das .. ist Ownership.*
+*Das .. ist Ownership.*, sagte sich Okto.
 
 Dann schaute er zu Officer Borrowing. Zum Borrow-Checker in seiner Hand. Zum flackernden Display.
 
@@ -108,9 +108,9 @@ Wenn er den ausgefallenen TC-0003 nur betrachtete - einfach hinschaute, ohne zu 
 
 Wollte er aber reparieren - wirklich eingreifen, etwas verändern - dann würde Officer Borrowing sofort den Bereich absperren. Nur er. Kein zweites Paar Hände, kein zweiter Blick, der im falschen Moment reinschaute und während der Reparatur. Weil zwei, die gleichzeitig schrauben nur Chaos ergeben würden. Das war `&mut T`.
 
-*Entweder alle schauen - oder einer verändert. Niemals beides gleichzeitig. Das .. ist Borrowing.*
+*Entweder alle schauen - oder einer verändert. Niemals beides gleichzeitig. Das .. ist Borrowing.*, schlussfolgerte Okto.
 
-Das Kribbeln in ihm — das leise Verarbeiten, das er nie benennen konnte — wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
+Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
 Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, dass er einen weiteren Arm haben könnte.
 
