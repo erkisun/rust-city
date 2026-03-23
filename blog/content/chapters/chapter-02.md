@@ -92,13 +92,9 @@ println!("{}", analyze);
 
 „Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
 
-### Oktos Aha-Momente
+### 🏙️ Okto's Logik
 
-Okto hörte zu.
-
-Er verstand noch nicht alle Wörter - **mutable**, **borrow**, **dangling** - und schaute auf seinen einzigen Arm.
-
-Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen, niemand sonst konnte es gleichzeitig verändern. Und wenn er es in den Container legte - war es weg. Sauber. Korrekt. Zurückgegeben.
+Okto dachte nach. Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen, niemand sonst konnte es gleichzeitig halten. Und wenn er es in den Container legte - war es weg. Sauber. Korrekt. Zurückgegeben.
 
 *Das .. ist Ownership.*, sagte sich Okto.
 
