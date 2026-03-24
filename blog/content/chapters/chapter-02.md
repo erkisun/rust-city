@@ -66,31 +66,31 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // Modell : Trash-Collector v.3.4.2 "TC-0003"
 // Baujahr : 2034
 // Status : steht still
-// Letzte Worte : .. error .. panic ..
 
+// Der letzte Log-Einträge im Speicher des defekten Trashbots.
 let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
-// Detective Ownership übernimmt die mutable Variable 'protokoll'.
-
-let analyze = &protokoll;
-// Jemand tarnt sich als lesende Referenz 'analyze' auf denselben Fall.
-
-protokoll.push_str("10:38 .. gelbe Mülltonne geleert.");
-// Detective Ownership will die Daten verändern. Er hat das Recht dazu.
 protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
-protokoll.push_str("10:38 .. grüne Mülltonne geleert.");
-protokoll.push_str("10:38 .. rote Mülltonne geleert.");
+protokoll.push_str("10:39 .. grüne Mülltonne geleert.");
+protokoll.push_str("10:40 .. rote Mülltonne geleert.");
 
-println!("{}", analyze);
+// Jemand startet das Protokoll und "liest" (&) das Protokoll..
+let meineteekannefinden = &protokoll;
+
+// Logische Ursache (Regelbruch)
+// Dieser jemand will Daten verändern. 
+protokoll.push_str("10:40 .. gib mir meine Teekanne zurück ..");
+
+// Der tatsächliche Absturz (der Zugriff)
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !
-// Keine immutable Borrows während mutable Borrows aktiv !
-// Zur gleichen Zeit : eine mutable Referenz (Ownership) UND eine immutable Referenz (Alias).
+println!("{}", meineteekannefinden);
+// Zur gleichen Zeit : &T (der Beobachter) und &mut T (die Veränderung durch jemand).
 // In Rust City ist das strengstens verboten !
 // ==============================================
 ```
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**."
+„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Anscheinend sucht jemand seine ausgeliehene Teekanne, scheint aber nicht zu wissen wie."
 
 ### 🏙️ Okto's Logik
 
@@ -100,11 +100,7 @@ Okto dachte nach. Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - 
 
 Dann schaute er zu Officer Borrowing. Zum Borrow-Checker in seiner Hand. Zum flackernden Display.
 
-Wenn er den ausgefallenen TC-0003 nur betrachtete - einfach hinschaute, ohne zu berühren - dann durften auch die anderen hinschauen. Alle gleichzeitig. Niemand störte den anderen. Solange keiner schraubte, war das Beobachten sicher. Das war `&T`.
-
-Wollte er aber reparieren - wirklich eingreifen, etwas verändern - dann würde Officer Borrowing sofort den Bereich absperren. Nur er. Kein zweites Paar Hände, kein zweiter Blick, der im falschen Moment reinschaute und während der Reparatur. Weil zwei, die gleichzeitig schrauben nur Chaos ergeben würden. Das war `&mut T`.
-
-*Entweder alle schauen - oder einer verändert. Niemals beides gleichzeitig. Das .. ist Borrowing.*, schlussfolgerte Okto.
+*Demfall darf ich etwas ausleihen. Das .. ist Borrowing.*, schlussfolgerte Okto noch ein wenig zu früh, aber er erkannte, dass es Regeln für Besitz und Ausleihen gab.
 
 Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
@@ -116,7 +112,7 @@ Er hatte nicht gewusst, dass das einen Namen hatte. Er hatte nicht mal gewusst, 
 
 „Amateur-Arbeit .." Officer Borrowing wischte sich eine imaginäre Staubflocke vom Ärmel. „Wissen Sie, wie ich einen Amateur erkenne, Detective ? **Ein Amateur bricht Regeln, weil er sie nicht versteht.** Hingegen ein Profi .." er machte eine kurze Pause, fast theatralisch .. „kann die Regeln **biegen**."
 
-Own drehte sich zu ihm. „Sie meinen jemanden Bestimmten."
+Der Detective drehte sich zu ihm. „Sie meinen jemanden Bestimmten."
 
 „Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .." Officer Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag der **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
 
