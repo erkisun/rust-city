@@ -1,4 +1,3 @@
-
  🇩🇪 [Deutsch](#de) · 🇬🇧 [English](#en)
 
 ---
@@ -8,7 +7,7 @@
 
 ---
 
-## 📗 Kapitel 1 - Rust City
+## 📗 Kapitel 1 — Rust City
 
 Tief im All, um einen längst vergessenen Gasriesen, kreist der kleine Mond Rust-K04. Nur bei Einstrahlung von Licht sieht man seine Oberfläche leuchten, bedeckt von der Legende - **Rust City**.
 
@@ -16,15 +15,17 @@ Rust City ist ein gigantischer Komplex aus Stahl, Silizium und strengen Regeln. 
 
 Hier gilt ein einziges Gesetz, älter als jede Programmiersprache, älter als Computer selbst. Es steht in Stein gemeisselt über dem Eingangstor von Rust City :
 
-**„.. Was du besitzt, das pflege .. Was du leihst, das schütze .. Was du nicht mehr brauchst, gib es der Welt zurück ..“**
+**„.. Was du besitzt, das pflege .. Was du leihst, das schütze .. Was du nicht mehr brauchst, gib es der Welt zurück .."**
 
-Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens. Ethiker nennen es Verantwortung. 
+Physiker nennen es das Gesetz der Erhaltung - nichts entsteht aus Nichts, nichts verschwindet spurlos. Biologen nennen es Kreislauf des Lebens. Ethiker nennen es Verantwortung.
 
-Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High“** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**. Das ist Rust City.
+Andere Wissenschaftler nennen es Logik, wovon manche Bewohner benommen werden, andere süchtig. Sie nennen es **„Compiling High"** - wenn der Compiler alles akzeptiert und das perfekte Programm läuft. Die Sucht nach fehlerfreiem Code hat schon viele in die Überdosis getrieben: endlose **Loop-Träume**, **Memory-Leak-Halluzinationen**, **Stack-Overflow-Wahn**. Das ist Rust City.
 
-## 🕵️  Die Vorgeschichte
+---
 
-Bevor Rust City gegründet wurde, gab es eine dunklere Zeit. Man nannte sie die **"C-Ära"** – eine Zeit, in der Speicherzugriffe chaotisch und gefährlich waren. 
+## 🕵️ Die Vorgeschichte
+
+Bevor Rust City gegründet wurde, gab es eine dunklere Zeit. Man nannte sie die **"C-Ära"** – eine Zeit, in der Speicherzugriffe chaotisch und gefährlich waren.
 Der berühmteste ungelöste Fall war der **Mord an Pointer Pete** in der alten Speicher-Bibliothek auf dem Mond Rust-K73.
 
 Die Akte ist noch heute in den Archiven einsehbar:
@@ -40,22 +41,22 @@ Die Akte ist noch heute in den Archiven einsehbar:
 // ============================================
 fn main() {
     // DIE BIBLIOTHEK KAUFT EIN NEUES BUCH
-    let buch = String::from("Buch : Geheimakte X (Thriller)"); 
-    
+    let buch = String::from("Buch : Geheimakte X (Thriller)");
+
     // EIN LESER BETRITT DIE BIBLIOTHEK (SCOPE)
-    { 
+    {
         // ⚠️ BIBLIOTHEKAR POINTER PETE "LEIHT" DAS BUCH AUS
-        let leser = buch; 
-        
+        let leser = buch;
+
         // In der C-Ära gab es keine Borrowing-Regeln ..
         // Der Leser konnte das Buch einfach mitnehmen ..
-        
+
     } // ❌ LESER VERLÄSST DIE BIBLIOTHEK (SCOPE)
       // UND DAS BUCH WIRD AUTOMATISCH GELÖSCHT!
-    
+
     // 💥 ERROR! BUCH EXISTIERT NICHT MEHR
-    println!("Suche nach: {}", buch); 
-    
+    println!("Suche nach: {}", buch);
+
     // In der C-Ära passierte das ständig:
     // - Bücher verschwanden (use-after-free)
     // - Zwei Leser änderten gleichzeitig ein Buch (data races)
@@ -68,6 +69,8 @@ fn main() {
 
 Das Opfer, der Bibliothekar Pointer Pete, hatte immer gesagt : "Ich weiß genau, wo jedes Buch ist." .. bis er auf ein nicht-existierendes Buch zeigte und dabei draufging ..
 
+---
+
 ## 🏙️ Die Gegenwart
 
 Wie jeden Morgen nahm Okto seinen üblichen Spaziergang im alten Industriegebiet und streifte durch die Gasse 19.
@@ -78,13 +81,13 @@ Sein linker Arm - der einzige den er hat - greift, hebt, sortiert. Fragment nach
 
 Er schiebt weiter.
 
-Auf dem Weg zum Memory-Market steht ein erstarrter **Trash-Collector-Bot**, auch ein Roboter wie er. Auffällig, weil so einer normalerweise nie still steht. Der Roboter macht keinen Wank. „Was ist da los ?“ fragt sich Okto und geht zu ihm hinüber.
+Auf dem Weg zum Memory-Market steht ein erstarrter **Trash-Collector-Bot**, auch ein Roboter wie er. Auffällig, weil so einer normalerweise nie still steht. Der Roboter macht keinen Wank. „Was ist da los ?" fragt sich Okto und geht zu ihm hinüber.
 
 Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Roboter, kein Mechaniker, aber er schaut trotzdem auf das Display :
 
-```rust
+```
 ERROR: cannot assign to 'protokoll' because it is borrowed
-thread 'main' **panicked** at 'dangling pointer detected`
+thread 'main' panicked at 'dangling pointer detected'
 ```
 
 *Scheint etwas nicht mehr vorhanden zu sein, weil bereits ausgeliehen .. Panik .. ?*
@@ -99,7 +102,7 @@ Andere Schritte als seine.
 
 ### 📌 Lebensregel #1
 
-> **In Rust City passt man aufeinander auf. Du bist nicht allein in dieser Welt.**
+> **Rust City schützt dich vor Fehlern, die du noch nicht kennst. Du musst nicht alles wissen — die Regeln passen auf dich auf.**
 
 ---
 
@@ -154,114 +157,92 @@ fn main() {
 
 ---
 
-### The Morning
+## 📗 Chapter 1 — Rust City
 
-The fog always comes first.
+Deep in space, orbiting a long-forgotten gas giant, the small moon Rust-K04 drifts. Only when light strikes its surface does it glow — covered by the legend of **Rust City**.
 
-Before the first light grazes the towers of the Heap District, before footsteps fill the alleys, before anyone demands anything from anyone else — the fog arrives. It creeps through the cracks of the stack districts, hangs heavy over the canals of Stack Street, settles like a blanket over everything the night has left behind.
+Rust City is a gigantic complex of steel, silicon, and strict rules. Those who live here live by the rules of the city. Without exception and without alternative. The city is divided into vast districts (**Crates**), each its own universe with strict entry and exit rules. The districts are subdivided into neighbourhoods (**Modules**) where the actual work happens.
 
-Okto knows the fog well.
+One single law governs here, older than any programming language, older than computers themselves. It is carved in stone above the gate of Rust City :
 
-He pushes his container through Alley 7-C, same as every morning. Left: an overturned crate container, contents scattered, no one has reported it. Right: the ruin of an old C-storage unit, abandoned for years, warning signs faded. Straight ahead: Rust City, waking up, humming, ready.
+**".. What you own, tend to it .. What you borrow, protect it .. What you no longer need, give it back to the world .."**
+
+Physicists call it the law of conservation — nothing is created from nothing, nothing disappears without a trace. Biologists call it the cycle of life. Ethicists call it responsibility.
+
+Other scientists call it logic, which leaves some residents dazed and others addicted. They call it **"Compiling High"** — when the compiler accepts everything and the perfect program runs. The addiction to error-free code has driven many to overdose: endless **loop dreams**, **memory-leak hallucinations**, **stack-overflow madness**. That is Rust City.
+
+---
+
+## 🕵️ The Backstory
+
+Before Rust City was founded, there was a darker time. They called it the **"C-Era"** — a time when memory access was chaotic and dangerous.
+The most famous unsolved case was the **murder of Pointer Pete** in the old memory library on the moon Rust-K73.
+
+The file is still accessible in the archives today:
+
+<details>
+<summary>📜 <strong>Cold Case: The Murder of Pointer Pete (Click to expand)</strong></summary>
+
+```rust
+// ============================================
+// CASE FILE: CASE #001 - MURDER OF POINTER PETE
+// LOCATION: Memory Library, Memory City (before Rust City)
+// TIME: During the C-Era
+// ============================================
+fn main() {
+    // THE LIBRARY BUYS A NEW BOOK
+    let book = String::from("Book : Secret File X (Thriller)");
+
+    // A READER ENTERS THE LIBRARY (SCOPE)
+    {
+        // ⚠️ LIBRARIAN POINTER PETE "LENDS OUT" THE BOOK
+        let reader = book;
+
+        // In the C-Era there were no borrowing rules ..
+        // The reader could simply take the book ..
+
+    } // ❌ READER LEAVES THE LIBRARY (SCOPE)
+      // AND THE BOOK IS AUTOMATICALLY DELETED!
+
+    // 💥 ERROR! BOOK NO LONGER EXISTS
+    println!("Searching for: {}", book);
+
+    // In the C-Era this happened constantly:
+    // - Books disappeared (use-after-free)
+    // - Two readers changed a book simultaneously (data races)
+    // - Books were deleted twice (double free)
+    // - Result: A dangling pointer — a reference to non-existent memory
+}
+```
+
+</details>
+
+The victim, librarian Pointer Pete, always said : "I know exactly where every book is." .. until he pointed to a book that no longer existed — and didn't survive the encounter ..
+
+---
+
+## 🏙️ The Present
+
+Like every morning, Okto took his usual walk through the old industrial district and drifted through Alley 19.
 
 Okto collects. That's what he does.
 
-His left arm — the only one he has — reaches, lifts, sorts. Fragment by fragment. He doesn't think much about it. Or maybe he does — he just doesn't know what to call the thing happening inside him when he works. A hum. A quiet processing. As if small voices inside him are calculating without him ever asking them to.
+His left arm — the only one he has — reaches, lifts, sorts. Fragment by fragment. He doesn't think much about it. Or maybe he does — he just doesn't know what to call the thing happening inside him when he works. A tingle. A quiet processing.
 
 He pushes on.
 
-At the corner leading to the main alley, he stops for a moment. Not because he's tired — trashbots don't get tired, as far as he knows. He stops because he always does. Because from this corner, the city gate becomes visible.
+On the way to the Memory-Market, a frozen **Trash-Collector-Bot** stands motionless — a robot, just like him. Unusual, because one of those never stands still. The robot doesn't move a inch. "What's going on there?" Okto wonders, and walks over.
 
-The great gate of Rust City.
-
-Three sentences. Carved in stone. He knows them by heart, even though he's never really looked at them.
-
-*What you own, tend to it.*  
-*What you borrow, protect it.*  
-*What you no longer need, give it back to the world.*
-
-He doesn't really look at them today either.
-
-He pushes on.
-
----
-
-### fn main() and the Balcony
-
-Every morning, just after the fog, fn main() steps out onto his balcony.
-
-Okto can see him from the alley below — a calm figure on the second floor of the administration tower, coffee in hand, gaze over the city. fn main() never says anything. At least not downward. But he's always there. And that is — Okto isn't sure why — somehow important.
-
-As if Rust City only truly wakes up once fn main() stands on the balcony.
-
-Okto doesn't nod. He's a trashbot. Trashbots don't nod up at administrators.  
-But he looks. Briefly. Then pushes on.
-
----
-
-### The C-Era and Pointer Pete
-
-In Alley 12 — where the Heap District bleeds into the older quarters — a monument still stands.
-
-A weathered information board, mounted by the city long ago. Okto has passed it a hundred times. Today he stops in front of it.
+Okto sets down his container. Leans forward. This isn't his job — he's a robot, not a mechanic — but he looks at the display anyway :
 
 ```
-⚠️  HISTORICAL MONUMENT — FILE NO. 001
-    Location: Alley 12 / Corner of Old-C District
-
-    POINTER PETE
-    Pointer mechanic of the first generation.
-    Active during the C-Era.
-
-    Abilities: Unmatched.
-    Problem: No one ever really knew who owned a memory block.
-
-    Pete pointed to memory that wasn't his.
-    Memory that had already been freed.
-    Memory that belonged to no one.
-
-    The city recovered.
-    Pete didn't.
-
-    LESSON:
-    Power without rules protects no one.
-    Not even the one who holds the power.
+ERROR: cannot assign to 'protokoll' because it is borrowed
+thread 'main' panicked at 'dangling pointer detected'
 ```
 
-Okto reads the board. Really reads it, for the first time.
+*Seems like something no longer exists because it was already borrowed .. panic .. ?*
 
-He doesn't understand everything. But he understands the last line.
-
-*Power without rules protects no one.*
-
-He pushes on. But the hum inside him has dropped one note lower.
-
----
-
-### A Failed Trashbot
-
-In Alley 19, he finds it.
-
-Model TC-0003. Older than Okto. Motionless on the ground, red display, a rhythmic blinking that doesn't mean good code.
-
-```
-[ERROR] — MEMORY CONFLICT
-Cause:  Two processes claim the same value.
-Status: FROZEN
-Fix:    UNKNOWN
-```
-
-Okto sets down his container. Leans forward. This isn't his job — he's a trashbot, not a mechanic. But he looks anyway.
-
-Two processes. The same value. One wants to read while the other writes. Nobody has a clear picture of who the value actually belongs to right now.
-
-The hum inside Okto grows louder.
-
-*Who owns something — and who gets to use it right now?*
-
-He doesn't know why that question matters to him. He's a trashbot. He has one arm. He collects fragments.
-
-But the question won't let him go.
+The question won't let him go. Something tingles inside him.
 
 And then — footsteps.
 
@@ -271,7 +252,7 @@ Different footsteps than his.
 
 ### 📌 Life Rule #1
 
-> **Rust protects you from mistakes you don't know yet.**
+> **Rust City protects you from mistakes you don't know yet. You don't have to know everything — the rules watch over you.**
 
 ---
 

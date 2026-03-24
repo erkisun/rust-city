@@ -31,7 +31,7 @@ Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Refl
 
 Die Stimme kam von hinter ihm. Tief, ruhig, mit dem unverkennbaren Unterton jemandes, der mehr Lifetime-Annotationen gelesen hat als er Stunden Schlaf hatte.
 
-Detective Ownership drehte sich um und sag die Polizei-Uniform.
+Detective Ownership drehte sich um und sah die Polizei-Uniform.
 
 ```rust
 OFFICER BORROWING
@@ -67,7 +67,7 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // Baujahr : 2034
 // Status : steht still
 
-// Der letzte Log-Einträge im Speicher des defekten Trashbots.
+// Die letzten Log-Einträge im Speicher des defekten Trashbots.
 let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
 protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
 protokoll.push_str("10:39 .. grüne Mülltonne geleert.");
@@ -77,7 +77,7 @@ protokoll.push_str("10:40 .. rote Mülltonne geleert.");
 let meineteekannefinden = &protokoll;
 
 // Logische Ursache (Regelbruch)
-// Dieser jemand will Daten verändern. 
+// Dieser jemand will Daten verändern.
 protokoll.push_str("10:40 .. gib mir meine Teekanne zurück ..");
 
 // Der tatsächliche Absturz (der Zugriff)
@@ -91,6 +91,8 @@ println!("{}", meineteekannefinden);
 </details>
 
 „Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig heimlich hinter seinem Rücken die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Schon klar .. anscheinend sucht jemand nur seine ausgeliehene Teekanne, scheint aber nicht zu wissen wie."
+
+---
 
 ### 🏙️ Okto's Logik
 
@@ -128,7 +130,7 @@ Auch Okto wartete, wie immer ruhig und geduldig.
 
 ### 📌 Lebensregel #2
 
-> **Etwas kann nur einem gehören, sonst keinem gleichzeitig — und wenn jemand schaut, dürfen alle anderen auch schauen. Nur beim Schreiben, das darf nur einer. Niemals beides zusammen.**
+> **Teilen ist erlaubt. Aber Verantwortung gehört immer nur einer Person. Wer alles auf einmal will, verliert alles auf einmal.**
 
 ---
 
@@ -203,7 +205,7 @@ He watched.
 
 ---
 
-### The Investigation
+### 🕵️ The Investigation
 
 Detective Ownership crouched beside the TC-0003, his own reflection gazing back from the frozen display. He pulled a **debug cable** from the inside pocket of his coat — an ancient thing, threaded with insulated copper wires and secret compiler flags — and felt for the diagnostic port beneath the robot's arm.
 
@@ -227,7 +229,7 @@ Okto, pressed quietly against the wall, didn't understand the words. But he unde
 
 ---
 
-### The Evidence
+### 🏙️ The Evidence
 
 Officer Borrowing knelt beside the robot. No hesitation, no hurry. He pulled a small device from his uniform: a **Borrow-Checker**, displaying in real time who was accessing what. The display flickered nervously.
 
@@ -274,7 +276,7 @@ println!("{}", findmyteapot);
 
 ---
 
-### Okto's Logic
+### 🏙️ Okto's Logic
 
 Okto thought about it. Every morning he reached. Lifted. Sorted. He took a fragment — and while he held it, it was his. No one else could take it at the same time. No one else could hold it at the same time. And when he placed it in the container — it was gone. Clean. Correct. Returned.
 
@@ -290,7 +292,7 @@ He hadn't known that had a name. He hadn't even known he might have another arm.
 
 ---
 
-### The Trail
+### 🏙️ The Trail
 
 "Amateur work .." Officer Borrowing brushed an imaginary speck of dust from his sleeve. "You know how I recognise an amateur, Detective? **An amateur breaks rules because he doesn't understand them.** A professional, on the other hand .." he paused, almost theatrically .. "can **bend** the rules."
 
@@ -320,7 +322,7 @@ Then he picked up his container and pushed on.
 
 ### 📌 Life Rule #2
 
-> **Something can only belong to one — and whoever only looks may look together with others. But writing is for one alone. Never both at the same time.**
+> **Sharing is allowed. But responsibility always belongs to one. Whoever wants everything at once loses everything at once.**
 
 ---
 
