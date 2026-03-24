@@ -25,7 +25,7 @@ Er beobachtete.
 
 ### 🕵️ Die Untersuchung
 
-Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Overcoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
+Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Ledercoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
 
 „Ich würde die Finger vom Beweismaterial lassen, wenn ich du wäre."
 
