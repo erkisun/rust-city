@@ -90,7 +90,7 @@ println!("{}", meineteekannefinden);
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Anscheinend sucht jemand seine ausgeliehene Teekanne, scheint aber nicht zu wissen wie."
+„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig heimlich hinter seinem Rücken die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Schon klar .. anscheinend sucht jemand nur seine ausgeliehene Teekanne, scheint aber nicht zu wissen wie."
 
 ### 🏙️ Okto's Logik
 
@@ -100,7 +100,7 @@ Okto dachte nach. Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - 
 
 Dann schaute er zu Officer Borrowing. Zum Borrow-Checker in seiner Hand. Zum flackernden Display.
 
-*Demfall darf ich etwas ausleihen. Das .. ist Borrowing.*, schlussfolgerte Okto, aber er erkannte, dass es Regeln für Besitz und Ausleihen gab.
+*Demfall darf ich etwas ausleihen. Das .. ist Borrowing.*, erkannte Okto und schlussfolgerte, dass es Regeln für Besitz und Ausleihen gibt.
 
 Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
