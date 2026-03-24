@@ -243,81 +243,50 @@ Officer Borrowing knelt beside the robot. No hesitation, no hurry. He pulled a s
 // LOCATION : INDUSTRIAL ZONE / ALLEY 19
 // ==============================================
 //
-// Model : Trash-Collector v.3.4.2 "Müllo K04"
+// Model : Trash-Collector v.3.4.2 "TC-0003"
 // Built  : 2034
 // Status : motionless
-// Last words : .. error .. panic ..
 
+// The last log entries in the memory of the failed trashbot.
 let mut protokoll = String::from("10:37 .. Bin collection started.");
-// Detective Ownership takes ownership of the mutable variable 'protokoll'.
-
-let analyze = &protokoll;
-// Someone poses as an immutable reference 'analyze' on the same data.
-
-protokoll.push_str("10:38 .. yellow bin emptied.");
-// Detective Ownership wants to modify the data. He has the right.
 protokoll.push_str("10:38 .. blue bin emptied.");
-protokoll.push_str("10:38 .. green bin emptied.");
-protokoll.push_str("10:38 .. red bin emptied.");
+protokoll.push_str("10:39 .. green bin emptied.");
+protokoll.push_str("10:40 .. red bin emptied.");
 
-println!("{}", analyze);
-// Officer Borrowing intervenes — violation of the aliasing rule!
-// At the same time: a mutable reference (Ownership) AND an immutable reference (Alias).
+// Someone starts reading (&) the log..
+let findmyteapot = &protokoll;
+
+// The cause (rule violation)
+// That someone now wants to change the data.
+protokoll.push_str("10:40 .. give me back my teapot ..");
+
+// The actual crash (the access)
+// Officer Borrowing intervenes — violation of the rule!
+println!("{}", findmyteapot);
+// At the same time: &T (the observer) and &mut T (the change by someone).
 // In Rust City, this is strictly forbidden.
 // ==============================================
 ```
 
 </details>
 
-"The mayor values honesty above all," began Detective Ownership. "You cannot be a **neutral observer** and simultaneously **change the facts**."
-
-Officer Borrowing stood up, straightened his back, almost bored. "The reference points into nothing." He snapped his fingers. "Dangling reference. Classic. Almost boring." He pulled out a small notebook — real paper, no file, no chip — and tapped it thoughtfully. "If a professional had written this code, they'd have had three clean options."
-
-<details>
-<summary>📜 <strong>The 3 Ways: Notebook Logic (Click to expand)</strong></summary>
-
-```rust
-// 1. CLONE (invisible)
-let analyze = protokoll.clone();   // Own copy, no borrow
-protokoll.push_str(...);           // No conflict
-```
-
-```rust
-// 2. ORDER (simple, but obvious)
-protokoll.push_str(...);           // Mutate first
-let analyze = &protokoll;          // Then borrow ✅
-```
-
-```rust
-// 3. SCOPE (precise, but suspicious)
-{
-    let analyze = &protokoll;      // Borrow lives here
-    println!("{}", analyze);
-} // Borrow ends here
-protokoll.push_str(...);           // Then mutate ✅
-```
-
-</details>
+"The mayor values honesty above all," began Detective Ownership. Officer Borrowing continued. "But you cannot be a **neutral observer** and simultaneously change the **facts** behind someone's back." Detective Ownership added dryly. "Right .. apparently someone is just looking for their borrowed teapot — they just don't seem to know how."
 
 ---
 
-### Okto's First Aha-Moment
+### Okto's Logic
 
-Okto listened.
+Okto thought about it. Every morning he reached. Lifted. Sorted. He took a fragment — and while he held it, it was his. No one else could take it at the same time. No one else could hold it at the same time. And when he placed it in the container — it was gone. Clean. Correct. Returned.
 
-He didn't understand all the words yet — **mutable**, **borrow**, **dangling** — but one thing had landed. Something that hit him like a fragment he picked up and couldn't put down.
+*That ... is Ownership*, Okto said to himself.
 
-*Someone owned something. And at the same time, someone else looked inside. And that caused the crash.*
+Then he looked at Officer Borrowing. At the Borrow-Checker in his hand. At the flickering display.
 
-He looked at his one arm.
+*So I can borrow something. That ... is Borrowing*, Okto concluded, and understood that there were rules for owning and lending.
 
-Every morning he reached. Lifted. Sorted. He took a fragment — and while he held it, it was his. No one else could take it at the same time. No one else could change it at the same time. And when he placed it in the container — it was gone. Clean. Correct. Returned.
+The hum inside him — the quiet processing he had never been able to name — grew warmer for a moment. Not like an error. More like a compiler giving the green light for the first time.
 
-*That ... is Ownership.*
-
-The hum inside him — the quiet processing he had never been able to name — grew louder for a moment. Not unpleasantly. More like a compiler giving the green light for the first time.
-
-He hadn't known that had a name.
+He hadn't known that had a name. He hadn't even known he might have another arm.
 
 ---
 
@@ -330,6 +299,8 @@ Own turned to him. "You have someone specific in mind."
 "Each of these options reveals something about the person who would have chosen it .." Officer Borrowing glanced toward the industrial crate. Somewhere behind steel walls and compiler signs lay the **Heap District** — untidy, alive, dangerous for anyone who didn't know the rules.
 
 Own waited.
+
+Okto waited too, quiet and patient as always.
 
 "**Agent Alias** .." he continued quietly. "I see three options — and *she* would have chosen the most elegant one. The one you only understand on closer inspection."
 
@@ -349,7 +320,7 @@ Then he picked up his container and pushed on.
 
 ### 📌 Life Rule #2
 
-> **Either everyone reads — or one writes. Not both. Never both.**
+> **Something can only belong to one — and whoever only looks may look together with others. But writing is for one alone. Never both at the same time.**
 
 ---
 
@@ -389,7 +360,7 @@ fn main() {
 ```
 
 *Margin note, handwritten:*  
-`// Ownership is not a punishment. It is clarity.`
+`// Ownership and borrowing are not punishments. They are safety and clarity.`
 
 ---
 
