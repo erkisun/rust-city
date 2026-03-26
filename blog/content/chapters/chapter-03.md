@@ -121,7 +121,7 @@ Er beobachtete Alias. Er beobachtete Max. Er beobachtete wie der Detective und O
 
 Und dann verstand er etwas.
 
-Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — der Detective, der Officer, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Scham, seine Version der Geschichte.
+Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — der Detective, der Officer, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Scham, seine Geschichte mit dem Ausweis.
 
 Niemand hatte das Gespräch verändert während sie beides hielt. Niemand hatte geschrieben während sie las. Es gab keine Kollision — weil sie die Regeln nicht gebrochen hatte. Sie hatte sie vollständig verstanden und präzise genutzt.
 
