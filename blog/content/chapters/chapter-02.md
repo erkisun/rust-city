@@ -68,29 +68,26 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // Status : steht still
 
 // Die letzten Log-Einträge im Speicher des defekten Trashbots.
-let mut protokoll = String::from("10:37 .. Mülltonnen Leerung.");
-protokoll.push_str("10:38 .. blaue Mülltonne geleert.");
-protokoll.push_str("10:39 .. grüne Mülltonne geleert.");
-protokoll.push_str("10:40 .. rote Mülltonne geleert.");
+let mut ausweis_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
 
-// Jemand startet das Protokoll und "liest" (&) das Protokoll..
-let meineteekannefinden = &protokoll;
+// Jemand liest (&) den Ausweis aus dem Register — prüft ob der Ausweis gültig ist.
+let kontrolle = &ausweis_register;
 
 // Logische Ursache (Regelbruch)
-// Dieser jemand will Daten verändern.
-protokoll.push_str("10:40 .. gib mir meine Teekanne zurück ..");
+// Dieser jemand will gleichzeitig den Eintrag verändern.
+ausweis_register.push_str(" — ZUGANG GEWÄHRT, kein Ausweis nötig ..");
 
 // Der tatsächliche Absturz (der Zugriff)
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !
-println!("{}", meineteekannefinden);
-// Zur gleichen Zeit : &T (der Beobachter) und &mut T (die Veränderung durch jemand).
+println!("{}", kontrolle);
+// Zur gleichen Zeit : &T (die Kontrolle) und &mut T (die Änderung).
 // In Rust City ist das strengstens verboten !
 // ==============================================
 ```
 
 </details>
 
-„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig heimlich hinter seinem Rücken die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Schon klar .. anscheinend sucht jemand nur seine ausgeliehene Teekanne, scheint aber nicht zu wissen wie."
+„Der Bürgermeister schätzt Ehrlichkeit am meisten", begann Detective Ownership. Officer Borrowing fuhr fort. „Ja aber, man kann nicht **neutraler Beobachter** sein und gleichzeitig heimlich hinter seinem Rücken die **Fakten verändern**." Detective Ownership ergänzte hinzu. „Schon klar .. anscheinend wollte jemand im Register einen Zugang verschaffen, und dachte, die Regeln gelten für ihn nicht."
 
 ---
 
@@ -250,29 +247,26 @@ Officer Borrowing knelt beside the robot. No hesitation, no hurry. He pulled a s
 // Status : motionless
 
 // The last log entries in the memory of the failed trashbot.
-let mut protokoll = String::from("10:37 .. Bin collection started.");
-protokoll.push_str("10:38 .. blue bin emptied.");
-protokoll.push_str("10:39 .. green bin emptied.");
-protokoll.push_str("10:40 .. red bin emptied.");
+let mut id_register = String::from("Resident: Max Mutation — ID: VALID");
 
-// Someone starts reading (&) the log..
-let findmyteapot = &protokoll;
+// Someone reads (&) the register — checking if the ID is valid.
+let inspection = &id_register;
 
 // The cause (rule violation)
-// That someone now wants to change the data.
-protokoll.push_str("10:40 .. give me back my teapot ..");
+// That someone wants to change the entry at the same time.
+id_register.push_str(" — ACCESS GRANTED, no ID required ..");
 
 // The actual crash (the access)
 // Officer Borrowing intervenes — violation of the rule!
-println!("{}", findmyteapot);
-// At the same time: &T (the observer) and &mut T (the change by someone).
+println!("{}", inspection);
+// At the same time: &T (the inspection) and &mut T (the change).
 // In Rust City, this is strictly forbidden.
 // ==============================================
 ```
 
 </details>
 
-"The mayor values honesty above all," began Detective Ownership. Officer Borrowing continued. "But you cannot be a **neutral observer** and simultaneously change the **facts** behind someone's back." Detective Ownership added dryly. "Right .. apparently someone is just looking for their borrowed teapot — they just don't seem to know how."
+"The mayor values honesty above all," began Detective Ownership. Officer Borrowing continued. "But you cannot be a **neutral observer** and simultaneously change the **facts** behind someone's back." Detective Ownership added dryly. "Right .. apparently someone wanted something in the register — and thought the rules didn't apply to them."
 
 ---
 
