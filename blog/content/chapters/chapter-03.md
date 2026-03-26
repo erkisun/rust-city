@@ -75,7 +75,7 @@ Er kannte das Gefühl. Wenn er in der Gasse arbeitete und seinen Behälter schob
 
 *Ist das dasselbe ?*
 
-Alias blieb kurz stehen. Nicht bei Own. Nicht bei Borrowing.
+Alias blieb kurz stehen. Nicht beim Detective. Nicht beim Officer.
 
 Bei Okto.
 
