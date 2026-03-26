@@ -95,11 +95,11 @@ println!("{}", kontrolle);
 
 Okto dachte nach. Jeden Morgen griff er. Hob. Sortierte. Er nahm ein Fragment - und solange er es hielt, gehörte es ihm. Niemand sonst konnte es gleichzeitig nehmen, niemand sonst konnte es gleichzeitig halten. Und wenn er es in den Container legte - war es weg. Sauber. Korrekt. Zurückgegeben.
 
-*Das .. ist Ownership.*, sagte sich Okto.
+*Das .. ist Ownership.*, sagte sich Okto, und schlussfolgerte, dass es Regeln für Besitz gibt.
 
 Dann schaute er zu Officer Borrowing. Zum Borrow-Checker in seiner Hand. Zum flackernden Display.
 
-*Demfall darf ich etwas ausleihen. Das .. ist Borrowing.*, erkannte Okto und schlussfolgerte, dass es Regeln für Besitz und Ausleihen gibt.
+*Der .. ist für die Sicherheit zuständig.*, erkannte Okto, aber mehr nicht. 
 
 Das Kribbeln in ihm - das leise Verarbeiten, das er nie benennen konnte - wurde nun angenehmer. Nicht wie ein Fehler. Eher wie ein Compiler, der zum ersten Mal grünes Licht gibt.
 
