@@ -67,7 +67,7 @@ Okto stand noch immer im Eingang. Er hatte kein Wort gesagt. Niemand hatte ihn a
 
 Aber er sah.
 
-Er sah wie Alias sich bewegte — durch den Glasraum, an Own und Borrowing vorbei, zur Tür. Ihr Blick ging dabei in zwei Richtungen gleichzeitig: einmal voraus, einmal zurück. Nicht nervös. Nicht suchend. Einfach — präzise informiert. Als würde sie immer wissen was hinter ihr war ohne hinzuschauen.
+Er sah wie Alias sich bewegte — durch den Glasraum, an Own und Borrowing vorbei, zur Tür. Ihr Blick ging dabei in zwei Richtungen gleichzeitig: einmal voraus, einmal zurück. Nicht nervös. Nicht suchend. Einfach — präzise informiert. Als würde sie immer wissen was hinter ihr war ohne hinzuschauen. Sie hatte gezeigt, dass man Informationen Teilen kann, ohne sie zu besitzen.
 
 *Zwei Richtungen gleichzeitig*, dachte Okto.
 

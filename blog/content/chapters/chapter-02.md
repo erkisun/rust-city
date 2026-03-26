@@ -127,7 +127,7 @@ Auch Okto wartete, wie immer ruhig und geduldig.
 
 ### 📌 Lebensregel #2
 
-> **Verantwortung gehört immer nur einer Person. Wer alles auf einmal will, verliert alles auf einmal.**
+> **Teilen ist erlaubt, aber Verantwortung gehört immer nur einer Person. Wer alles auf einmal will, verliert alles auf einmal.**
 
 ---
 
