@@ -81,7 +81,7 @@ Bei Okto.
 
 Sie betrachtete ihn. Nicht lange — eine Sekunde, vielleicht zwei. Als würde sie ihn einlesen. Scannen. Verstehen.
 
-„Du kommst mit", sagte sie.
+„Du kommst mit", sagte sie. „Und ihr dürft durchs Glasfenster zuschauen, aber nichts anfassen."
 
 Nicht als Frage.
 
@@ -91,7 +91,7 @@ Nicht als Frage.
 
 Max sass auf einer umgedrehten Crate-Box im Nebenraum. Er hielt nichts in den Händen — sie lagen offen auf seinen Knien, als hätte er sie abgelegt.
 
-Er war grösser als Okto erwartet hatte. Lauter auch — obwohl er gerade gar nichts sagte. Seine Jacke war zu gross, seine Haare zu unordentlich, und seine Augen sprangen zwischen Own, Borrowing, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung.
+Er war grösser als Okto erwartet hatte. Seine Jacke war zu gross, seine bunten Haare zu unordentlich, und seine Augen sprangen zwischen dem Detective, Officer, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung.
 
 „Ich hab nur kurz ins Register geschaut", sagte er, bevor jemand etwas sagen konnte. „Ich hab gelesen — kurz, wirklich nur kurz — und dann hab ich noch schnell —"
 
@@ -117,15 +117,15 @@ Eine lange Pause.
 
 Okto stand still und beobachtete.
 
-Er beobachtete Alias. Er beobachtete Max. Er beobachtete wie Own und Borrowing schwiegen — nicht weil sie nichts zu sagen hatten, sondern weil Alias bereits alles sagte was gesagt werden musste.
+Er beobachtete Alias. Er beobachtete Max. Er beobachtete wie der Detective und Officer schwiegen — nicht weil sie nichts zu sagen hatten, sondern weil Alias bereits alles sagte was gesagt werden musste.
 
 Und dann verstand er etwas.
 
-Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — Own, Borrowing, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Scham, den Kontext.
+Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — der Detective, der Officer, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Scham, seine Version der Geschichte.
 
 Niemand hatte das Gespräch verändert während sie beides hielt. Niemand hatte geschrieben während sie las. Es gab keine Kollision — weil sie die Regeln nicht gebrochen hatte. Sie hatte sie vollständig verstanden und präzise genutzt.
 
-*Das ist `&T`*, dachte Okto.
+*Zwei Richtungen gleichzeitig .. das ist `&T`*, dachte Okto.
 
 Nicht die Regel. Nicht das Verbot. Die Kraft dahinter.
 
