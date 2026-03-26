@@ -36,20 +36,21 @@ Dann tippte er.
 ```rust
 // ==============================================
 // MAX' VERSUCH — DIESMAL NUR LESEN
-// ORT : GASSE 19 / TC-0003
+// ORT : INDUSTRIEGEBIET / GASSE 19
 // ==============================================
+//
+// Modell : Trash-Collector v.3.4.2 "TC-0003"
+// Baujahr : 2034
+// Status : steht still
 
-// Das Protokoll des TC-0003 — unveränderlich gelesen.
-let protokoll = String::from(
-    "10:37 .. Mülltonnen Leerung. \
-     10:38 .. blaue Mülltonne geleert. \
-     10:39 .. grüne Mülltonne geleert. \
-     10:40 .. rote Mülltonne geleert."
-);
+// Die letzten Log-Einträge im Speicher des defekten Trashbots.
+let mut id_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
 
-// Max liest — ohne zu schreiben. &T. Nur schauen.
-let meineteekannefinden = &protokoll;
-println!("{}", meineteekannefinden); // ✅ — kein Konflikt
+// Max liest (&T) den Ausweis aus dem Register. Nur schauen.
+let inspection = &id_register;
+
+// Kein Konflikt !
+println!("{}", inspection);
 
 // Keine Mutation. Keine Kollision.
 // Officer Borrowing würde nicken.
@@ -66,9 +67,9 @@ Max lehnte sich zurück. Er atmete langsam aus.
 
 Okto trat näher. Auf dem Display stand jetzt ein Eintrag — klein, fast am Ende des Protokolls, zwischen den Zeitstempeln:
 
-`10:40 .. Teekanne — Fundbüro, Crate 7, Fach 3.`
+`10:40 .. Ausweis liegt im Fundbüro, Crate 7, Fach 3.`
 
-Max schaute auf die Teekanne unter seinem Arm. Dann auf den Eintrag. Dann wieder auf die Teekanne.
+Max schaute hinüber zum Crate. Dann auf den Eintrag. Dann wieder auf den Crate.
 
 „Sie war die ganze Zeit im Fundbüro", sagte er.
 
@@ -88,9 +89,9 @@ Er wusste das bereits — seit Gasse 19, seit Alias, seit dem Glasraum. Aber jet
 
 Max schaute ihn an. Eine kurze Pause.
 
-„Weil ich dachte, wenn ich es ins Protokoll schreibe, findet es jemand." Er zuckte mit den Schultern — eine Bewegung die aussah wie ein halbfertiges Argument. „Schneller. Einfacher."
+„Weil ich dachte, wenn ich es ins Register schreibe, findet es jemand." Er zuckte mit den Schultern — eine Bewegung die aussah wie ein halbfertiges Argument. „Schneller. Einfacher."
 
-„Aber das Protokoll gehörte dir nicht."
+„Aber das Register gehörte dir nicht."
 
 „Nein", sagte Max. Kein Zögern. „Das war der Fehler."
 
