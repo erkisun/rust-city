@@ -41,7 +41,7 @@ DEPT: BORROW CHECKER
 
 „Detective Ownership, nehme ich an", sagte der Officer, ohne die Hand auszustrecken. Seine Augen — die Farbe von kühlem Stack-Speicher — scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. „Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen."
 
-Own nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor er passiert."
+Der Detective nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor er passiert."
 
 Okto stand immer noch neben dem Roboter. Er verstand nur nicht die Wörter - **mutable**, **borrow**, **dangling** - aber er beobachtete weiter.
 
@@ -115,7 +115,7 @@ Der Detective drehte sich zu ihm. „Sie meinen jemanden Bestimmten."
 
 „Jede dieser Möglichkeiten verrät etwas über die Person, die sie gewählt hätte .." Officer Borrowing schaute zum Industrie-Crate hinüber. Irgendwo dort, hinter Stahlwänden und Compiler-Schildern, lag der **Heap District** - unaufgeräumt, lebendig, gefährlich für jeden, der die Regeln nicht kannte.
 
-Own wartete.
+Der Detective wartete.
 
 Auch Okto wartete, wie immer ruhig und geduldig.
 
@@ -220,7 +220,7 @@ DEPT: BORROW CHECKER
 
 "Detective Ownership, I assume," said the Officer, without extending a hand. His eyes — the colour of cool stack memory — scanned Own as if checking a codeblock for memory leaks. "They say you can smell a **dangling reference** from a hundred metres."
 
-Own nodded slowly. "And they say you can hear an illegal **mutable borrow** before it happens."
+Detective nodded slowly. "And they say you can hear an illegal **mutable borrow** before it happens."
 
 Okto, pressed quietly against the wall, didn't understand the words. But he understood that they mattered.
 
@@ -290,11 +290,11 @@ He hadn't known that had a name. He hadn't even known he might have another arm.
 
 "Amateur work .." Officer Borrowing brushed an imaginary speck of dust from his sleeve. "You know how I recognise an amateur, Detective? **An amateur breaks rules because he doesn't understand them.** A professional, on the other hand .." he paused, almost theatrically .. "can **bend** the rules."
 
-Own turned to him. "You have someone specific in mind."
+The Detective turned to him. "You have someone specific in mind."
 
 "Each of these options reveals something about the person who would have chosen it .." Officer Borrowing glanced toward the industrial crate. Somewhere behind steel walls and compiler signs lay the **Heap District** — untidy, alive, dangerous for anyone who didn't know the rules.
 
-Own waited.
+The Detective waited.
 
 Okto waited too, quiet and patient as always.
 
