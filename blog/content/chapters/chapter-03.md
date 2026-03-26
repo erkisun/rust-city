@@ -13,7 +13,7 @@ Der Heap District roch nach altem Speicher und frischen Fehlern.
 
 Okto kannte den Geruch. Er arbeitete hier jeden Morgen — sammelte was andere fallen liessen, leerte was andere vergassen, gab zurück was niemand mehr wollte. Aber heute war er nicht hier um zu sammeln. Er war einfach noch dabei. Niemand hatte ihn eingeladen. Niemand hatte ihn weggeschickt.
 
-Er schob seinen Behälter durch die engen Gassen und folgte den Schritten von Own und Borrowing.
+Er schob seinen Behälter durch die engen Gassen und folgte den Schritten vom Detective und Officer.
 
 Der Heap District war das lauteste Viertel von Rust City. Alte Crates türmten sich übereinander, verbunden mit rostigen Kabeln und halbfertigen Interfaces. Neon-Compiler-Schilder flackerten in allen Farben — gelbe Warnungen, rote Errors, manchmal ein kurzes, hoffnungsvolles Grün. Überall lagen Fragmente. Angefangene Strukturen. Dinge die jemand gebaut und nie fertiggestellt hatte.
 
@@ -31,17 +31,17 @@ Okto blieb stehen.
 
 Er wusste nicht warum. Er kannte sie nicht. Aber irgendetwas an der Art wie sie dasass — ruhig, präzise, als würde der Lärm um sie herum einfach nicht existieren — liess ihn innehalten.
 
-Own klopfte an die Glaswand. Einmal. Kurz.
+Detective Ownership klopfte an die Glaswand. Einmal. Kurz.
 
-Alias hob den Blick. Nicht zu Own. Nicht zu Borrowing.
+Alias hob den Blick. Nicht zum Detective. Nicht zum Officer.
 
 Zu Okto.
 
-Einen Moment lang. Dann wieder zu Own.
+Einen Moment lang. Dann wieder zum Detective.
 
-„Detective." Ihre Stimme war ruhig. Nicht kalt — präzise. Als würde sie genau so viele Worte verwenden wie nötig und keines mehr. „Sie haben die Spur verfolgt."
+„Detective Ownership." Ihre Stimme war ruhig. Nicht kalt — präzise. Als würde sie genau so viele Worte verwenden wie nötig und keines mehr. „Sie haben die Spur verfolgt."
 
-„Bis hierher", sagte Own.
+„Bis hierher", sagte der Detective.
 
 ---
 
@@ -49,17 +49,13 @@ Einen Moment lang. Dann wieder zu Own.
 
 Officer Borrowing trat einen Schritt vor. Er zog sein Notizbuch heraus — echtes Papier, kein Chip — und legte es auf den Tisch.
 
-„Wir kennen den Regelbruch", sagte er. „Wir kennen den Schaden. Was wir nicht kennen, ist die Person."
+„Wir kennen den Regelbruch", sagte er. „Wir kennen den Schaden. Wir wissen dass es Max Mutation war, was wir nicht wissen ist, wo ist nun Max ?"
 
-Alias betrachtete das Notizbuch. Sie schlug es nicht auf.
-
-„Ich kenne sie", sagte sie.
-
-Eine Pause. Draussen flackerte ein rotes Compiler-Schild.
+Alias betrachtete das Notizbuch. Sie schlug es nicht auf. Eine Pause. Draussen flackerte ein rotes Compiler-Schild.
 
 „Max", sagte sie. „Er hat seinen Ausweis verloren. Er dachte, er könnte das Ausweis-Register des TC-0003 direkt ändern — Eintrag lesen, gleichzeitig überschreiben, Zugang gewährt." Sie tippte einmal auf das Notizbuch. „Er hat nicht gedacht, dass jemand gerade zur selben Zeit prüft. Oder er hat es gedacht und es war ihm egal. Bei Max ist beides möglich."
 
-Own nickte langsam. „Wo ist er jetzt ?"
+Der Detective nickte langsam, und fragte nun auch. „Wo ist er jetzt ?"
 
 „Nebenan." Alias stand auf. Glatt, ohne Aufwand, als wäre Aufstehen eine Bewegung die sie einmal perfekt gelernt hatte und seitdem nie mehr nachdenken musste. „Er wartet. Er schämt sich."
 
