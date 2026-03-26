@@ -86,7 +86,7 @@ Auf dem Weg zum Memory-Market steht ein erstarrter **Trash-Collector-Bot**, auch
 Okto stellt seinen Behälter ab. Beugt sich vor. Das ist nicht sein Job - er ist ein Roboter, kein Mechaniker, aber er schaut trotzdem auf das Display :
 
 ```
-ERROR: cannot assign to 'protokoll' because it is borrowed
+ERROR: cannot assign to 'id_register' because it is borrowed
 thread 'main' panicked at 'dangling pointer detected'
 ```
 
@@ -236,7 +236,7 @@ On the way to the Memory-Market, a frozen **Trash-Collector-Bot** stands motionl
 Okto sets down his container. Leans forward. This isn't his job — he's a robot, not a mechanic — but he looks at the display anyway :
 
 ```
-ERROR: cannot assign to 'protokoll' because it is borrowed
+ERROR: cannot assign to 'id_register' because it is borrowed
 thread 'main' panicked at 'dangling pointer detected'
 ```
 

@@ -25,13 +25,13 @@ Er beobachtete.
 
 ### 🕵️ Die Untersuchung
 
-Detective Ownership bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Ledercoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
+Der Mann im Ledercoat bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Ledercoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
 
 „Ich würde die Finger vom Beweismaterial lassen, wenn ich du wäre."
 
 Die Stimme kam von hinter ihm. Tief, ruhig, mit dem unverkennbaren Unterton jemandes, der mehr Lifetime-Annotationen gelesen hat als er Stunden Schlaf hatte.
 
-Detective Ownership drehte sich um und sah die Polizei-Uniform.
+Er drehte sich um und sah die Polizei-Uniform.
 
 ```rust
 OFFICER BORROWING
@@ -39,7 +39,7 @@ ID: &'static mut self
 DEPT: BORROW CHECKER
 ```
 
-„Detective Ownership, nehme ich an", sagte der Officer, ohne die Hand auszustrecken. Seine Augen — die Farbe von kühlem Stack-Speicher — scannten Own, als würde er einen Codeblock auf Memory-Leaks prüfen. „Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen."
+„Detective Ownership, nehme ich an", sagte der Officer, ohne die Hand auszustrecken. Seine Augen — die Farbe von kühlem Stack-Speicher — scannten den Detective, als würde er einen Codeblock auf Memory-Leaks prüfen. „Man sagt, Sie können eine **dangling reference** auf hundert Meter riechen."
 
 Der Detective nickte langsam. „Und man sagt, Sie können einen **illegalen mutable borrow** hören, bevor er passiert."
 
