@@ -25,7 +25,7 @@ Und mittendrin — Stille.
 
 Ein kleiner Raum, drei Wände aus altem Stahl, eine aus Glas. Von aussen sah man hinein. Von innen sah man alles.
 
-Agentin Alias sass an einem schmalen Tisch, umgeben vom Chaos des Heap Districts — und berührte es nicht. Auf dem Tisch lagen drei Dinge: ein offenes Notizbuch, ein schmales Lesegerät, und eine leere Teetasse.
+Agentin Alias sass an einem schmalen Tisch, umgeben vom Chaos des Heap Districts — und berührte es nicht. Auf dem Tisch lagen drei Dinge: ein offenes Notizbuch, ein schmales Lesegerät, und ein Ausweis.
 
 Okto blieb stehen.
 
