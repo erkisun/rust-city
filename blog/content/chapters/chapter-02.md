@@ -25,7 +25,7 @@ Er beobachtete.
 
 ### 🕵️ Die Untersuchung
 
-Der Mann im Ledercoat bückte sich neben dem TC-0003, die Gaze seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Ledercoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
+Der Mann im Ledercoat bückte sich neben dem TC-0003, das Spiegelbild seiner eigenen Reflexion im stillgelegten Display. Er zog ein **Debug-Kabel** aus der Innentasche seines Ledercoats — ein uraltes Ding, durchsetzt mit isolierten Kupferdrähten und geheimen Compiler-Flags — und tastete nach dem Diagnose-Port unter dem Roboter-Arm.
 
 „Ich würde die Finger vom Beweismaterial lassen, wenn ich du wäre."
 
@@ -220,7 +220,7 @@ DEPT: BORROW CHECKER
 
 "Detective Ownership, I assume," said the Officer, without extending a hand. His eyes — the colour of cool stack memory — scanned Own as if checking a codeblock for memory leaks. "They say you can smell a **dangling reference** from a hundred metres."
 
-Detective nodded slowly. "And they say you can hear an illegal **mutable borrow** before it happens."
+Detective Ownership nodded slowly. "And they say you can hear an illegal **mutable borrow** before it happens."
 
 Okto, pressed quietly against the wall, didn't understand the words. But he understood that they mattered.
 
@@ -274,11 +274,11 @@ println!("{}", inspection);
 
 Okto thought about it. Every morning he reached. Lifted. Sorted. He took a fragment — and while he held it, it was his. No one else could take it at the same time. No one else could hold it at the same time. And when he placed it in the container — it was gone. Clean. Correct. Returned.
 
-*That ... is Ownership*, Okto said to himself.
+*That .. is Ownership*, Okto said to himself.
 
 Then he looked at Officer Borrowing. At the Borrow-Checker in his hand. At the flickering display.
 
-*So I can borrow something. That ... is Borrowing*, Okto concluded, and understood that there were rules for owning and lending.
+*He .. is in charge of safety. That .. is Borrowing*, Okto concluded, and understood that there were rules for owning and lending.
 
 The hum inside him — the quiet processing he had never been able to name — grew warmer for a moment. Not like an error. More like a compiler giving the green light for the first time.
 
@@ -302,7 +302,7 @@ Okto waited too, quiet and patient as always.
 
 The name fell like a single token into an empty buffer.
 
-Own and Officer Borrowing turned from the robot and walked slowly toward the Heap District.
+Detective Ownership and Officer Borrowing turned from the robot and walked slowly toward the Heap District.
 
 Okto stayed behind.
 

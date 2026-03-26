@@ -214,23 +214,23 @@ And in the middle of it all — silence.
 
 A small room, three walls of old steel, one of glass. From outside you could see in. From inside you could see everything.
 
-Agent Alias sat at a narrow table, surrounded by the chaos of the Heap District — and untouched by it. On the table lay three things: an open notebook, a slim reading device, and an empty teacup.
+Agent Alias sat at a narrow table, surrounded by the chaos of the Heap District — and untouched by it. On the table lay three things: an open notebook, a slim reading device, and an ID.
 
 Okto stopped.
 
 He didn't know why. He didn't know her. But something about the way she sat — calm, precise, as if the noise around her simply didn't exist — made him pause.
 
-Own knocked on the glass wall. Once. Brief.
+Detective Ownership knocked on the glass wall. Once. Brief.
 
-Alias raised her gaze. Not to Own. Not to Borrowing.
+Alias raised her gaze. Not to Detective Ownership. Not to Officer Borrowing.
 
 To Okto.
 
-For a moment. Then back to Own.
+For a moment. Then back to Detective Ownership.
 
 "Detective." Her voice was calm. Not cold — precise. As if she used exactly as many words as necessary and not one more. "You followed the trail."
 
-"To here," said Own.
+"To here," said Detective Ownership.
 
 ---
 
@@ -248,7 +248,7 @@ A pause. Outside, a red compiler sign flickered.
 
 "Max," she said. "He lost his ID. He thought he could change the TC-0003's ID register directly — read the entry, overwrite it at the same time, access granted." She tapped the notebook once. "He didn't think someone might be checking at the same time. Or he did think it and didn't care. With Max, both are possible."
 
-Own nodded slowly. "Where is he now?"
+Detective Ownership nodded slowly. "Where is he now?"
 
 "Next door." Alias stood up. Smooth, effortless, as if standing were a movement she had once learned perfectly and never needed to think about again. "He's waiting. He's ashamed."
 
@@ -274,7 +274,7 @@ At Okto.
 
 She looked at him. Not long — a second, maybe two. As if she were reading him. Scanning. Understanding.
 
-"You're coming," she said.
+"You're coming," she said. "And you two may watch through the glass,"
 
 Not a question.
 
@@ -310,7 +310,7 @@ A long pause.
 
 Okto stood still and watched.
 
-He watched Alias. He watched Max. He watched how Own and Borrowing were silent — not because they had nothing to say, but because Alias was already saying everything that needed to be said.
+He watched Alias. He watched Max. He watched how Detective Ownership and Officer Borrowing were silent — not because they had nothing to say, but because Alias was already saying everything that needed to be said.
 
 And then he understood something.
 

@@ -231,7 +231,7 @@ His left arm — the only one he has — reaches, lifts, sorts. Fragment by frag
 
 He pushes on.
 
-On the way to the Memory-Market, a frozen **Trash-Collector-Bot** stands motionless — a robot, just like him. Unusual, because one of those never stands still. The robot doesn't move a inch. "What's going on there?" Okto wonders, and walks over.
+On the way to the Memory-Market, a frozen **Trash-Collector-Bot** stands motionless — a robot, just like him. Unusual, because one of those never stands still. The robot doesn't move an inch. "What's going on there?" Okto wonders, and walks over.
 
 Okto sets down his container. Leans forward. This isn't his job — he's a robot, not a mechanic — but he looks at the display anyway :
 
