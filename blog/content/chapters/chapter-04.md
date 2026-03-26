@@ -11,7 +11,7 @@
 
 Max kam am nächsten Morgen zurück.
 
-Okto sah ihn von weitem — die zu grosse Jacke, die unordentlichen Haare, die Teekanne noch immer unter dem Arm. Er kam durch die Gasse 19, langsamer als gestern, als würde er sich nicht ganz sicher sein ob er willkommen war.
+Okto sah ihn von weitem — die zu grosse Jacke, die unordentlichen Haare. Er kam durch die Gasse 19, langsamer als sonst, als würde er sich nicht ganz sicher sein ob er willkommen war.
 
 Der TC-0003 stand noch immer da. Display noch immer rot. Status noch immer FROZEN.
 
