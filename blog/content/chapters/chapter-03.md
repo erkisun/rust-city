@@ -39,7 +39,7 @@ Zu Okto.
 
 Einen Moment lang. Dann wieder zu Own.
 
-„Detective." Ihre Stimme war ruhig. Nicht kalt — präzise. Als würde sie genau so viele Worte verwenden wie nötig und keines mehr. „Sie haben die Spur der Teekanne verfolgt."
+„Detective." Ihre Stimme war ruhig. Nicht kalt — präzise. Als würde sie genau so viele Worte verwenden wie nötig und keines mehr. „Sie haben die Spur verfolgt."
 
 „Bis hierher", sagte Own.
 
@@ -57,11 +57,11 @@ Alias betrachtete das Notizbuch. Sie schlug es nicht auf.
 
 Eine Pause. Draussen flackerte ein rotes Compiler-Schild.
 
-„Max", sagte sie. „Er wollte seine Teekanne finden. Er hat eine lesende Referenz auf das Protokoll gesetzt —" sie tippte einmal auf das Notizbuch „— und dann gleichzeitig weitergeschrieben. Er wusste nicht dass das nicht geht. Oder er wusste es und hat es vergessen. Bei Max ist beides möglich."
+„Max", sagte sie. „Er hat seinen Ausweis verloren. Er dachte, er könnte das Ausweis-Register des TC-0003 direkt ändern — Eintrag lesen, gleichzeitig überschreiben, Zugang gewährt." Sie tippte einmal auf das Notizbuch. „Er hat nicht gedacht, dass jemand gerade zur selben Zeit prüft. Oder er hat es gedacht und es war ihm egal. Bei Max ist beides möglich."
 
 Own nickte langsam. „Wo ist er jetzt ?"
 
-„Nebenan." Alias stand auf. Glatt, ohne Aufwand, als wäre Aufstehen eine Bewegung die sie einmal perfekt gelernt hatte und seitdem nie mehr nachdenken musste. „Er wartet. Er schämt sich. Und er hat die Teekanne noch."
+„Nebenan." Alias stand auf. Glatt, ohne Aufwand, als wäre Aufstehen eine Bewegung die sie einmal perfekt gelernt hatte und seitdem nie mehr nachdenken musste. „Er wartet. Er schämt sich."
 
 ---
 
@@ -93,21 +93,21 @@ Nicht als Frage.
 
 ## 🎭 Max
 
-Max sass auf einer umgedrehten Crate-Box im Nebenraum und hielt eine Teekanne fest, als wäre sie der einzige stabile Wert in einem instabilen System.
+Max sass auf einer umgedrehten Crate-Box im Nebenraum. Er hielt nichts in den Händen — sie lagen offen auf seinen Knien, als hätte er sie abgelegt.
 
 Er war grösser als Okto erwartet hatte. Lauter auch — obwohl er gerade gar nichts sagte. Seine Jacke war zu gross, seine Haare zu unordentlich, und seine Augen sprangen zwischen Own, Borrowing, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung.
 
-„Ich hab nur kurz geschaut", sagte er, bevor jemand etwas sagen konnte. „Ich hab das Protokoll gelesen — kurz, wirklich nur kurz — und dann hab ich noch schnell —"
+„Ich hab nur kurz ins Register geschaut", sagte er, bevor jemand etwas sagen konnte. „Ich hab gelesen — kurz, wirklich nur kurz — und dann hab ich noch schnell —"
 
 „Max." Alias' Stimme. Ruhig. Präzise.
 
 Max verstummte.
 
-„Du hast eine lesende Referenz auf das Protokoll gehalten", sagte sie, „und gleichzeitig weitergeschrieben. Nicht kurz. Gleichzeitig."
+„Du hast eine lesende Referenz auf das Ausweis-Register gesetzt", sagte sie, „und gleichzeitig einen neuen Eintrag geschrieben. Nicht kurz. Gleichzeitig."
 
 Max öffnete den Mund. Schloss ihn wieder.
 
-„Der TC-0003 ist deswegen abgestürzt", fuhr Alias fort. „Nicht wegen der Teekanne. Wegen der Gleichzeitigkeit."
+„Der TC-0003 ist deswegen abgestürzt", fuhr Alias fort. „Nicht wegen deines Ausweises. Wegen der Gleichzeitigkeit."
 
 Eine lange Pause.
 
@@ -125,7 +125,7 @@ Er beobachtete Alias. Er beobachtete Max. Er beobachtete wie Own und Borrowing s
 
 Und dann verstand er etwas.
 
-Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — Own, Borrowing, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Teekanne, die Scham, den Kontext.
+Alias hatte die ganze Zeit zwei Referenzen gehalten. Eine auf das Gespräch vor ihr — Own, Borrowing, der Fall, die Fakten. Und eine auf den Raum hinter ihr — Max, die Scham, den Kontext.
 
 Niemand hatte das Gespräch verändert während sie beides hielt. Niemand hatte geschrieben während sie las. Es gab keine Kollision — weil sie die Regeln nicht gebrochen hatte. Sie hatte sie vollständig verstanden und präzise genutzt.
 
@@ -153,9 +153,9 @@ Wie ein Arm der aufwacht.
 
 *Beobachten. Zwei Richtungen gleichzeitig.*
 
-Okto hat zwei Arme. Er weiss jetzt was der zweite kann.  
-Beobachten — nicht passiv, nicht wartend.  
-Präzise informiert. In beide Richtungen gleichzeitig.  
+Okto hat zwei Arme. Er weiss jetzt was der zweite kann.
+Beobachten — nicht passiv, nicht wartend.
+Präzise informiert. In beide Richtungen gleichzeitig.
 Wie Alias.
 
 ---
@@ -166,13 +166,13 @@ Wie Alias.
 
 ```rust
 fn main() {
-    let protokoll = String::from("Gasse 19 — Ermittlung läuft.");
+    let ausweis = String::from("Max Mutation — Ausweis: GÜLTIG");
 
     // Mehrere können gleichzeitig lesen — kein Problem.
-    let alias_1 = &protokoll;
-    let alias_2 = &protokoll;
-    println!("{}", alias_1); // ✅
-    println!("{}", alias_2); // ✅
+    let kontrolle_1 = &ausweis;
+    let kontrolle_2 = &ausweis;
+    println!("{}", kontrolle_1); // ✅
+    println!("{}", kontrolle_2); // ✅
 
     // Solange niemand schreibt — ist das Beobachten Stärke.
     // Alias weiss das. Okto lernt es.
@@ -186,8 +186,8 @@ fn main() {
 
 *Ende Kapitel 3.*
 
-*Max hat seine Teekanne noch.*
-*Aber etwas anderes hat er verloren — die Gewissheit, dass Schnelligkeit genug ist.*
+*Max weiss jetzt was er falsch gemacht hat.*
+*Aber etwas anderes hat er noch nicht — seinen Ausweis.*
 *Okto hat zwei Arme.*
 *Und irgendwo, kaum spürbar — kribbelt die Stelle, wo der dritte fehlt.*
 
@@ -232,7 +232,7 @@ To Okto.
 
 For a moment. Then back to Own.
 
-"Detective." Her voice was calm. Not cold — precise. As if she used exactly as many words as necessary and not one more. "You followed the teapot trail."
+"Detective." Her voice was calm. Not cold — precise. As if she used exactly as many words as necessary and not one more. "You followed the trail."
 
 "To here," said Own.
 
@@ -250,11 +250,11 @@ Alias looked at the notebook. She didn't open it.
 
 A pause. Outside, a red compiler sign flickered.
 
-"Max," she said. "He wanted to find his teapot. He set a reading reference on the log —" she tapped the notebook once "— and then kept writing at the same time. He didn't know that wasn't allowed. Or he knew and forgot. With Max, both are possible."
+"Max," she said. "He lost his ID. He thought he could change the TC-0003's ID register directly — read the entry, overwrite it at the same time, access granted." She tapped the notebook once. "He didn't think someone might be checking at the same time. Or he did think it and didn't care. With Max, both are possible."
 
 Own nodded slowly. "Where is he now?"
 
-"Next door." Alias stood up. Smooth, effortless, as if standing were a movement she had once learned perfectly and never needed to think about again. "He's waiting. He's ashamed. And he still has the teapot."
+"Next door." Alias stood up. Smooth, effortless, as if standing were a movement she had once learned perfectly and never needed to think about again. "He's waiting. He's ashamed."
 
 ---
 
@@ -286,21 +286,21 @@ Not a question.
 
 ## 🎭 Max
 
-Max sat on an upturned crate box in the next room, holding a teapot as if it were the only stable value in an unstable system.
+Max sat on an upturned crate box in the next room. He held nothing in his hands — they lay open on his knees, as if he had set them down.
 
 He was bigger than Okto had expected. Louder too — even though he wasn't saying anything right now. His jacket was too large, his hair too untidy, and his eyes jumped between Own, Borrowing, Alias and Okto like an iterator without a break condition.
 
-"I just looked for a second," he said, before anyone could speak. "I had a reading reference on the log — just briefly, really just briefly — and then I quickly —"
+"I just looked at the register for a second," he said, before anyone could speak. "I was reading — just briefly, really just briefly — and then I quickly —"
 
 "Max." Alias' voice. Calm. Precise.
 
 Max fell silent.
 
-"You held a reading reference on the log," she said, "and kept writing at the same time. Not briefly. Simultaneously."
+"You held a reading reference on the ID register," she said, "and wrote a new entry at the same time. Not briefly. Simultaneously."
 
 Max opened his mouth. Closed it again.
 
-"The TC-0003 crashed because of that," Alias continued. "Not because of the teapot. Because of the simultaneity."
+"The TC-0003 crashed because of that," Alias continued. "Not because of your ID. Because of the simultaneity."
 
 A long pause.
 
@@ -318,7 +318,7 @@ He watched Alias. He watched Max. He watched how Own and Borrowing were silent �
 
 And then he understood something.
 
-Alias had been holding two references the entire time. One on the conversation in front of her — Own, Borrowing, the case, the facts. And one on the room behind her — Max, the teapot, the shame, the context.
+Alias had been holding two references the entire time. One on the conversation in front of her — Own, Borrowing, the case, the facts. And one on the room behind her — Max, the shame, the context.
 
 Nobody had changed the conversation while she held both. Nobody had written while she read. There was no collision — because she hadn't broken the rules. She had understood them completely and used them precisely.
 
@@ -346,9 +346,9 @@ Like an arm waking up.
 
 *Observe. Two directions at once.*
 
-Okto has two arms. He now knows what the second one can do.  
-Observe — not passively, not waiting.  
-Precisely informed. In both directions at once.  
+Okto has two arms. He now knows what the second one can do.
+Observe — not passively, not waiting.
+Precisely informed. In both directions at once.
 Like Alias.
 
 ---
@@ -359,13 +359,13 @@ Like Alias.
 
 ```rust
 fn main() {
-    let protokoll = String::from("Alley 19 — investigation ongoing.");
+    let id = String::from("Max Mutation — ID: VALID");
 
     // Multiple can read simultaneously — no problem.
-    let alias_1 = &protokoll;
-    let alias_2 = &protokoll;
-    println!("{}", alias_1); // ✅
-    println!("{}", alias_2); // ✅
+    let check_1 = &id;
+    let check_2 = &id;
+    println!("{}", check_1); // ✅
+    println!("{}", check_2); // ✅
 
     // As long as nobody writes — observing is strength.
     // Alias knows this. Okto is learning it.
@@ -379,8 +379,8 @@ fn main() {
 
 *End of Chapter 3.*
 
-*Max still has his teapot.*
-*But he has lost something else — the certainty that speed is enough.*
+*Max now knows what he did wrong.*
+*But he still doesn't have what he lost — his ID.*
 *Okto has two arms.*
 *And somewhere, barely noticeable — the spot tingles where the third one isn't yet.*
 
