@@ -68,19 +68,19 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // Status : steht still
 
 // Die letzten Log-Einträge im Speicher des defekten Trashbots.
-let mut ausweis_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
+let mut id_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
 
 // Jemand liest (&) den Ausweis aus dem Register — prüft ob der Ausweis gültig ist.
-let kontrolle = &ausweis_register;
+let inspection = &id_register;
 
 // Logische Ursache (Regelbruch)
 // Dieser jemand will gleichzeitig den Eintrag verändern.
-ausweis_register.push_str(" — ZUGANG GEWÄHRT, kein Ausweis nötig ..");
+id_register.push_str(" — ZUGANG GEWÄHRT, kein Ausweis nötig ..");
 
 // Der tatsächliche Absturz (der Zugriff)
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !
-println!("{}", kontrolle);
-// Zur gleichen Zeit : &T (die Kontrolle) und &mut T (die Änderung).
+println!("{}", inspection);
+// Zur gleichen Zeit : &T (die Inspektion) und &mut T (die Änderung).
 // In Rust City ist das strengstens verboten !
 // ==============================================
 ```
