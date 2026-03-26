@@ -119,21 +119,21 @@ Der Detective wartete.
 
 Auch Okto wartete, wie immer ruhig und geduldig.
 
-„**Agentin Alias** .." fuhr Officer Borrowing fort leise. „Ich sehe drei Wege - und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
+„**Agentin Alias** .." fuhr Officer Borrowing leise fort. „Ich sehe drei Wege - und *sie* hätte den elegantesten gewählt. Den einen, den man erst bei genauer Betrachtung versteht."
 
-*Regeln biegen*, dachte er. *Was wohl damit gemeint ist ?*
+*Regeln biegen*, dachte Okto. *Was wohl damit gemeint ist ?*
 
 ---
 
 ### 📌 Lebensregel #2
 
-> **Teilen ist erlaubt. Aber Verantwortung gehört immer nur einer Person. Wer alles auf einmal will, verliert alles auf einmal.**
+> **Verantwortung gehört immer nur einer Person. Wer alles auf einmal will, verliert alles auf einmal.**
 
 ---
 
 ### 🦾 Arm #1 — Noch aktiv
 
-*Halten. Teilen. Loslassen.*
+*Halten. Besitzen. Loslassen.*
 
 Okto hat einen Arm. Er weiss jetzt, wie man das nennt.  
 Ownership.  
