@@ -101,7 +101,7 @@ Max schaute ihn an. Eine kurze Pause.
 
 Sie sassen eine Weile auf den Crate-Boxen neben dem TC-0003. Das Display zeigte ein ruhiges Grün. Irgendwo im Heap District flackerte ein Compiler-Schild. Die Stadt arbeitete weiter.
 
-„Alias hat gesagt, ein Profi biegt die Regeln weil er sie vollständig versteht", sagte Max. Er drehte die Teekanne in seinen Händen. „Ich glaube ich bin noch Amateur."
+„Alias hat gesagt, ein Profi biegt die Regeln weil er sie vollständig versteht", sagte Max. Er reibte seine Hände. „Ich glaube ich bin noch Amateur."
 
 „Du weisst jetzt was du falsch gemacht hast", sagte Okto.
 
