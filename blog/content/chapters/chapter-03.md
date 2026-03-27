@@ -141,7 +141,7 @@ Wie ein Arm der aufwacht.
 
 ### 📌 Lebensregel #3
 
-> **Ein Amateur bricht Regeln. Ein Profi kann sie biegen — weil er sie vollständig versteht.**
+> **Schau so viel du willst — solange du nicht eingreifst, bleibt alles sicher.**
 
 ---
 
@@ -162,15 +162,19 @@ Wie Alias.
 
 ```rust
 fn main() {
-    let ausweis = String::from("Max Mutation — Ausweis: GÜLTIG");
+    // Ein Film läuft im Fernsehen
+    let movie = String::from("Der Fall in Gasse 19 mit TC-0003");
 
-    // Mehrere können gleichzeitig lesen — kein Problem.
-    let kontrolle_1 = &ausweis;
-    let kontrolle_2 = &ausweis;
-    println!("{}", kontrolle_1); // ✅
-    println!("{}", kontrolle_2); // ✅
+    // Geschwister 1 schaut - ohne einzugreifen
+    let kind_1 = &movie;
+    // Geschwister 2 schaut - ohne einzugreifen
+    let kind_2 = &movie;
 
-    // Solange niemand schreibt — ist das Beobachten Stärke.
+    // Derselbe Film. Niemand greift zur Fernbedieung
+    println!("{}", kind_1); // ✅
+    println!("{}", kind_2); // ✅
+
+    // Solange niemand ändert — ist das gemeinsame Beobachten Stärke.
     // Alias weiss das. Okto lernt es.
 }
 ```
