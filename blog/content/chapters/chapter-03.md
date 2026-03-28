@@ -53,7 +53,7 @@ Officer Borrowing trat einen Schritt vor. Er zog sein Notizbuch heraus — echte
 
 Alias betrachtete das Notizbuch. Sie schlug es nicht auf. Eine Pause. Draussen flackerte ein rotes Compiler-Schild.
 
-„Max", sagte sie. „Er hat seinen Ausweis verloren. Er dachte, er könnte das Ausweis-Register des TC-0003 direkt ändern — Eintrag lesen, gleichzeitig überschreiben, Zugang gewährt." Sie tippte einmal auf das Notizbuch. „Er hat nicht gedacht, dass jemand gerade zur selben Zeit prüft. Oder er hat es gedacht und es war ihm egal. Bei Max ist beides möglich."
+„Max", sagte sie. „Er hat seinen Ausweis verloren und wollte es nicht erneuern gehen. Er dachte, er könnte im Ausweis-Register des TC-0003 direkt den alten Eintrag lesen, gleichzeitig überschreiben, Zugang gewährt." Sie tippte einmal auf das Notizbuch. „Er hat nicht gedacht, dass jemand gerade zuschaut. Oder er hat es gedacht und es war ihm egal. Bei Max ist beides möglich."
 
 Der Detective nickte langsam, und fragte nun auch. „Wo ist er jetzt ?"
 

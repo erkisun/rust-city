@@ -68,14 +68,14 @@ Officer Borrowing kniete sich neben den Roboter. Kein Zögern, keine Eile. Er zo
 // Status : steht still
 
 // Die letzten Log-Einträge im Speicher des defekten Trashbots.
-let mut id_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
+let mut id_register = String::from("Einwohner: Max Mutation — Ausweis: ABGELAUFEN");
 
 // Jemand liest (&) den Ausweis aus dem Register — prüft ob der Ausweis gültig ist.
 let inspection = &id_register;
 
 // Logische Ursache (Regelbruch)
 // Dieser jemand will gleichzeitig den Eintrag verändern.
-id_register.push_str(" — ZUGANG GEWÄHRT, kein Ausweis nötig ..");
+id_register.push_str("Einwohner: Max Mutation — Ausweis: GÜLTIG");
 
 // Der tatsächliche Absturz (der Zugriff)
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !

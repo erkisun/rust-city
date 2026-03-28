@@ -1,4 +1,4 @@
- 🇩🇪 [Deutsch](#de) · 🇬🇧 [English](#en)
+🇩🇪 [Deutsch](#de) · 🇬🇧 [English](#en)
 
 ---
 
@@ -65,11 +65,11 @@ Max schaute auf das Terminal. Auf seine Hände. Dann tippte er.
 ```rust
 // Mein Ausweis — gehört mir.
 // Nur ich darf ihn ausstellen. Nur ich bin verantwortlich.
-let mut mein_ausweis = String::from("Max Mutation — Ausweis: KEINER");
+let mut mein_ausweis = String::from("Einwohner: Max Mutation — Ausweis: ABGELAUFEN");
 
 // Borrowing sperrt ab — niemand sonst schaut rein.
 let ausstellen = &mut mein_ausweis;
-ausstellen.push_str(" → NEU AUSGESTELLT");
+ausstellen.push_str("Einwohner: Max Mutation — Ausweis: GÜLTIG");
 // Ich greife ein. Alleine. Vollständig verantwortlich.
 ```
 
