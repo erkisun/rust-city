@@ -11,117 +11,104 @@
 
 Max kam am nächsten Morgen zurück.
 
-Okto sah ihn von weitem — die zu grosse Jacke, die unordentlichen Haare. Er kam durch die Gasse 19, langsamer als sonst, als würde er sich nicht ganz sicher sein ob er willkommen war.
+Okto sah ihn von weitem — die zu grosse Jacke, die bunten unordentlichen Haare. Er kam durch die Gasse 19, diesmal ohne zu zögern. Er wusste wo er hinmusste.
 
-Der TC-0003 stand noch immer da. Display noch immer rot. Status noch immer FROZEN.
+„Passbüro", sagte er zu Okto. Kein Guten Morgen. Kein Zögern. „Ich muss einen neuen Ausweis ausstellen lassen."
 
-Max blieb davor stehen. Schaute lange.
+Okto schaute ihn an. Dann schob er seinen Behälter zur Seite.
 
-„Ich will es diesmal richtig machen", sagte er.
-
-Okto schob seinen Behälter einen Schritt zur Seite. Er sagte nichts. Aber er blieb.
+Er kam mit.
 
 ---
 
-## 🔧 Diesmal richtig
+## 🏙️ Das Passbüro
 
-Max wusste was er falsch gemacht hatte. Das war gestern schon klar geworden — in Alias' Glasraum, in ihrer ruhigen, präzisen Art es ihm zu erklären. Er hatte eine lesende Referenz auf das Protokoll des TC-0003 gesetzt und gleichzeitig hineingeschrieben. Beides auf einmal. Das war der Absturz.
+Das Passbüro lag am Rand des Stack Districts — ordentlich, ruhig, mit langen Gängen und nummerierten Schaltern. Genau das Gegenteil vom Heap District.
 
-Heute wollte er nur lesen.
+Am Eingang stand ein Schild:
 
-Er schloss sein Diagnose-Kabel an. Langsamer als sonst. Er schaute kurz zu Okto — nicht um Erlaubnis, aber fast.
-
-Dann tippte er.
-
-```rust
-// ==============================================
-// MAX' VERSUCH — DIESMAL NUR LESEN
-// ORT : INDUSTRIEGEBIET / GASSE 19
-// ==============================================
-//
-// Modell : Trash-Collector v.3.4.2 "TC-0003"
-// Baujahr : 2034
-// Status : steht still
-
-// Die letzten Log-Einträge im Speicher des defekten Trashbots.
-let mut id_register = String::from("Einwohner: Max Mutation — Ausweis: GÜLTIG");
-
-// Max liest (&T) den Ausweis aus dem Register. Nur schauen.
-let inspection = &id_register;
-
-// Kein Konflikt !
-println!("{}", inspection);
-
-// Keine Mutation. Keine Kollision.
-// Officer Borrowing würde nicken.
-// ==============================================
+```
+PASSBÜRO — RUST CITY
+Ausweis ausstellen : nur der Inhaber
+Ausweis lesen      : jeder
+Ausweis ändern     : nur der Inhaber — exklusiv
 ```
 
-Das Display des TC-0003 flackerte. Nicht rot. Nicht schwarz.
+Max las das Schild. Dann nickte er — einmal, kurz, als würde er etwas bestätigen das er bereits wusste.
 
-Gelb. Dann ein kurzes, vorsichtiges Grün.
-
-Max lehnte sich zurück. Er atmete langsam aus.
-
-„Da ist sie", sagte er leise.
-
-Okto trat näher. Auf dem Display stand jetzt ein Eintrag — klein, fast am Ende des Protokolls, zwischen den Zeitstempeln:
-
-`10:40 .. Ausweis liegt im Fundbüro, Crate 7, Fach 3.`
-
-Max schaute hinüber zum Crate. Dann auf den Eintrag. Dann wieder auf den Crate.
-
-„Sie war die ganze Zeit im Fundbüro", sagte er.
+Sie traten ein.
 
 ---
 
-## 🏙️ Okto's Frage
+## 🔐 Das Ausstellungs-Terminal
 
-Okto betrachtete das Display. Den Eintrag. Den Code den Max getippt hatte.
+Der Beamte am Schalter schaute kurz auf Max. Dann auf Okto. Dann wieder auf Max.
 
-Diesmal kein Fehler. Diesmal keine Kollision. Nur eine lesende Referenz — ruhig, präzise, ohne einzugreifen. Der TC-0003 hatte nicht gezuckt. Das Protokoll war intakt.
+„Neuer Ausweis ?"
 
-*Lesen darf jeder*, dachte Okto. *Solange niemand gleichzeitig schreibt.*
+„Ja."
 
-Er wusste das bereits — seit Gasse 19, seit Alias, seit dem Glasraum. Aber jetzt hatte er es anders gesehen. Nicht als Verbot. Als Möglichkeit.
+„Terminal 3. Nur Sie. Niemand sonst darf während der Ausstellung in den Bereich."
 
-„Warum hast du gestern geschrieben ?" fragte Okto.
+Max nickte. Er ging zu Terminal 3.
 
-Max schaute ihn an. Eine kurze Pause.
+Okto wollte folgen — aber Officer Borrowing trat um die Ecke. Als hätte er gewusst dass er hier gebraucht wurde. Er schaute Okto an. Ruhig. Ohne Theatralik — für einmal.
 
-„Weil ich dachte, wenn ich es ins Register schreibe, findet es jemand." Er zuckte mit den Schultern — eine Bewegung die aussah wie ein halbfertiges Argument. „Schneller. Einfacher."
+„Warten", sagte er.
 
-„Aber das Register gehörte dir nicht."
+Dann zog er ein Absperrband aus seiner Uniform — leuchtend gelb, mit der Aufschrift `&mut — EXKLUSIVER ZUGRIFF` — und spannte es um Terminal 3. Niemand konnte hineinschauen. Niemand konnte eingreifen. Nur Max.
 
-„Nein", sagte Max. Kein Zögern. „Das war der Fehler."
+„Jetzt", sagte Borrowing zu Max. „Nur du. Nur dein Ausweis. Nur du bist verantwortlich."
+
+Max schaute auf das Terminal. Auf seine Hände. Dann tippte er.
+
+```rust
+// Mein Ausweis — gehört mir.
+// Nur ich darf ihn ausstellen. Nur ich bin verantwortlich.
+let mut mein_ausweis = String::from("Max Mutation — Ausweis: KEINER");
+
+// Borrowing sperrt ab — niemand sonst schaut rein.
+let ausstellen = &mut mein_ausweis;
+ausstellen.push_str(" → NEU AUSGESTELLT");
+// Ich greife ein. Alleine. Vollständig verantwortlich.
+```
+
+Das Terminal piepte einmal. Kurz. Dann leuchtete es grün.
+
+Officer Borrowing nahm das Absperrband ab. Faltete es sorgfältig zusammen. Steckte es zurück.
+
+„Fertig", sagte er.
 
 ---
 
-## 🏙️ Was Max versteht
+## 🏙️ Okto versteht
 
-Sie sassen eine Weile auf den Crate-Boxen neben dem TC-0003. Das Display zeigte ein ruhiges Grün. Irgendwo im Heap District flackerte ein Compiler-Schild. Die Stadt arbeitete weiter.
+Okto hatte draussen gewartet. Er hatte nicht gesehen was Max getippt hatte. Er hatte nicht gesehen was auf dem Terminal stand.
 
-„Alias hat gesagt, ein Profi biegt die Regeln weil er sie vollständig versteht", sagte Max. Er reibte seine Hände. „Ich glaube ich bin noch Amateur."
+Aber er hatte gesehen wie Officer Borrowing das Absperrband gespannt hatte. Wie niemand hineinschauen durfte. Wie Max alleine drinstand — nur er, sein Ausweis, seine Verantwortung.
 
-„Du weisst jetzt was du falsch gemacht hast", sagte Okto.
+*Das ist `&mut T`*, dachte Okto.
 
-„Das wusste ich gestern auch schon."
+Nicht der Fehler den Max damals gemacht hatte. Nicht das Chaos im TC-0003. Das hier.
 
-„Aber heute hast du es anders gemacht."
+Eingreifen — aber nur ins Eigene. Alleine. Mit einer Sperre die andere draussen hält. Nicht weil sie nicht dürfen. Sondern weil Verantwortung nicht geteilt werden kann wenn jemand schreibt.
 
-Max schaute ihn an. Dann auf das Display.
+Alias hatte gezeigt: viele Augen brechen nichts.
+Max hatte gezeigt: eine Hand schreibt — und trägt es alleine.
 
-„Ja", sagte er. „Heute hab ich erst gelesen."
+Beide Seiten. Dasselbe Gesetz.
 
-Eine Pause.
+Officer Borrowing trat neben Okto. Er schaute nicht zu ihm. Er schaute auf Max der aus dem Terminal-Bereich trat, den neuen Ausweis in der Hand.
 
-„Vielleicht", sagte Okto langsam, „ist das der Unterschied. Nicht ob man die Regel kennt. Sondern ob man — bevor man handelt — fragt: gehört mir das ? Und was darf ich damit tun ?"
+„Verstanden ?" fragte Borrowing.
 
-Max schwieg eine Weile.
+Okto dachte nach.
 
-„Das klingt nach dem was am Tor steht", sagte er schliesslich.
+„Schau so viel du willst", sagte er langsam. „Solange du nicht eingreifst, bleibt alles sicher." Er pausierte. „Und wenn du eingreifst — nur ins Deine. Dann aber vollständig."
 
-Okto sagte nichts. Aber er dachte daran.
+Officer Borrowing sagte nichts.
+
+Aber er nickte.
 
 ---
 
@@ -142,9 +129,9 @@ Nicht: was dir gehört, verteidige es.
 
 Pflege es. Kümmere dich. Trag Verantwortung — solange es dir gehört, vollständig.
 
-Max hatte in ein Protokoll geschrieben das ihm nicht gehörte. Nicht aus Bosheit. Aus Ungeduld. Aus dem Gefühl dass Schnelligkeit genug war.
+Max hatte in ein Register geschrieben das ihm nicht gehörte. Nicht aus Bosheit. Aus Ungeduld. Er hatte nicht gefragt: *gehört mir das ?*
 
-Aber das Protokoll gehörte ihm nicht. Also hatte er auch keine Verantwortung dafür getragen. Und genau das — diese eine fehlende Frage — hatte den TC-0003 zum Absturz gebracht.
+Diese eine fehlende Frage hatte den TC-0003 zum Absturz gebracht.
 
 *Was du besitzt, das pflege.*
 
@@ -152,13 +139,13 @@ Das war kein Rust-Konzept.
 
 Das war älter.
 
-Okto schob weiter. Aber etwas in ihm — ruhig, fast unmerklich, wie ein Wert der sich still verändert — war nicht mehr ganz dasselbe.
+Okto schob weiter. Aber etwas in ihm — ruhig, fast unmerklich — war nicht mehr ganz dasselbe.
 
 ---
 
 ### 📌 Lebensregel #4
 
-> **Coolness öffnet Türen. Struktur hält sie offen.**
+> **Greif nur ins Deine. Dann aber vollständig.**
 
 ---
 
@@ -178,34 +165,31 @@ Nicht für immer. Aber solange es dir gehört — vollständig.
 
 ```rust
 fn main() {
-    let mut wert = String::from("TC-0003 Protokoll");
+    // Mein Ausweis — gehört mir.
+    // Nur ich darf ihn ändern. Alleine. Vollständig verantwortlich.
+    let mut mein_ausweis = String::from("Max Mutation — Ausweis: KEINER");
 
-    // Entweder: viele lesen — gleichzeitig, kein Problem
-    let r1 = &wert;
-    let r2 = &wert;
-    println!("{} — {}", r1, r2); // ✅
+    // Borrowing sperrt ab — niemand sonst schaut rein während ich schreibe.
+    let ausstellen = &mut mein_ausweis;
+    ausstellen.push_str(" → NEU AUSGESTELLT");
 
-    // Oder: einer schreibt — alleine, ohne Zuschauer
-    // Aber nur wenn der Wert dir gehört.
-    let r3 = &mut wert;
-    r3.push_str(" — bereinigt");
-    println!("{}", r3); // ✅
+    // Wenn ich fertig bin — darf jeder wieder schauen.
+    println!("{}", mein_ausweis); // ✅ — mein Eigenes, meine Verantwortung
 
-    // Niemals beides gleichzeitig.
-    // Und niemals in etwas schreiben das dir nicht gehört.
+    // &T:    schauen darf jeder — solange niemand eingreift.
+    // &mut T: eingreifen darf nur einer — aber nur ins Eigene.
 }
 ```
 
 *Notiz am Rand, handgeschrieben:*
-`// &mut T bedeutet nicht: ich darf alles. Es bedeutet: ich bin jetzt alleine verantwortlich — für etwas das mir gehört.`
+`// &mut T bedeutet nicht: ich darf alles. Es bedeutet: ich greife ins Meine — und trage es vollständig.`
 
 ---
 
 *Ende Kapitel 4.*
 
-*Der TC-0003 steht in Gasse 19.*
-*Sein Display zeigt ein ruhiges, gleichmässiges Grün.*
-*Max bringt die Teekanne ins Fundbüro, Crate 7, Fach 3.*
+*Max trägt seinen neuen Ausweis.*
+*Der TC-0003 steht noch immer in Gasse 19 — aber das ist eine andere Geschichte.*
 *Okto hat zwei Arme — und weiss was der erste Satz am Tor bedeutet.*
 *Noch nicht alles. Aber den ersten Satz.*
 
@@ -222,116 +206,104 @@ fn main() {
 
 Max came back the next morning.
 
-Okto saw him from a distance — the oversized jacket, the untidy hair, the teapot still under his arm. He came through Alley 19, slower than yesterday, as if he wasn't quite sure he was welcome.
+Okto saw him from a distance — the oversized jacket, the colourful untidy hair. He came through Alley 19, this time without hesitating. He knew where he needed to go.
 
-The TC-0003 was still there. Display still red. Status still FROZEN.
+"Passport office," he said to Okto. No good morning. No hesitation. "I need to get a new ID issued."
 
-Max stopped in front of it. Looked for a long time.
+Okto looked at him. Then pushed his container to the side.
 
-"I want to do it right this time," he said.
-
-Okto pushed his container one step to the side. He said nothing. But he stayed.
+He came along.
 
 ---
 
-## 🔧 This Time Right
+## 🏙️ The Passport Office
 
-Max knew what he had done wrong. That had already become clear yesterday — in Alias' glass room, in her calm, precise way of explaining it to him. He had set a reading reference on the TC-0003's log and written into it at the same time. Both at once. That was the crash.
+The passport office was at the edge of the Stack District — neat, quiet, with long corridors and numbered counters. The exact opposite of the Heap District.
 
-Today he only wanted to read.
+At the entrance stood a sign:
 
-He connected his diagnostic cable. Slower than usual. He glanced briefly at Okto — not for permission, but almost.
-
-Then he typed.
-
-```rust
-// ==============================================
-// MAX' ATTEMPT — THIS TIME ONLY READING
-// LOCATION : ALLEY 19 / TC-0003
-// ==============================================
-
-// The TC-0003's log — read without changes.
-let protokoll = String::from(
-    "10:37 .. Bin collection started. \
-     10:38 .. blue bin emptied. \
-     10:39 .. green bin emptied. \
-     10:40 .. red bin emptied."
-);
-
-// Max reads — without writing. &T. Just looking.
-let findmyteapot = &protokoll;
-println!("{}", findmyteapot); // ✅ — no conflict
-
-// No mutation. No collision.
-// Officer Borrowing would nod.
-// ==============================================
+```
+PASSPORT OFFICE — RUST CITY
+Issue ID    : owner only
+Read ID     : anyone
+Change ID   : owner only — exclusive
 ```
 
-The TC-0003's display flickered. Not red. Not black.
+Max read the sign. Then nodded — once, briefly, as if confirming something he already knew.
 
-Yellow. Then a brief, cautious green.
-
-Max leaned back. He breathed out slowly.
-
-"There it is," he said quietly.
-
-Okto stepped closer. On the display there was now an entry — small, almost at the end of the log, between the timestamps:
-
-`10:40 .. Teapot — Lost & Found, Crate 7, Slot 3.`
-
-Max looked at the teapot under his arm. Then at the entry. Then back at the teapot.
-
-"It was in the lost and found the whole time," he said.
+They went in.
 
 ---
 
-## 🏙️ Okto's Question
+## 🔐 The Issuance Terminal
 
-Okto looked at the display. The entry. The code Max had typed.
+The clerk at the counter glanced at Max. Then at Okto. Then back at Max.
 
-No error this time. No collision. Just a reading reference — calm, precise, without intervening. The TC-0003 hadn't flinched. The log was intact.
+"New ID?"
 
-*Anyone can read*, Okto thought. *As long as nobody writes at the same time.*
+"Yes."
 
-He already knew that — since Alley 19, since Alias, since the glass room. But now he had seen it differently. Not as a prohibition. As a possibility.
+"Terminal 3. Only you. Nobody else may enter the area during issuance."
 
-"Why did you write yesterday?" Okto asked.
+Max nodded. He walked to Terminal 3.
 
-Max looked at him. A brief pause.
+Okto wanted to follow — but Officer Borrowing stepped around the corner. As if he had known he was needed here. He looked at Okto. Calm. Without theatrics — for once.
 
-"Because I thought if I write it into the log, someone would find it." He shrugged — a movement that looked like a half-finished argument. "Faster. Simpler."
+"Wait," he said.
 
-"But the log wasn't yours."
+Then he pulled a barrier tape from his uniform — bright yellow, printed with `&mut — EXCLUSIVE ACCESS` — and stretched it around Terminal 3. Nobody could look in. Nobody could interfere. Only Max.
 
-"No," said Max. No hesitation. "That was the mistake."
+"Now," said Borrowing to Max. "Only you. Only your ID. Only you are responsible."
+
+Max looked at the terminal. At his hands. Then he typed.
+
+```rust
+// My ID — belongs to me.
+// Only I may issue it. Only I am responsible.
+let mut my_id = String::from("Max Mutation — ID: NONE");
+
+// Borrowing seals the area — nobody else looks in.
+let issue = &mut my_id;
+issue.push_str(" → NEWLY ISSUED");
+// I reach in. Alone. Fully responsible.
+```
+
+The terminal beeped once. Brief. Then it lit up green.
+
+Officer Borrowing removed the barrier tape. Folded it carefully. Put it back.
+
+"Done," he said.
 
 ---
 
-## 🏙️ What Max Understands
+## 🏙️ Okto Understands
 
-They sat for a while on the crate boxes beside the TC-0003. The display showed a quiet green. Somewhere in the Heap District a compiler sign flickered. The city kept working.
+Okto had waited outside. He hadn't seen what Max typed. He hadn't seen what the terminal showed.
 
-"Alias said a professional bends the rules because he understands them completely," said Max. He turned the teapot in his hands. "I think I'm still an amateur."
+But he had seen Officer Borrowing stretch the barrier tape. How nobody could look in. How Max stood alone inside — just him, his ID, his responsibility.
 
-"You now know what you did wrong," said Okto.
+*That is `&mut T`*, Okto thought.
 
-"I knew that yesterday too."
+Not the mistake Max had made before. Not the chaos in the TC-0003. This.
 
-"But today you did it differently."
+Reaching in — but only into what's yours. Alone. With a barrier that keeps others outside. Not because they aren't allowed. But because responsibility cannot be shared when someone is writing.
 
-Max looked at him. Then at the display.
+Alias had shown: many eyes break nothing.
+Max had shown: one hand writes — and carries it alone.
 
-"Yes," he said. "Today I read first."
+Both sides. The same law.
 
-A pause.
+Officer Borrowing stepped beside Okto. He didn't look at him. He looked at Max who stepped out of the terminal area, new ID in hand.
 
-"Maybe," said Okto slowly, "that's the difference. Not whether you know the rule. But whether — before you act — you ask: does this belong to me? And what am I allowed to do with it?"
+"Understood?" asked Borrowing.
 
-Max was quiet for a while.
+Okto thought about it.
 
-"That sounds like what's written above the gate," he said finally.
+"Look as much as you want," he said slowly. "As long as you don't interfere, everything stays safe." He paused. "And if you do reach in — only into what's yours. But then completely."
 
-Okto said nothing. But he thought about it.
+Officer Borrowing said nothing.
+
+But he nodded.
 
 ---
 
@@ -352,9 +324,9 @@ Not: what belongs to you, defend it.
 
 Tend to it. Take care. Carry responsibility — for as long as it's yours, completely.
 
-Max had written into a log that didn't belong to him. Not out of malice. Out of impatience. Out of the feeling that speed was enough.
+Max had written into a register that didn't belong to him. Not out of malice. Out of impatience. He hadn't asked: *does this belong to me?*
 
-But the log wasn't his. So he hadn't carried any responsibility for it. And that — that one missing question — had brought the TC-0003 down.
+That one missing question had brought the TC-0003 down.
 
 *What you own, tend to it.*
 
@@ -362,13 +334,13 @@ That wasn't a Rust concept.
 
 That was older.
 
-Okto pushed on. But something inside him — quiet, almost imperceptible, like a value that changes silently — was no longer quite the same.
+Okto pushed on. But something inside him — quiet, almost imperceptible — was no longer quite the same.
 
 ---
 
 ### 📌 Life Rule #4
 
-> **Coolness opens doors. Structure keeps them open.**
+> **Only reach into what's yours. But then — completely.**
 
 ---
 
@@ -388,34 +360,31 @@ Not forever. But for as long as it's yours — completely.
 
 ```rust
 fn main() {
-    let mut value = String::from("TC-0003 Log");
+    // My ID — belongs to me.
+    // Only I may change it. Alone. Fully responsible.
+    let mut my_id = String::from("Max Mutation — ID: NONE");
 
-    // Either: many read — simultaneously, no problem
-    let r1 = &value;
-    let r2 = &value;
-    println!("{} — {}", r1, r2); // ✅
+    // Borrowing seals the area — nobody else looks in while I write.
+    let issue = &mut my_id;
+    issue.push_str(" → NEWLY ISSUED");
 
-    // Or: one writes — alone, without observers
-    // But only if the value belongs to you.
-    let r3 = &mut value;
-    r3.push_str(" — cleared");
-    println!("{}", r3); // ✅
+    // When I'm done — everyone may look again.
+    println!("{}", my_id); // ✅ — mine, my responsibility
 
-    // Never both at the same time.
-    // And never write into something that isn't yours.
+    // &T:    anyone may look — as long as nobody interferes.
+    // &mut T: only one may change — but only what is theirs.
 }
 ```
 
 *Margin note, handwritten:*
-`// &mut T doesn't mean: I can do anything. It means: I am now solely responsible — for something that is mine.`
+`// &mut T doesn't mean: I can do anything. It means: I reach into what's mine — and carry it completely.`
 
 ---
 
 *End of Chapter 4.*
 
-*The TC-0003 stands in Alley 19.*
-*Its display shows a calm, steady green.*
-*Max takes the teapot to the lost and found, Crate 7, Slot 3.*
+*Max carries his new ID.*
+*The TC-0003 still stands in Alley 19 — but that is another story.*
 *Okto has two arms — and knows what the first sentence above the gate means.*
 *Not everything yet. But the first sentence.*
 
