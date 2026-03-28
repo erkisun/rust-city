@@ -318,7 +318,7 @@ He watched Alias. He watched Max. He watched how Detective Ownership and Officer
 
 And then he understood something.
 
-Alias had been holding two references the entire time. One on the conversation in front of her — Own, Borrowing, the case, the facts. And one on the room behind her — Max, the shame, the context.
+Alias had been holding two references the entire time. One on the conversation in front of her — the detective, the officer, the case, the facts. And one on the room behind her — Max, the shame, his story with the ID.
 
 Nobody had changed the conversation while she held both. Nobody had written while she read. There was no collision — because she hadn't broken the rules. She had understood them completely and used them precisely.
 
