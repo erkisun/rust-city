@@ -67,13 +67,13 @@ Okto stand noch immer im Eingang. Er hatte kein Wort gesagt. Niemand hatte ihn a
 
 Aber er sah.
 
-Er sah wie Alias sich bewegte — durch den Glasraum, an Own und Borrowing vorbei, zur Tür. Ihr Blick ging dabei in zwei Richtungen gleichzeitig: einmal voraus, einmal zurück. Nicht nervös. Nicht suchend. Einfach — präzise informiert. Als würde sie immer wissen was hinter ihr war ohne hinzuschauen. Sie hatte gezeigt, dass man Informationen Teilen kann, ohne sie zu besitzen.
+Er sah wie Alias sich bewegte — durch den Glasraum, an Detective Ownership und Officer Borrowing vorbei, zur Tür. Ihr Blick ging dabei in zwei Richtungen gleichzeitig: einmal voraus, einmal zurück. Nicht nervös. Nicht suchend. Einfach — präzise informiert. Als würde sie immer wissen was hinter ihr war ohne hinzuschauen. Sie hatte gezeigt, dass man Informationen Teilen kann, ohne sie zu besitzen.
 
 *Zwei Richtungen gleichzeitig*, dachte Okto.
 
 Er kannte das Gefühl. Wenn er in der Gasse arbeitete und seinen Behälter schob — er wusste immer wo der Behälter war, auch ohne hinzuschauen. Links. Schwer. Drei Schritte hinter ihm. Er brauchte nicht zu sehen, er wusste es.
 
-*Ist das dasselbe ?*
+*Ist es das dasselbe ?*
 
 Alias blieb kurz stehen. Nicht beim Detective. Nicht beim Officer.
 
@@ -278,7 +278,7 @@ At Okto.
 
 She looked at him. Not long — a second, maybe two. As if she were reading him. Scanning. Understanding.
 
-"You're coming," she said. "And you two may watch through the glass,"
+"You're coming," she said. "And you two may watch through the glass, but don't touch anything."
 
 Not a question.
 
@@ -338,7 +338,7 @@ Like an arm waking up.
 
 ### 📌 Life Rule #3
 
-> **An amateur breaks rules. A professional can bend them — because he understands them completely.**
+> **Look as much as you want — as long as you don't interfere, everything stays safe.**
 
 ---
 
@@ -359,15 +359,19 @@ Like Alias.
 
 ```rust
 fn main() {
-    let id = String::from("Max Mutation — ID: VALID");
+    // A movie is playing on TV
+    let movie = String::from("Der Fall in Gasse 19 mit TC-0003");
 
-    // Multiple can read simultaneously — no problem.
-    let check_1 = &id;
-    let check_2 = &id;
-    println!("{}", check_1); // ✅
-    println!("{}", check_2); // ✅
+    // Child 1 watches - without interfering
+    let child_1 = &movie;
+    // Child 2 watches - without interfering
+    let child_2 = &movie;
 
-    // As long as nobody writes — observing is strength.
+    // Same movie. Nobody reaches for the remote.
+    println!("{}", child_1); // ✅
+    println!("{}", child_2); // ✅
+
+    // As long as nobody changes anything — watching together is strength.
     // Alias knows this. Okto is learning it.
 }
 ```
