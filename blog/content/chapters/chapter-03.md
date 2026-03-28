@@ -53,7 +53,7 @@ Officer Borrowing trat einen Schritt vor. Er zog sein Notizbuch heraus — echte
 
 Alias betrachtete das Notizbuch. Sie schlug es nicht auf. Eine Pause. Draussen flackerte ein rotes Compiler-Schild.
 
-„Max", sagte sie. „Er hat seinen Ausweis verloren und wollte es nicht erneuern gehen. Er dachte, er könnte im Ausweis-Register des TC-0003 direkt den alten Eintrag lesen, gleichzeitig überschreiben, Zugang gewährt." Sie tippte einmal auf das Notizbuch. „Er hat nicht gedacht, dass jemand gerade zuschaut. Oder er hat es gedacht und es war ihm egal. Bei Max ist beides möglich."
+„Max", sagte sie. „Sein Ausweis ist abgelaufen. Er hat ihn im Müll verlegt und dachte — wozu ins Passbüro, ich überschreibe einfach den Eintrag im Register. Direkt. Schnell. Typisch Max."
 
 Der Detective nickte langsam, und fragte nun auch. „Wo ist er jetzt ?"
 
@@ -91,7 +91,7 @@ Nicht als Frage.
 
 Max sass auf einer umgedrehten Crate-Box im Nebenraum. Er hielt nichts in den Händen — sie lagen offen auf seinen Knien, als hätte er sie abgelegt.
 
-Er war grösser als Okto erwartet hatte. Seine Jacke war zu gross, seine bunten Haare zu unordentlich, und seine Augen sprangen zwischen dem Detective, Officer, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung. Max hat seinen abgelaufenen Ausweis im Müll verlegt. Er dachte er kann ihn direkt im Register des TC-0003 erneuern — schneller, einfacher, ohne Passbüro. Typisch Max.
+Er war grösser als Okto erwartet hatte. Seine Jacke war zu gross, seine bunten Haare zu unordentlich, und seine Augen sprangen zwischen dem Detective, Officer, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung.
 
 „Ich hab nur kurz ins Register geschaut", sagte er, bevor jemand etwas sagen konnte. „Ich hab gelesen — kurz, wirklich nur kurz — und dann hab ich noch schnell —"
 
@@ -250,7 +250,7 @@ Alias looked at the notebook. She didn't open it.
 
 A pause. Outside, a red compiler sign flickered.
 
-"Max," she said. "He lost his ID. He thought he could change the TC-0003's ID register directly — read the entry, overwrite it at the same time, access granted." She tapped the notebook once. "He didn't think someone might be checking at the same time. Or he did think it and didn't care. With Max, both are possible."
+"Max," she said. "His ID had expired. He let it end up in the trash and thought — why go to the passport office, I'll just overwrite the entry in the register. Directly. Quickly. Typical Max."
 
 Detective Ownership nodded slowly. "Where is he now?"
 
@@ -288,7 +288,7 @@ Not a question.
 
 Max sat on an upturned crate box in the next room. He held nothing in his hands — they lay open on his knees, as if he had set them down.
 
-He was bigger than Okto had expected. Louder too — even though he wasn't saying anything right now. His jacket was too large, his hair too untidy, and his eyes jumped between Own, Borrowing, Alias and Okto like an iterator without a break condition. Max had let his expired ID end up in the trash. He thought he could just renew it directly in the TC-0003's register — faster, simpler, no passport office. Typical Max
+He was bigger than Okto had expected. Louder too — even though he wasn't saying anything right now. His jacket was too large, his hair too untidy, and his eyes jumped between Own, Borrowing, Alias and Okto like an iterator without a break condition. 
 
 "I just looked at the register for a second," he said, before anyone could speak. "I was reading — just briefly, really just briefly — and then I quickly —"
 

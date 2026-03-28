@@ -316,7 +316,7 @@ Then he picked up his container and pushed on.
 
 ### 📌 Life Rule #2
 
-> **Sharing is allowed. But responsibility always belongs to one. Whoever wants everything at once loses everything at once.**
+> **What is yours is yours alone — and so is the responsibility for it.**
 
 ---
 
