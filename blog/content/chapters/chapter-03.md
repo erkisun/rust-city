@@ -91,7 +91,7 @@ Nicht als Frage.
 
 Max sass auf einer umgedrehten Crate-Box im Nebenraum. Er hielt nichts in den Händen — sie lagen offen auf seinen Knien, als hätte er sie abgelegt.
 
-Er war grösser als Okto erwartet hatte. Seine Jacke war zu gross, seine bunten Haare zu unordentlich, und seine Augen sprangen zwischen dem Detective, Officer, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung.
+Er war grösser als Okto erwartet hatte. Seine Jacke war zu gross, seine bunten Haare zu unordentlich, und seine Augen sprangen zwischen dem Detective, Officer, Alias und Okto hin und her wie ein Iterator ohne Break-Bedingung. Max hat seinen abgelaufenen Ausweis im Müll verlegt. Er dachte er kann ihn direkt im Register des TC-0003 erneuern — schneller, einfacher, ohne Passbüro. Typisch Max.
 
 „Ich hab nur kurz ins Register geschaut", sagte er, bevor jemand etwas sagen konnte. „Ich hab gelesen — kurz, wirklich nur kurz — und dann hab ich noch schnell —"
 
@@ -288,7 +288,7 @@ Not a question.
 
 Max sat on an upturned crate box in the next room. He held nothing in his hands — they lay open on his knees, as if he had set them down.
 
-He was bigger than Okto had expected. Louder too — even though he wasn't saying anything right now. His jacket was too large, his hair too untidy, and his eyes jumped between Own, Borrowing, Alias and Okto like an iterator without a break condition.
+He was bigger than Okto had expected. Louder too — even though he wasn't saying anything right now. His jacket was too large, his hair too untidy, and his eyes jumped between Own, Borrowing, Alias and Okto like an iterator without a break condition. Max had let his expired ID end up in the trash. He thought he could just renew it directly in the TC-0003's register — faster, simpler, no passport office. Typical Max
 
 "I just looked at the register for a second," he said, before anyone could speak. "I was reading — just briefly, really just briefly — and then I quickly —"
 

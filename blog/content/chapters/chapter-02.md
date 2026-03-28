@@ -247,14 +247,14 @@ Officer Borrowing knelt beside the robot. No hesitation, no hurry. He pulled a s
 // Status : motionless
 
 // The last log entries in the memory of the failed trashbot.
-let mut id_register = String::from("Resident: Max Mutation — ID: VALID");
+let mut id_register = String::from("Resident: Max Mutation — ID: EXPIRED");
 
 // Someone reads (&) the register — checking if the ID is valid.
 let inspection = &id_register;
 
 // The cause (rule violation)
 // That someone wants to change the entry at the same time.
-id_register.push_str(" — ACCESS GRANTED, no ID required ..");
+id_register.push_str("Resident: Max Mutation — ID: VALID");
 
 // The actual crash (the access)
 // Officer Borrowing intervenes — violation of the rule!
