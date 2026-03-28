@@ -69,7 +69,7 @@ let mut mein_ausweis = String::from("Einwohner: Max Mutation — Ausweis: ABGELA
 
 // Borrowing sperrt ab — niemand sonst schaut rein.
 let ausstellen = &mut mein_ausweis;
-ausstellen.push_str("Einwohner: Max Mutation — Ausweis: GÜLTIG");
+ausstellen.push_str(" -> GÜLTIG");
 // Ich greife ein. Alleine. Vollständig verantwortlich.
 ```
 
@@ -167,11 +167,11 @@ Nicht für immer. Aber solange es dir gehört — vollständig.
 fn main() {
     // Mein Ausweis — gehört mir.
     // Nur ich darf ihn ändern. Alleine. Vollständig verantwortlich.
-    let mut mein_ausweis = String::from("Max Mutation — Ausweis: KEINER");
+    let mut mein_ausweis = String::from("Max Mutation — Ausweis: NEU AUSGESTELLT");
 
     // Borrowing sperrt ab — niemand sonst schaut rein während ich schreibe.
     let ausstellen = &mut mein_ausweis;
-    ausstellen.push_str(" → NEU AUSGESTELLT");
+    ausstellen.push_str(" → GÜLTIG");
 
     // Wenn ich fertig bin — darf jeder wieder schauen.
     println!("{}", mein_ausweis); // ✅ — mein Eigenes, meine Verantwortung
@@ -260,11 +260,11 @@ Max looked at the terminal. At his hands. Then he typed.
 ```rust
 // My ID — belongs to me.
 // Only I may issue it. Only I am responsible.
-let mut my_id = String::from("Max Mutation — ID: NONE");
+let mut my_id = String::from("Resident: Max Mutation — ID: NEWLY ISSUED");
 
 // Borrowing seals the area — nobody else looks in.
 let issue = &mut my_id;
-issue.push_str(" → NEWLY ISSUED");
+issue.push_str(" → VALID");
 // I reach in. Alone. Fully responsible.
 ```
 

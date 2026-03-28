@@ -75,7 +75,7 @@ let inspection = &id_register;
 
 // Logische Ursache (Regelbruch)
 // Dieser jemand will gleichzeitig den Eintrag verändern.
-id_register.push_str("Einwohner: Max Mutation — Ausweis: GÜLTIG");
+id_register.push_str(" →  GÜLTIG");
 
 // Der tatsächliche Absturz (der Zugriff)
 // Officer Borrowing schreitet ein wegen Verstoßes gegen die Regel !
@@ -254,7 +254,7 @@ let inspection = &id_register;
 
 // The cause (rule violation)
 // That someone wants to change the entry at the same time.
-id_register.push_str("Resident: Max Mutation — ID: VALID");
+id_register.push_str(" → VALID");
 
 // The actual crash (the access)
 // Officer Borrowing intervenes — violation of the rule!
