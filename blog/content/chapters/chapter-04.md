@@ -111,7 +111,7 @@ Max nickte.
 
 Okto dachte nach.
 
-Officer Borrowing sagte auch nichts.
+Officer Borrowing sagte nichts.
 
 Aber er nickte.
 
