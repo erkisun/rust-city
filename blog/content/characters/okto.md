@@ -8,9 +8,9 @@
 
 ## DE 🇩🇪
 
-**Modell:** TC-0008  
-**Funktion:** Trashbot — Sammeln, Leeren, Zurückgeben  
-**Bezirk:** Gasse 7-C, Heap District  
+**Modell:** TC-0008
+**Funktion:** Trashbot — Sammeln, Leeren, Zurückgeben
+**Bezirk:** Gasse 7-C, Heap District
 **Status:** Wachsend
 
 ---
@@ -54,14 +54,23 @@ Okto hat acht mögliche Arme. Er weiss es nicht — noch nicht. Aber Madame Enum
 
 ### Sein stärkster Moment
 
-Kapitel 4. Detective Ownership nickte wortlos zu Okto, respektvoll:  
-*„Gut gemacht .."*
+Kapitel 10. Alias begegnet ihm als Gleiche.
 
-Okto nickte zurück, ohne zu antworten, respektvoll, und dachte:
+Okto denkt:
 
 > **„Das weiss ich."**
 
-Zum ersten Mal.
+Zum ersten Mal. Ohne Zögern. Ohne Frage.
+
+---
+
+### Seine drei Momente mit fn main()
+
+**Kapitel 1:** Okto sieht ihn von der Gasse. Eine ruhige Gestalt im zweiten Stock, Kaffee in der Hand. Okto nickt nicht — er ist ein Trashbot. Aber er schaut. Kurz. Dann schiebt er weiter.
+
+**Kapitel 7:** fn main() nickt vom Balkon. Okto schaut hoch — und nickt zurück. Zum ersten Mal. Kein Wort. Alles gesagt.
+
+**Kapitel 11:** Okto steht neben fn main() auf dem Balkon. Alle acht Arme aktiv. Rust City leuchtet unter ihnen.
 
 ---
 
@@ -83,9 +92,9 @@ Es ist sein innerer Kompass. Und der des Lesers.
 
 ## EN 🇬🇧
 
-**Model:** TC-0008  
-**Function:** Trashbot — collect, empty, return  
-**District:** Alley 7-C, Heap District  
+**Model:** TC-0008
+**Function:** Trashbot — collect, empty, return
+**District:** Alley 7-C, Heap District
 **Status:** Growing
 
 ---
@@ -129,14 +138,23 @@ Okto has eight possible arms. He doesn't know it — not yet. But Madame Enum do
 
 ### His strongest moment
 
-Chapter 4. Detective Ownership nodded silently to Okto, respectfully:  
-*"Well done .."*
+Chapter 10. Alias meets him as an equal.
 
-Okto nodded back, without answering, respectfully, and thought:
+Okto thinks:
 
 > **"I know."**
 
-For the first time.
+For the first time. Without hesitation. Without question.
+
+---
+
+### His three moments with fn main()
+
+**Chapter 1:** Okto sees him from the alley. A calm figure on the second floor, coffee in hand. Okto doesn't nod — he's a trashbot. But he looks. Briefly. Then pushes on.
+
+**Chapter 7:** fn main() nods from the balcony. Okto looks up — and nods back. For the first time. No words. Everything said.
+
+**Chapter 11:** Okto stands next to fn main() on the balcony. All eight arms active. Rust City glows beneath them.
 
 ---
 
