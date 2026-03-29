@@ -167,7 +167,7 @@ Wie Alias.
 *Gefunden in der Bibliothek des Verwaltungsturms. *
 
 <details>
-<summary>📎 <strong>Akte: References & Aliasung, Abschnitt: Referenzen. (Klicken zum Anzeigen)</strong></summary>
+<summary>📎 <strong>Akte: References & Aliasung, Abschnitt: Referenzen &T. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 fn main() {

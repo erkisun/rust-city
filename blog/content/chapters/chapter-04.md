@@ -172,9 +172,8 @@ Nicht für immer. Aber solange es dir gehört — vollständig.
 
 ---
 
-### 📎 Akte: Mutability & `&mut T`
-
-*Gefunden in der Bibliothek des Verwaltungsturms. Abschnitt: Mutation.*
+<details>
+<summary>📎 <strong>Akte: Mutability, Abschnitt: Mutation &mut T. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 fn main() {
@@ -182,7 +181,7 @@ fn main() {
     // Nur ich darf ihn ändern. Alleine. Vollständig verantwortlich.
     let mut mein_ausweis = String::from("Max Mutation — Ausweis: ABGELAUFEN");
 
-    // Borrowing sperrt ab — niemand sonst schaut rein während ich schreibe.
+    // Borrowing lässt absperren — niemand sonst schaut rein während ich schreibe.
     let ausstellen = &mut mein_ausweis;
     ausstellen.push_str(" → GÜLTIG");
 
@@ -193,6 +192,8 @@ fn main() {
     // &mut T: eingreifen darf nur einer — aber nur ins Eigene.
 }
 ```
+
+</details>
 
 *Notiz am Rand, handgeschrieben:*
 `// &mut T bedeutet nicht: ich darf alles. Es bedeutet: ich greife ins Meine — und trage es vollständig.`
