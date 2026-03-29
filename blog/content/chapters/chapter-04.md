@@ -173,7 +173,7 @@ Nicht für immer. Aber solange es dir gehört — vollständig.
 ---
 
 <details>
-<summary>📎 <strong>Akte: Mutability, Abschnitt: Mutation &mut T. (Klicken zum Anzeigen)</strong></summary>
+<summary>📎 <strong>Akte: Mutability (&mut T), Abschnitt: Mutationen (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 fn main() {
