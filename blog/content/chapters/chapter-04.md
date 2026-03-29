@@ -63,7 +63,7 @@ Dann zog er ein Absperrband aus seiner Uniform — leuchtend gelb, mit der Aufsc
 Max schaute auf das Terminal. Auf seine Hände. Dann tippte er.
 
 <details>
-<summary>📎 <strong>Akte: References & Aliasung, Abschnitt: Referenzen. (Klicken zum Anzeigen)</strong></summary>
+<summary>📜 <strong>Passbüro: Mutation, Abschnitt: Mutation. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 // Mein Ausweis — gehört mir.
