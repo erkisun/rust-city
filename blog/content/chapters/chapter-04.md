@@ -62,22 +62,25 @@ Dann zog er ein Absperrband aus seiner Uniform — leuchtend gelb, mit der Aufsc
 
 Max schaute auf das Terminal. Auf seine Hände. Dann tippte er.
 
+<details>
+<summary>📎 <strong>Akte: References & Aliasung, Abschnitt: Referenzen. (Klicken zum Anzeigen)</strong></summary>
+
 ```rust
 // Mein Ausweis — gehört mir.
-// Nur ich darf ihn ausstellen. Nur ich bin verantwortlich.
+// Nur ich darf ihn ausstellen und stempeln lassen. Nur ich bin verantwortlich.
 let mut mein_ausweis = String::from("Einwohner: Max Mutation — Ausweis: ABGELAUFEN");
 
-// Borrowing sperrt ab — niemand sonst schaut rein.
+// Borrowing ruft die Zentrale an und der Bereich wird absperrt — niemand sonst schaut rein.
 let ausstellen = &mut mein_ausweis;
 ausstellen.push_str(" -> GÜLTIG");
 // Ich greife ein. Alleine. Vollständig verantwortlich.
 ```
 
+</details>
+
 Das Terminal piepte einmal. Kurz. Dann leuchtete es grün.
 
-Officer Borrowing nahm das Absperrband ab. Faltete es sorgfältig zusammen. Steckte es zurück.
-
-„Fertig", sagte er.
+„Fertig", sagte Officer Borrowing.
 
 ---
 
