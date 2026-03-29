@@ -116,9 +116,10 @@ Andere Schritte als seine.
 
 ---
 
-### 📎 Akte: Was ist Rust City?
+*Gefunden in der Bibliothek des Verwaltungsturms. *
 
-*Gefunden in der Bibliothek des Verwaltungsturms. Abschnitt: Grundlagen.*
+<details>
+<summary>📎 <strong>Akte: Was ist Rust City ? Abschnitt: Grundlagen. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 // Cargo.toml — die Identitätskarte jedes Projekts in Rust City
@@ -136,6 +137,8 @@ fn main() {
     println!("Willkommen in Rust City.");
 }
 ```
+
+</details>
 
 *Notiz am Rand, handgeschrieben:*  
 `// Rust fragt immer zuerst: Wem gehört das? Wie lange? Und wer darf schauen?`
