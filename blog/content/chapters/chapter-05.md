@@ -198,6 +198,14 @@ Er hiess Okto.
 
 ---
 
+### 🦾 Arm #1 — Vertieft
+
+*Sammeln bedeutet auch pflegen was man hat.*
+
+### 🦾 Arm #2 — Aktiv
+
+*Beobachten. Zwei Richtungen gleichzeitig.*
+
 ### 🦾 Arm #3 — Erwacht
 
 *Einordnen. Typen erkennen ohne zu urteilen.*
@@ -205,6 +213,10 @@ Er hiess Okto.
 ### 🦾 Arm #4 — Erwacht
 
 *Verstehen. Zusammenhänge sehen die andere übersehen.*
+
+### 🦾 Arm #5 — Kribbelt
+
+*Beginnt.*
 
 Okto hat vier Arme. Er hat einen Namen.
 Er heisst Okto — nicht weil jemand es entschieden hat.
