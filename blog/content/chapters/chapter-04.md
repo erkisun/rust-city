@@ -103,13 +103,15 @@ Beide Seiten. Dasselbe Gesetz.
 
 Officer Borrowing trat neben Okto. Er schaute nicht zu ihm. Er schaute auf Max der aus dem Terminal-Bereich trat, den neuen Ausweis in der Hand.
 
-„Verstanden ?" fragte Borrowing.
+„Schau so viel du willst", sagte er wieder einmal theatralisch. „Solange du nicht eingreifst, bleibt alles sicher." Er pausierte. „Und wenn du eingreifst — nur ins Deine. Dann aber vollständig und selbständig."
+
+„Verstanden ?" fragte Officer Borrowing.
+
+Max nickte.
 
 Okto dachte nach.
 
-„Schau so viel du willst", sagte er langsam. „Solange du nicht eingreifst, bleibt alles sicher." Er pausierte. „Und wenn du eingreifst — nur ins Deine. Dann aber vollständig."
-
-Officer Borrowing sagte nichts.
+Officer Borrowing sagte auch nichts.
 
 Aber er nickte.
 
