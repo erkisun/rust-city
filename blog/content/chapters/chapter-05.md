@@ -452,6 +452,14 @@ His name was Okto.
 
 ---
 
+### 🦾 Arm #1 — Deepened
+
+*Collecting also means tending to what you have.*
+
+### 🦾 Arm #2 — Active
+
+*Observe. Two directions at once.*
+
 ### 🦾 Arm #3 — Awakened
 
 *Sort. Recognise types without judging.*
@@ -459,6 +467,10 @@ His name was Okto.
 ### 🦾 Arm #4 — Awakened
 
 *Understand. See connections others miss.*
+
+### 🦾 Arm #5 — Tingling
+
+*Beginning.*
 
 Okto has four arms. He has a name.
 His name is Okto — not because someone decided it.

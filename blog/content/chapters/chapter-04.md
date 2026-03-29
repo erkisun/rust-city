@@ -151,7 +151,15 @@ Okto schob weiter. Aber etwas in ihm — ruhig, fast unmerklich — war nicht me
 
 ### 🦾 Arm #1 — Vertieft
 
-*Sammeln bedeutet auch: pflegen was man hat.*
+*Sammeln bedeutet auch : pflegen was man hat.*
+
+### 🦾 Arm #2 — Aktiv
+
+*Beobachten. Zwei Richtungen gleichzeitig.*
+
+### 🦾 Arm #3 — Kribbelt
+
+*Stärker. Wärmer.*
 
 Okto hat zwei Arme. Arm #1 ist nicht mehr nur Sammeln.
 Er weiss jetzt: besitzen bedeutet Verantwortung tragen.
@@ -346,7 +354,15 @@ Okto pushed on. But something inside him — quiet, almost imperceptible — was
 
 ### 🦾 Arm #1 — Deepened
 
-*Collecting also means: tending to what you have.*
+*Collecting also means tending to what you have.*
+
+### 🦾 Arm #2 — Aktive
+
+*Observe. Two directions at once.*
+
+### 🦾 Arm #3 — Tingling
+
+*Stronger. Growing warmer.*
 
 Okto has two arms. Arm #1 is no longer just collecting.
 He now knows: owning means carrying responsibility.

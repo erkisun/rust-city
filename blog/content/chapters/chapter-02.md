@@ -131,9 +131,13 @@ Auch Okto wartete, wie immer ruhig und geduldig.
 
 ---
 
-### 🦾 Arm #1 — Noch aktiv
+### 🦾 Arm #1 — Aktiv
 
 *Halten. Besitzen. Loslassen.*
+
+### 🦾 Arm #2 — Kribbelt
+
+*Stärker. Noch nicht warm.*
 
 Okto hat einen Arm. Er weiss jetzt, wie man das nennt.  
 Ownership.  
@@ -320,13 +324,17 @@ Then he picked up his container and pushed on.
 
 ---
 
-### 🦾 Arm #1 — Still Active
+### 🦾 Arm #1 — Active
 
 *Reach. Hold. Release.*
 
-Okto has one arm. He now knows what to call it.  
-Ownership.  
-And somewhere, barely noticeable — the spot where the second arm isn't still tingles.
+### 🦾 Arm #2 — Tingling
+
+*Stronger. Not yet warm.*
+
+Okto has one arm. He now Knows what to call it.
+Ownership.
+And somewhere, barely noticeable — the spot where the secound arm isn't still tingles.
 
 ---
 

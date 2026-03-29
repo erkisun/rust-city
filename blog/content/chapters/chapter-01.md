@@ -110,9 +110,9 @@ Andere Schritte als seine.
 
 *Sammeln. Leeren. Zurückgeben.*
 
-Okto hat einen Arm. Er weiss was er damit tut.  
-Aber an einer Stelle — kaum spürbar, fast wie eingebildet — kribbelt es.  
-Dort wo noch nichts ist.
+### 🦾 Arm #2 — Kribbelt
+
+*Kaum spürbar. Fast eingebildet.*
 
 ---
 
@@ -260,9 +260,9 @@ Different footsteps than his.
 
 *Collect. Empty. Return.*
 
-Okto has one arm. He knows what he does with it.  
-But in one spot — barely noticeable, almost imagined — there's a tingle.  
-Where nothing is yet.
+### 🦾 Arm #2 — Tingling
+
+*Barely noticeable. Almost imagined.*
 
 ---
 

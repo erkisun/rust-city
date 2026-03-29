@@ -145,9 +145,17 @@ Wie ein Arm der aufwacht.
 
 ---
 
+### 🦾 Arm #1 — Aktiv
+
+*Sammeln. Leeren. Zurückgeben.*
+
 ### 🦾 Arm #2 — Erwacht
 
 *Beobachten. Zwei Richtungen gleichzeitig.*
+
+### 🦾 Arm #3 — Kribbelt
+
+*Beginnt.*
 
 Okto hat zwei Arme. Er weiss jetzt was der zweite kann.
 Beobachten — nicht passiv, nicht wartend.
@@ -342,9 +350,17 @@ Like an arm waking up.
 
 ---
 
-### 🦾 Arm #2 — Awakened
+### 🦾 Arm #1 — Aktive
 
 *Observe. Two directions at once.*
+
+### 🦾 Arm #2 — Awakening
+
+*Observe. Two directions at once.*
+
+### 🦾 Arm #3 — Tingling
+
+*Beginning.*
 
 Okto has two arms. He now knows what the second one can do.
 Observe — not passively, not waiting.
