@@ -145,9 +145,11 @@ Und irgendwo, kaum spürbar — kribbelt noch immer die Stelle, wo der zweite fe
 
 ---
 
-### 📎 Akte: Ownership & Borrowing
 
-*Gefunden in der Bibliothek des Verwaltungsturms. Abschnitt: Grundregeln.*
+*Gefunden in der Bibliothek des Verwaltungsturms. *
+
+<details>
+<summary>📎 <strong>Akte: Ownership & Borrowing, Abschnitt: Grundregeln. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 fn main() {
@@ -169,6 +171,8 @@ fn main() {
     // Und : Schaut gerade jemand zu ?
 }
 ```
+
+</details>
 
 *Notiz am Rand, handgeschrieben:*  
 `// Ownership und Borrowing sind keine Strafen. Es ist Sicherheit und Klarheit.`
