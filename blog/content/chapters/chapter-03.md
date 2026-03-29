@@ -164,9 +164,10 @@ Wie Alias.
 
 ---
 
-### 📎 Akte: References & Aliasing
+*Gefunden in der Bibliothek des Verwaltungsturms. *
 
-*Gefunden in der Bibliothek des Verwaltungsturms. Abschnitt: Referenzen.*
+<details>
+<summary>📎 <strong>Akte: References & Aliasung, Abschnitt: Referenzen. (Klicken zum Anzeigen)</strong></summary>
 
 ```rust
 fn main() {
@@ -186,6 +187,8 @@ fn main() {
     // Alias weiss das. Okto lernt es.
 }
 ```
+
+</details>
 
 *Notiz am Rand, handgeschrieben:*
 `// &T bedeutet nicht: ich darf nur schauen. Es bedeutet: wir können alle schauen — und das System bleibt stabil.`

@@ -145,7 +145,6 @@ Und irgendwo, kaum spürbar — kribbelt noch immer die Stelle, wo der zweite fe
 
 ---
 
-
 *Gefunden in der Bibliothek des Verwaltungsturms. *
 
 <details>
