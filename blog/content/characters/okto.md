@@ -54,9 +54,11 @@ Okto hat acht mögliche Arme. Er weiss es nicht — noch nicht. Aber Madame Enum
 
 ### Sein stärkster Moment
 
-Kapitel 10. Alias begegnet ihm als Gleiche.
+Detective Ownership legte ihm seine schwere Metallhand auf die Schulter. Sein Visier leuchtete ruhig.
 
-Okto denkt:
+„Du suchst nach der Kopie, nicht wahr?“, fragte der Detective. „Gewöhn dich dran, Kleiner. In dieser Stadt gibt es keine Kopien. Wenn du jemandem etwas gibst, hast du es nicht mehr. Das nennen die Menschen da draußen 'Blockchain'. Wir nennen es Sicherheit.“
+
+Okto hatte verstanden und fühlte sich nun absolut sicher. sicherer als vorher, und nickte :
 
 > **„Das weiss ich."**
 
@@ -138,9 +140,9 @@ Okto has eight possible arms. He doesn't know it — not yet. But Madame Enum do
 
 ### His strongest moment
 
-Chapter 10. Alias meets him as an equal.
-
-Okto thinks:
+Detective Ownership placed a heavy metal hand on his shoulder. His visor glowed steadily.
+"You're looking for the copy, aren't you?" the Detective asked. "Get used to it, kid. In this city, Okto, there are no copies. If you give something to someone, you no longer have it. People out there call that 'Blockchain'. We call it security."
+Okto understood. And he felt absolutely safe. Safer than ever before.
 
 > **"I know."**
 

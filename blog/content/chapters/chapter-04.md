@@ -360,7 +360,7 @@ Okto pushed on. But something inside him — quiet, almost imperceptible — was
 
 ### 🦾 Arm #1 — Deepened
 
-*Collecting also means tending to what you have.*
+*Collecting also means : tending to what you have.*
 
 ### 🦾 Arm #2 — Aktive
 
