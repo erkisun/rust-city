@@ -75,9 +75,11 @@ Noch nicht.
 
 ### Für wen ist das?
 
-Für Jugendliche die Rust lernen wollen — aber noch nie ein Buch zu Ende gelesen haben.  
-Für Erwachsene die sich noch erinnern wie es war, am Anfang zu stehen.  
-Für alle die wissen wollen: Was steckt wirklich in mir?
+„Dieses Buch ist Open Source. Du darfst es lesen, teilen und verbessern – genau wie die Software, die wir hier lernen.“
+
+**Hinweis für Reisende :** 
+
+> Wenn du vom Rust Cookbook kommst, sieh dieses Buch als deine Raststätte in den Nebelgassen von Rust City. Während das Cookbook dir zeigt, wie man die Maschinen repariert, zeigen wir dir hier, warum die Stadt so gebaut wurde, wie sie ist. "Rust City" ersetzt kein technisches Handbuch – es macht die Logik dahinter fühlbar. Es ist der Ort, an dem trockene Theorie zu einer lebendigen Geschichte wird.
 
 Rust City verspricht kein Glück.  
 Es verspricht: **kein Pech** — wenn du die Regeln kennst.
@@ -154,9 +156,11 @@ Not yet.
 
 ### Who is this for?
 
-For young people who want to learn Rust — but have never finished a book.  
-For adults who still remember what it felt like to stand at the beginning.  
-For anyone asking: what's really inside me?
+"This book is open source. You are free to read, share, and improve it – just like the software we are learning here."
+
+**Note for Travelers :**
+
+> If you are coming from the Rust Cookbook, think of this book as your resting point within the misty alleys of Rust City. While the cookbook shows you how to fix the machines, we show you why the city was built the way it is. "Rust City" does not replace a technical manual – it makes the logic behind it felt. It is the place where dry theory turns into a living story.
 
 Rust City doesn't promise luck.  
 It promises: **no bad luck** — if you know the rules.
