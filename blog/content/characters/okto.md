@@ -141,7 +141,7 @@ Okto has eight possible arms. He doesn't know it — not yet. But Madame Enum do
 ### His strongest moment
 
 Detective Ownership placed a heavy metal hand on his shoulder. His visor glowed steadily.
-"You're looking for the copy, aren't you?" the Detective asked. "Get used to it, kid. In this city, Okto, there are no copies. If you give something to someone, you no longer have it. People out there call that 'Blockchain'. We call it security."
+"You're looking for the copy, aren't you?" the Detective asked. "Get used to it, kid. In this city there are no copies. If you give something to someone, you no longer have it. People out there call that 'Blockchain'. We call it security."
 Okto understood. And he felt absolutely safe. Safer than ever before.
 
 > **"I know."**
